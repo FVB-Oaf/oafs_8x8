@@ -1,0 +1,1 @@
+{"textureSize":[64,32],"models":[{"part":"plate","id":"plate","invertAxis":"xy","translate":[0,-11,1],"boxes":[{"coordinates":[-6,0,-4,12,22,2],"textureOffset":[0,0]}]},{"part":"handle","id":"handle","invertAxis":"xy","translate":[0,-11,1],"boxes":[{"coordinates":[-2,8,-2,4,6,6],"textureOffset":[28,0]}]}]}

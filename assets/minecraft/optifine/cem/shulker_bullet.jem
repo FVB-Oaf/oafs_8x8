@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"texture": "_atlas06.png",
+	"models": [
+		{
+			"part": "bullet",
+			"id": "bullet",
+			"invertAxis": "xy",
+			"translate": [0, -4, 0],
+			"boxes": [
+				{"coordinates": [-5, -1, -1, 10, 10, 2], "textureOffset": [16, 0]},
+				{"coordinates": [-1, -1, -5, 2, 10, 10], "textureOffset": [16, 12]},
+				{"coordinates": [-5, 3, -5, 10, 2, 10], "textureOffset": [30, 2]}
+			]
+		}
+	]
+}
