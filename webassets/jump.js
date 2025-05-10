@@ -1,4 +1,4 @@
-const version = "May 10<sup>th</sup>, 2025";
+const version = "1.0.3.1";
 window.onload = function(){
   document.getElementById("version").innerHTML = `${version}`;
 };
