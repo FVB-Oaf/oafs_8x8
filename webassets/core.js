@@ -1872,7 +1872,16 @@ const changelog_content = `
             ["$textures/item/light_15.png"]
         ])}
     </p></details><br><details><summary><h2>v1.0.4.0 (May 10<sup>th</sup>, 2025)</h2></summary><p>
-        ${list2(["Overhauled changelog, guide, and credits."])}
+        ${list2([
+            "Overhauled changelog, guide, and credits.",
+            "Added/Modified files:",
+            ["%_changelog.html"],
+            ["%_credits.html"],
+            ["%_guide.html"],
+            ["%webassets/core.js"],
+            "Deleted files:",
+            ["%webassets/jump.js"]
+        ])}
     </p></details>
 `;
 const guide_content = `
