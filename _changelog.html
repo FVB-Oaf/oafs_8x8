@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet"type="text/css" href="webassets/guide.css"/> 
+        <link rel="icon" type="image/x-icon" href="webassets/site-icon-32x-changelog.ico">
+        <title>Local Oaf's 8&times;8 Pack Changelog</title>
+    </head>
+    <div id="home"></div>
+    <img src="webassets/banner.png"class="banner"alt="banner wasn't able to render :&lpar;"/>
+    <h1>Changelog</h1>
+    Jump to:<br>
+    <a href="_guide.html#home">Usage Guide</a> / 
+    <a href="#b1.0.0.0">Beta 1.0.0.0</a> /
+    <a href="#b1.0.1.0">Beta 1.0.1.0</a> /
+    <a href="#b1.0.2.0">Beta 1.0.2.0</a> /
+    <a href="#b1.1.0.0">Beta 1.1.0.0</a> /
+    <a href="#b1.1.1.0">Beta 1.1.1.0</a> /
+    <a href="#b1.1.1.1">Beta 1.1.1.1</a> /
+    <a href="#b1.1.2.0">Beta 1.1.2.0</a> /
+    <a href="#b1.1.3.0">Beta 1.1.3.0</a><br>
+    <a href="#b1.2.0.0-rc1">Beta 1.2.0.0 (RC1)</a> /
+    <a href="#1.0.0">Release 1.0.0</a> /
+    <a href="#1.0.1">Release 1.0.1</a> /
+    <a href="#1.0.2">Release 1.0.2</a> /
+    <a href="#1.1.0">Release 1.1.0</a> /
+    <a href="#1.2.0">Release 1.2.0</a>
+
+
+
+
+    <div id="b1.0.0.0"></div><div id="_"></div>
+    <h2>January 12<sup>th</sup>, 2025, b1.0.0.0</h2>
+    - Beta release.
+
+
+
+
+
+    <div id="b1.0.1.0"></div><div id="all_is_not_optifine"></div>
+    <h2>January 13<sup>th</sup>, 2025, b1.0.1.0 - "All is not Opti-Fine"</h2>
+    MAIN FOCUS: OPTIMIZATION & BLOCK RENDERING<br><br>
+    - Optimized all .html, .css, .json, & .jem files<br>
+    - Changed item textures for Torch, Redstone Torch, & Soul Torch<br>
+    - Fixed block textures for Redstone Torch<br>
+    - Made block models use texture $textures/block/bamboo_fence.png instead of $textures/block/oaf/a1.png :<br>
+    &emsp;&emsp;$models/block/bamboo_fence_gate_wall.json<br>
+    &emsp;&emsp;$models/block/bamboo_fence_gate_wall_open.json<br>
+    &emsp;&emsp;$models/block/bamboo_fence_inventory.json<br>
+    &emsp;&emsp;$models/block/bamboo_fence_post.json<br>
+    &emsp;&emsp;$models/block/bamboo_fence_side1.json<br>
+    &emsp;&emsp;$models/block/bamboo_fence_side2.json<br>
+    - Following entities now use their vanilla texture if the custom .jem file cannot be loaded due to lack of OptiFine or having the option disabled:<br>
+    &emsp;&emsp;Armadillo<br>
+    &emsp;&emsp;Bell<br>
+    &emsp;&emsp;Book<br>
+    &emsp;&emsp;Chicken<br>
+    &emsp;&emsp;Cow<br>
+    &emsp;&emsp;Evoker<br>
+    &emsp;&emsp;Pig<br>
+    &emsp;&emsp;Piglin<br>
+    &emsp;&emsp;Piglin Brute<br>
+    &emsp;&emsp;Zombified Piglin<br>
+    &emsp;&emsp;Pillager<br>
+    &emsp;&emsp;Pufferfish (Small, Medium, & Large)<br>
+    &emsp;&emsp;Pig Saddle<br>
+    &emsp;&emsp;Salmon<br>
+    &emsp;&emsp;Sheep<br>
+    &emsp;&emsp;Sheep Wool<br>
+    &emsp;&emsp;Wandering Trader<br>
+    &emsp;&emsp;Turtle<br>
+    &emsp;&emsp;Vindicator<br>
+    &emsp;&emsp;Witch<br>
+    - Deleted files:<br>
+    &emsp;&emsp;$textures/block/oaf/_.png<br>
+    &emsp;&emsp;$textures/block/oaf/1.png<br>
+    &emsp;&emsp;$textures/block/oaf/a1.png<br>
+    &emsp;&emsp;$textures/block/oaf/inventory_lever.png<br>
+    &emsp;&emsp;$textures/block/oaf/inventory_tripwirehook.png<br>
+    &emsp;&emsp;$textures/block/oaf/p_dm1.png<br>
+    &emsp;&emsp;$textures/block/oaf/p_dm2.png<br>
+    &emsp;&emsp;$textures/block/oaf/p_w1.png<br>
+    &emsp;&emsp;$textures/block/oaf/p_w2.png<br>
+    &emsp;&emsp;$textures/block/oaf/torches_top.png<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;%assets/.mcassetsroot (Pointer)<br>
+    &emsp;&emsp;$textures/item/oaf/lever.png<br>
+    &emsp;&emsp;$textures/item/oaf/redstonetorch.png<br>
+    &emsp;&emsp;$textures/item/oaf/soultorch.png<br>
+    &emsp;&emsp;$textures/item/oaf/torch.png<br>
+    &emsp;&emsp;$textures/item/oaf/tripwirehook.png
+
+
+
+
+
+    <div id="b1.0.2.0"></div><div id="animation_nation"></div>
+    <h2>January 14<sup>th</sup>, 2025, b1.0.2.0 - "Animation Nation"</h2>
+    MAIN FOCUS: FIXES & ANIMATED TEXTURES<br><br>
+    - Fixed a typo that caused Sheep to have a missing texture<br>
+    - Moved Chest variant textures to the entity/_oaf directory to fix missing textures<br>
+    - Removed unnecessary .xcf files<br>
+    - Reformatted the changelog<br>
+    - Added provisions for Bedrock Edition Support<br>
+    - Optimized all .mcmeta files<br>
+    - Removed unnecessary textures :<br>
+    &emsp;&emsp;$textures/gui/title/minecraft_old.png<br>
+    &emsp;&emsp;$textures/effect/dither.png<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;$optifine/cem/trapped_chest.png<br>
+    &emsp;&emsp;$textures/block/fire_0.png<br>
+    &emsp;&emsp;$textures/block/fire_1.png<br>
+    &emsp;&emsp;$textures/sculk_sensor_tendrils_active.png<br>
+    &emsp;&emsp;$textures/sculk_sensor_tendrils_inactive.png<br>
+    &emsp;&emsp;$textures/sculk_vein.png<br>
+    &emsp;&emsp;$textures/seagrass.png<br>
+    &emsp;&emsp;$textures/tall_seagrass_bottom.png<br>
+    &emsp;&emsp;$textures/tall_seagrass_top.png<br>
+    &emsp;&emsp;$textures/block/soul_fire_0.png<br>
+    &emsp;&emsp;$textures/block/soul_fire_1.png<br>
+    &emsp;&emsp;$textures/block/stripped_pale_oak_log.png<br>
+    &emsp;&emsp;$textures/block/stripped_pale_oak_log_top.png<br>
+    &emsp;&emsp;$textures/block/wildflowers.png<br>
+    &emsp;&emsp;$textures/gui/title/mojangstudios.png.mcmeta<br>
+
+
+
+
+
+    <div id="b1.1.0.0"></div><div id="wonderful_widgets"></div>
+    <h2>January 17<sup>th</sup>, 2025, b1.1.0.0 - "Wonderful Widgets"</h2>
+    MAIN FOCUS: U.I.<br><br>
+    - Added %devnotes.txt<br>
+    - Changed all versions to a 4-digit number, i.e. "b1.0.0.0"<br>
+    - Fixed instances of version b1.0.2.0 being incorrectly referred to as "b1.0.2.1" in the changelog.<br>
+    - %_changelog.html (this) & <a href="_guide.html">%_guide.html</a> now use the default Minecraft font.<br>
+    - Added &lt;div&gt; classes to the changelog allowing jumps using a hash in the URL.<br>
+    - Added %assets/jump.js as a script to support jumping between &lt;div&gt; classes.<br>
+    - Added a menu to jump to specific versions in the changelog.<br>
+    - Fixed texture block/redstone_torch.png<br>
+    - Lightning Rod now reads correctly from $textures/block/lightning_rod.png instead of the non-existant $textures/block/oaf/a1.png<br>
+    - Trapped Chest (Single & Double) now render with custom model.<br>
+    - Standard wolf texture resolution decreased giving it the 8x8 appearance instead of a half-baked monstrosity.<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;$textures/block/kelp.png<br>
+    &emsp;&emsp;$textures/block/kelp_plant.png<br>
+    &emsp;&emsp;$textures/item/empty_armor_slot_boots.png<br>
+    &emsp;&emsp;$textures/item/empty_armor_slot_chestplate.png<br>
+    &emsp;&emsp;$textures/item/empty_armor_slot_helmet.png<br>
+    &emsp;&emsp;$textures/item/empty_armor_slot_leggings.png<br>
+    &emsp;&emsp;$textures/item/empty_armor_slot_shield.png<br>
+    &emsp;&emsp;$textures/misc/shadow.png<br>
+    &emsp;&emsp;$textures/gui/stream_indicator.png<br>
+    &emsp;&emsp;$textures/gui/advancements/window.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/box_obtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/box_unobtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/challenge_frame_obtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/challenge_frame_unobtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/goal_frame_obtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/goal_frame_unobtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_left.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_left_selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_middle.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_middle_selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_right.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/tab_above_right_selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/task_frame_obtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/task_frame_unobtained.png<br>
+    &emsp;&emsp;$textures/gui/sprites/advancements/title_box.png<br>
+    &emsp;&emsp;$textures/gui/sprites/backup/changes.png<br>
+    &emsp;&emsp;$textures/gui/sprites/backup/changes_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/backup/restore.png<br>
+    &emsp;&emsp;$textures/gui/sprites/backup/restore_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/blue_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/blue_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/green_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/green_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_6_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_6_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_10_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_10_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_12_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_12_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_20_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/notched_20_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/pink_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/pink_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/purple_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/purple_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/red_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/red_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/white_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/white_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/yellow_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/boss_bar/yellow_progress.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/scroller.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/scroller_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png<br>
+    &emsp;&emsp;$textures/gui/sprites/gamemode_switcher/selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/gamemode_switcher/slot.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/accessibility.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/chat_modified.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/checkmark.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/draft_report.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/info.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/invite.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/language.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/link.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/link_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/new_realm.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/news.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/ping_unknown.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/search.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/trial_available.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/unseen_notification.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/video_link.png<br>
+    &emsp;&emsp;$textures/gui/sprites/icon/video_link_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/notification/more.png<br>
+    &emsp;&emsp;$textures/gui/sprites/pending_invite/accept.png<br>
+    &emsp;&emsp;$textures/gui/sprites/pending_invite/accept_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/pending_invite/reject.png<br>
+    &emsp;&emsp;$textures/gui/sprites/pending_invite/reject_hightlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/make_operator.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/make_operator_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/remove_operator.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/remove_operator_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/remove_player.png<br>
+    &emsp;&emsp;$textures/gui/sprites/player_list/remove_player_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/popup/background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/realm_status/closed.png<br>
+    &emsp;&emsp;$textures/gui/sprites/realm_status/expired.png<br>
+    &emsp;&emsp;$textures/gui/sprites/realm_status/expires_soon.png<br>
+    &emsp;&emsp;$textures/gui/sprites/realm_status/open.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/crafting_overlay.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/crafting_overlay_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/furnace_overlay.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/furnace_overlay_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/recipe_book/overlay_recipe.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/join.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/join_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/move_down.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/move_down_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/move_up.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/move_up_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/pinging_1.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/pinging_2.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/pinging_3.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/pinging_4.png<br>
+    &emsp;&emsp;$textures/gui/sprites/server_list/pinging_5.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/mute_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/mute_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/report_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/report_button_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/report_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/unmute_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/social_interactions/unmute_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/spectator/close.png<br>
+    &emsp;&emsp;$textures/gui/sprites/spectator/scroll_left.png<br>
+    &emsp;&emsp;$textures/gui/sprites/spectator/scroll_right.png<br>
+    &emsp;&emsp;$textures/gui/sprites/spectator/teleport_to_player.png<br>
+    &emsp;&emsp;$textures/gui/sprites/spectator/teleport_to_team.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/block_mined.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/header.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/item_broken.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/item_crafted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/item_dropped.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/item_picked_up.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/item_used.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/sort_down.png<br>
+    &emsp;&emsp;$textures/gui/sprites/statistics/sort_up.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/mouse.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/movement_keys.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/right_click.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/social_interactions.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/tree.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/tutorial.png<br>
+    &emsp;&emsp;$textures/gui/sprites/toast/wooden_planks.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/move_down.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/move_down_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/move_up.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/move_up_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/select.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/select_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/unselect.png<br>
+    &emsp;&emsp;$textures/gui/sprites/transferable_list/unselect_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/button_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/checkbox.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/checkbox_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/checkbox_selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/checkbox_selected_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/cross_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/cross_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/locked_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/locked_button_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/locked_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/page_backward.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/page_backward_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/page_forward.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/page_forward_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/scroller.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/scroller_background.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/slider.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/slider_handle.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/slider_handle_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/slider_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/slot_frame.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/tab.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/tab_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/tab_selected.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/tab_selected_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/text_field.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/text_field_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/unlocked_button.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/unlocked_button_disabled.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/unlocked_button_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/error.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/error_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/join.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/join_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/marked_join.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/marked_join_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/warning.png<br>
+    &emsp;&emsp;$textures/gui/sprites/world_list/warning_highlighted.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_inventory.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_item_search.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/creative_inventory/tab_items.png
+
+
+
+
+
+    <div id="b1.1.1.0"></div><div id="blocks_beagles_n_boats"></div>
+    <h2>January 18<sup>th</sup>, 2025, b1.1.1.0 - "Blocks, Beagles, 'n' Boats"</h2>
+    MAIN FOCUS: CERTAIN BLOCK MODELS, WOLVES, & BOATS<br>
+    - Fixed missing date on version <a href="javascript:jumpTo('b1.1.0.0')">b1.1.0.0</a><br>
+    - Renamed %guide.html to <a href="_guide.html">%_guide.html</a><br>
+    - Renamed this file from %changelog.html to %_changelog.html<br>
+    - Banner now renders in this document.<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;$blockstates/water_cauldron.json<br>
+    &emsp;&emsp;$blockstates/lava_cauldron.json<br>
+    &emsp;&emsp;$blockstates/powder_snow_cauldron.json<br>
+    &emsp;&emsp;$models/block/cauldron.json<br>
+    &emsp;&emsp;$models/block/end_rod.json<br>
+    &emsp;&emsp;$models/block/grindstone.json<br>
+    &emsp;&emsp;$models/block/honey_block.json<br>
+    &emsp;&emsp;$models/block/slime_block.json<br>
+    &emsp;&emsp;$models/block/repeater_1tick.json<br>
+    &emsp;&emsp;$models/block/repeater_1tick_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_1tick_on.json<br>
+    &emsp;&emsp;$models/block/repeater_1tick_on_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_2tick.json<br>
+    &emsp;&emsp;$models/block/repeater_2tick_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_2tick_on.json<br>
+    &emsp;&emsp;$models/block/repeater_2tick_on_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_3tick.json<br>
+    &emsp;&emsp;$models/block/repeater_3tick_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_3tick_on.json<br>
+    &emsp;&emsp;$models/block/repeater_3tick_on_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_4tick.json<br>
+    &emsp;&emsp;$models/block/repeater_4tick_locked.json<br>
+    &emsp;&emsp;$models/block/repeater_4tick_on.json<br>
+    &emsp;&emsp;$models/block/repeater_4tick_on_locked.json<br>
+    &emsp;&emsp;$models/block/comparator.json<br>
+    &emsp;&emsp;$models/block/comparator_on.json<br>
+    &emsp;&emsp;$models/block/comparator_subtract.json<br>
+    &emsp;&emsp;$models/block/comparator_on_subtract.json<br>
+    &emsp;&emsp;$models/block/_oaf/stick.json<br>
+    &emsp;&emsp;$models/block/_oaf/fluid1.json<br>
+    &emsp;&emsp;$models/block/_oaf/fluid2.json<br>
+    &emsp;&emsp;$models/block/_oaf/fluid3.json<br>
+    &emsp;&emsp;$models/block/_oaf/water1.json<br>
+    &emsp;&emsp;$models/block/_oaf/water2.json<br>
+    &emsp;&emsp;$models/block/_oaf/water3.json<br>
+    &emsp;&emsp;$models/block/_oaf/snow1.json<br>
+    &emsp;&emsp;$models/block/_oaf/snow2.json<br>
+    &emsp;&emsp;$models/block/_oaf/snow3.json<br>
+    &emsp;&emsp;$models/block/_oaf/lava3.json<br>
+    &emsp;&emsp;$models/item/debug_stick.json<br>
+    &emsp;&emsp;$optifine/cem/creaking.jem<br>
+    &emsp;&emsp;$optifine/cem/raft.jem<br>
+    &emsp;&emsp;$optifine/cem/chest_boat.jem<br>
+    &emsp;&emsp;$optifine/cem/chest_raft.jem<br>
+    &emsp;&emsp;$textures/item/spawn_egg_overlay.png<br>
+    &emsp;&emsp;$textures/block/kelp.png<br>
+    &emsp;&emsp;$textures/block/lightning_rod.png<br>
+    &emsp;&emsp;$textures/block/end_rod.png<br>
+    &emsp;&emsp;$textures/block/grindstone_side.png<br>
+    &emsp;&emsp;$textures/item/_oaf/wand.png<br>
+    &emsp;&emsp;$textures/item/pale_oak_boat.png<br>
+    &emsp;&emsp;$textures/item/pale_oak_chest_boat.png<br>
+    &emsp;&emsp;$textures/item/pale_oak_door.png<br>
+    &emsp;&emsp;$textures/item/pale_oak_hanging_sign.png<br>
+    &emsp;&emsp;$textures/item/pale_oak_sign.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_armor_crackiness_high.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_armor_crackiness_low.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_armor_crackiness_medium.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_ashen.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_ashen_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_ashen_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_black.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_black_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_black_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_chestnut.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_chestnut_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_chestnut_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_collar.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_rusty.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_rusty_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_rusty_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_snowy.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_snowy_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_snowy_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_spotted.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_spotted_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_spotted_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_striped.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_striped_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_striped_tame.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_woods.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_woods_angry.png<br>
+    &emsp;&emsp;$textures/entity/wolf/wolf_woods_tame.png<br>
+    &emsp;&emsp;$textures/entity/creaking/creaking.png<br>
+    &emsp;&emsp;$textures/entity/creaking/creaking_eyes.png<br>
+    &emsp;&emsp;$textures/entity/boat/acacia.png<br>
+    &emsp;&emsp;$textures/entity/boat/bamboo.png<br>
+    &emsp;&emsp;$textures/entity/boat/birch.png<br>
+    &emsp;&emsp;$textures/entity/boat/cherry.png<br>
+    &emsp;&emsp;$textures/entity/boat/dark_oak.png<br>
+    &emsp;&emsp;$textures/entity/boat/jungle.png<br>
+    &emsp;&emsp;$textures/entity/boat/mangrove.png<br>
+    &emsp;&emsp;$textures/entity/boat/pale_oak.png<br>
+    &emsp;&emsp;$textures/entity/boat/spruce.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/acacia.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/bamboo.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/birch.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/cherry.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/dark_oak.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/jungle.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/mangrove.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/oak.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/pale_oak.png<br>
+    &emsp;&emsp;$textures/entity/chest_boat/spruce.png<br>
+    - Removed Unnecessary Files:<br>
+    &emsp;&emsp;$textures/block/grindstone_round.png<br>
+    &emsp;&emsp;$textures/block/grindstone_pivot.png
+
+
+
+
+
+    <div id="b1.1.1.1"></div><div id="blocks_beagles_n_boats_hotfix_1"></div>
+    <h2>January 18<sup>th</sup>, 2025, b1.1.1.1 - "Blocks, Beagles, 'n' Boats" (Hotfix 1)</h2>
+    - Renamed %asset to %assets to make the pack work again.
+
+
+
+
+
+    <div id="b1.1.2.0"></div><div id="no47"></div>
+    <h2>January 24<sup>th</sup>, 2025, b1.1.2.0 - "N<u><sup>o</sup></u>47"</h2>
+    - Fixed z-fighting on turtles.<br>
+    - Modified the chicken model to make the wings not visually seperate from the body when flapping.<br>
+    - Items now have the proper break particles instead of missing texture.<br>
+    - Player Heads now render with lower resolution if using OptiFine.<br>
+    - Fence Gates attached to walls no longer cull visable faces when open.<br>
+    - Shield banners textures.<br>
+    - Silverfish, Dolphin, Cod, & Decorated Pot modeled and textured.<br>
+    - Reformatted the changelog.<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;$models/block/bamboo_fence_gate_wall_open.json<br>
+    &emsp;&emsp;$models/block/template_fence_gate_wall_open.json<br>
+    &emsp;&emsp;$textures/entity/shield/base.png<br>
+    &emsp;&emsp;$textures/entity/shield/border.png<br>
+    &emsp;&emsp;$textures/entity/shield/bricks.png<br>
+    &emsp;&emsp;$textures/entity/shield/circle.png<br>
+    &emsp;&emsp;$textures/entity/shield/creeper.png<br>
+    &emsp;&emsp;$textures/entity/shield/cross.png<br>
+    &emsp;&emsp;$textures/entity/shield/curly_border.png<br>
+    &emsp;&emsp;$textures/entity/shield/diagonal_left.png<br>
+    &emsp;&emsp;$textures/entity/shield/diagonal_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/diagonal_up_left.png<br>
+    &emsp;&emsp;$textures/entity/shield/diagonal_up_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/flower.png<br>
+    &emsp;&emsp;$textures/entity/shield/globe.png<br>
+    &emsp;&emsp;$textures/entity/shield/gradient.png<br>
+    &emsp;&emsp;$textures/entity/shield/gradient_up.png<br>
+    &emsp;&emsp;$textures/entity/shield/half_horizontal.png<br>
+    &emsp;&emsp;$textures/entity/shield/half_horizontal_bottom.png<br>
+    &emsp;&emsp;$textures/entity/shield/half_vertical.png<br>
+    &emsp;&emsp;$textures/entity/shield/half_vertical_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/mojang.png<br>
+    &emsp;&emsp;$textures/entity/shield/piglin.png<br>
+    &emsp;&emsp;$textures/entity/shield/rhombus.png<br>
+    &emsp;&emsp;$textures/entity/shield/skull.png<br>
+    &emsp;&emsp;$textures/entity/shield/small_stripes.png<br>
+    &emsp;&emsp;$textures/entity/shield/square_bottom_left.png<br>
+    &emsp;&emsp;$textures/entity/shield/square_bottom_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/square_top_left.png<br>
+    &emsp;&emsp;$textures/entity/shield/square_top_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/straight_cross.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_bottom.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_center.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_downleft.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_downright.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_left.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_middle.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_right.png<br>
+    &emsp;&emsp;$textures/entity/shield/stripe_top.png<br>
+    &emsp;&emsp;$textures/entity/shield/triangle_bottom.png<br>
+    &emsp;&emsp;$textures/entity/shield/triangle_top.png<br>
+    &emsp;&emsp;$textures/entity/shield/triangles_bottom.png<br>
+    &emsp;&emsp;$textures/entity/shield/triangles_top.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/farmer.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/shepherd.png<br>
+    &emsp;&emsp;$optifine/cem/chicken.jem<br>
+    &emsp;&emsp;$optifine/cem/chicken.png<br>
+    &emsp;&emsp;$optifine/cem/silverfish.jem<br>
+    &emsp;&emsp;$optifine/cem/silverfish.png<br>
+    &emsp;&emsp;$optifine/cem/dolphin.jem<br>
+    &emsp;&emsp;$optifine/cem/dolphin.png<br>
+    &emsp;&emsp;$optifine/cem/cod.jem<br>
+    &emsp;&emsp;$optifine/cem/cod.png<br>
+    &emsp;&emsp;$optifine/cem/villager.jem<br>
+    &emsp;&emsp;$optifine/cem/decorated_pot.jem<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/decorated_pot_base.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/decorated_pot_side.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/angler_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/archer_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/arms_up_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/blade_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/brewer_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/burn_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/danger_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/explorer_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/flow_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/friend_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/guster_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/heart_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/heartbreak_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/howl_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/miner_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/mourner_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/plenty_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/prize_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/scrape_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/sheaf_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/shelter_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/skull_pottery_pattern.png<br>
+    &emsp;&emsp;$textures/entity/decorated_pot/snort_pottery_pattern.png<br>
+
+
+
+
+
+    <div id="b1.1.3.0"></div>
+    <h2>January 28<sup>th</sup>, 2025, b1.1.3.0</h2>
+    - Added menu panorama.<br>
+    - Updated characters:<span class="arial"><br>
+        &emsp;&emsp;&aƒ£ªº¬«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─<br>
+        &emsp;&emsp;┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀∅∈≡<br>
+        &emsp;&emsp;±≥≤⌠⌡÷≈°∙√ⁿ²■ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐ<br>
+        &emsp;&emsp;ÑÒÓÔÕÖÙÚÛÜÝàáâãäåæçìíîïñòóôõöù<br>
+        &emsp;&emsp;úûüýÿĀāĂăĄąĆć��ĊċČčĎďÐð����ĖėĘ<br>
+        &emsp;&emsp;ęĚěÊê&⅒</span><br>
+    - Skinned Player Heads now render the top left pixel per 4 pixel group on each face to give them the appearance of being half resolution.<br>
+    - Modeled and textured Camel & Ender Dragon.<br>
+    - Textured Steve.<br>
+    - Changelog now links to usage guide properly.<br>
+    - Usage guide now links to the <a href="_credits.html#home">credits</a>.<br>
+    - Usage guide, Credits, & Changelog all now have an icon for the browser.<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;%_credits.html<br>
+    &emsp;&emsp;%assets/jump.js<br>
+    &emsp;&emsp;%assets/siteicon.ico<br>
+    &emsp;&emsp;%assets/siteicon32x.ico<br>
+    &emsp;&emsp;$head_test_pattern.png<br>
+    &emsp;&emsp;$models/clock.json<br>
+    &emsp;&emsp;$optifine/cem/camel.jem<br>
+    &emsp;&emsp;$optifine/cem/camel.png<br>
+    &emsp;&emsp;$optifine/cem/dragon.jem<br>
+    &emsp;&emsp;$optifine/cem/head_player.jem<br>
+    &emsp;&emsp;$textures/entity/player/slim/steve.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/steve.png<br>
+    &emsp;&emsp;$textures/entity/enderdragon/dragon.png<br>
+    &emsp;&emsp;$textures/entity/enderdragon/dragon_exploding.png<br>
+    &emsp;&emsp;$textures/entity/enderdragon/dragon_eyes.png<br>
+    &emsp;&emsp;$textures/font/accented.png<br>
+    &emsp;&emsp;$textures/font/ascii.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_0.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_1.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_2.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_3.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_4.png<br>
+    &emsp;&emsp;$textures/gui/title/background/panorama_5.png<br>
+    &emsp;&emsp;$textures/item/clock_00.png<br>
+    &emsp;&emsp;$textures/item/clock_02.png<br>
+    &emsp;&emsp;$textures/item/clock_04.png<br>
+    &emsp;&emsp;$textures/item/clock_06.png<br>
+    &emsp;&emsp;$textures/item/clock_08.png<br>
+    &emsp;&emsp;$textures/item/clock_10.png<br>
+    &emsp;&emsp;$textures/item/clock_12.png<br>
+    &emsp;&emsp;$textures/item/clock_14.png<br>
+    &emsp;&emsp;$textures/item/clock_16.png<br>
+    &emsp;&emsp;$textures/item/clock_18.png<br>
+    &emsp;&emsp;$textures/item/clock_20.png<br>
+    &emsp;&emsp;$textures/item/clock_22.png<br>
+    &emsp;&emsp;$textures/item/clock_24.png<br>
+    &emsp;&emsp;$textures/item/clock_26.png<br>
+    &emsp;&emsp;$textures/item/clock_28.png<br>
+    &emsp;&emsp;$textures/item/clock_30.png<br>
+    &emsp;&emsp;$textures/item/clock_32.png<br>
+    &emsp;&emsp;$textures/item/clock_34.png<br>
+    &emsp;&emsp;$textures/item/clock_36.png<br>
+    &emsp;&emsp;$textures/item/clock_38.png<br>
+    &emsp;&emsp;$textures/item/clock_40.png<br>
+    &emsp;&emsp;$textures/item/clock_42.png<br>
+    &emsp;&emsp;$textures/item/clock_44.png<br>
+    &emsp;&emsp;$textures/item/clock_46.png<br>
+    &emsp;&emsp;$textures/item/clock_48.png<br>
+    &emsp;&emsp;$textures/item/clock_50.png<br>
+    &emsp;&emsp;$textures/item/clock_52.png<br>
+    &emsp;&emsp;$textures/item/clock_54.png<br>
+    &emsp;&emsp;$textures/item/clock_56.png<br>
+    &emsp;&emsp;$textures/item/clock_58.png<br>
+    &emsp;&emsp;$textures/item/clock_60.png<br>
+    &emsp;&emsp;$textures/item/clock_62.png<br>
+
+
+
+    <div id="b1.2.0.0-rc1"></div>
+    <h2>March 21<sup>st</sup>, 2025, b1.2.0.0-rc1</h2>
+    - Added old version support. (1.4-)<br>
+    - Modeled & textured:<br>
+    &emsp;&emsp;Bat<br>
+    &emsp;&emsp;Lever<br>
+    &emsp;&emsp;Tripwire Hook<br>
+    &emsp;&emsp;Banner<br>
+    &emsp;&emsp;Ender Dragon Head<br>
+    &emsp;&emsp;Arrow<br>
+    &emsp;&emsp;Tipped Arrow<br>
+    &emsp;&emsp;Spectral Arrow<br>
+    &emsp;&emsp;Wind Charge<br>
+    &emsp;&emsp;Tadpole<br>
+    &emsp;&emsp;Flower Pot<br>
+    &emsp;&emsp;Goat<br>
+    &emsp;&emsp;Fox<br>
+    &emsp;&emsp;Shulker<br>
+    &emsp;&emsp;Shulker Bullet<br>
+    &emsp;&emsp;Leaf Litter<br>
+    &emsp;&emsp;Wildflowers<br>
+    &emsp;&emsp;New Spawn Eggs (25w08a+)<br>
+    &emsp;&emsp;Evoker Fangs<br>
+    &emsp;&emsp;Illusioner<br>
+    &emsp;&emsp;Frogs<br>
+    &emsp;&emsp;Cats<br>
+    &emsp;&emsp;Parrots<br>
+    &emsp;&emsp;Armor Stand<br>
+    &emsp;&emsp;Vex<br>
+    &emsp;&emsp;Allay<br>
+    &emsp;&emsp;Strider<br>
+    &emsp;&emsp;Phantom<br>
+    &emsp;&emsp;Tropical Fish<br>
+    &emsp;&emsp;Trident<br>
+    &emsp;&emsp;Axolotl<br>
+    &emsp;&emsp;Armor Trims<br>
+    &emsp;&emsp;Standard Galactic Alphabet (SGA) Font<br>
+    - Textured compass.<br>
+    - Fixed z-fighting on chicken.<br>
+    - Fixed artifacting on entity shadows.<br>
+    - Fixed misaligned pushing surfaces on the oars of the bamboo chest raft.<br>
+    - Fixed z-fighting on spawn eggs.<br>
+    - Removed Files:<br>
+    &emsp;&emsp;$optifine/cem/armadillo.png<br>
+    &emsp;&emsp;$optifine/cem/bambooraft.png<br>
+    &emsp;&emsp;$optifine/cem/bell.png<br>
+    &emsp;&emsp;$optifine/cem/book.png<br>
+    &emsp;&emsp;$optifine/cem/chest.png<br>
+    &emsp;&emsp;$optifine/cem/chicken.png<br>
+    &emsp;&emsp;$optifine/cem/cod.png<br>
+    &emsp;&emsp;$optifine/cem/cow.png<br>
+    &emsp;&emsp;$optifine/cem/dolphin.png<br>
+    &emsp;&emsp;$optifine/cem/enderchest.png<br>
+    &emsp;&emsp;$optifine/cem/evoker.png<br>
+    &emsp;&emsp;$optifine/cem/head_player.png<br>
+    &emsp;&emsp;$optifine/cem/largechest1.png<br>
+    &emsp;&emsp;$optifine/cem/largechest2.png<br>
+    &emsp;&emsp;$optifine/cem/largetrappedchest1.png<br>
+    &emsp;&emsp;$optifine/cem/largetrappedchest2.png<br>
+    &emsp;&emsp;$optifine/cem/piglin.png<br>
+    &emsp;&emsp;$optifine/cem/piglinbrute.png<br>
+    &emsp;&emsp;$optifine/cem/piglinzombie.png<br>
+    &emsp;&emsp;$optifine/cem/pillager.png<br>
+    &emsp;&emsp;$optifine/cem/pufferfish1.png<br>
+    &emsp;&emsp;$optifine/cem/pufferfish2.png<br>
+    &emsp;&emsp;$optifine/cem/saddle.png<br>
+    &emsp;&emsp;$optifine/cem/salmon.png<br>
+    &emsp;&emsp;$optifine/cem/sheep.png<br>
+    &emsp;&emsp;$optifine/cem/shulker.png<br>
+    &emsp;&emsp;$optifine/cem/shulker_bullet.png<br>
+    &emsp;&emsp;$optifine/cem/silverfish.png<br>
+    &emsp;&emsp;$optifine/cem/trader.png<br>
+    &emsp;&emsp;$optifine/cem/trappedchest.png<br>
+    &emsp;&emsp;$optifine/cem/turtle.png<br>
+    &emsp;&emsp;$optifine/cem/vindicator.png<br>
+    &emsp;&emsp;$optifine/cem/witch.png<br>
+    &emsp;&emsp;$textures/block/cocoa_stage0.png<br>
+    &emsp;&emsp;$textures/block/cocoa_stage1.png<br>
+    &emsp;&emsp;$textures/block/cocoa_stage2.png<br>
+    &emsp;&emsp;$textures/block/command_block.png<br>
+    &emsp;&emsp;$textures/entity/bat.png<br>
+    &emsp;&emsp;$textures/entity/endermite.png<br>
+    &emsp;&emsp;$textures/item/clock_overlay.png<br>
+    &emsp;&emsp;$textures/misc/white.png<br>
+    - Added/Modified files:<br>
+    &emsp;&emsp;%dn.bin<br>
+    &emsp;&emsp;%particles.png<br>
+    &emsp;&emsp;%terrain.png<br>
+    &emsp;&emsp;%achievement/bg.png<br>
+    &emsp;&emsp;%armor/chain_1.png<br>
+    &emsp;&emsp;%armor/chain_2.png<br>
+    &emsp;&emsp;%armor/cloth_1.png<br>
+    &emsp;&emsp;%armor/cloth_1_b.png<br>
+    &emsp;&emsp;%armor/cloth_2.png<br>
+    &emsp;&emsp;%armor/cloth_2_b.png<br>
+    &emsp;&emsp;%armor/diamond_1.png<br>
+    &emsp;&emsp;%armor/diamond_2.png<br>
+    &emsp;&emsp;%armor/gold_1.png<br>
+    &emsp;&emsp;%armor/gold_2.png<br>
+    &emsp;&emsp;%armor/iron_1.png<br>
+    &emsp;&emsp;%armor/iron_2.png<br>
+    &emsp;&emsp;%armor/power.png<br>
+    &emsp;&emsp;%armor/witherarmor.png<br>
+    &emsp;&emsp;%art/kz.png<br>
+    &emsp;&emsp;%assets/guide.css<br>
+    &emsp;&emsp;%environment/rain.png<br>
+    &emsp;&emsp;%environment/snow.png<br>
+    &emsp;&emsp;%gui/alchemy.png<br>
+    &emsp;&emsp;%gui/allitems.png<br>
+    &emsp;&emsp;%gui/background.png<br>
+    &emsp;&emsp;%gui/beacon.png<br>
+    &emsp;&emsp;%gui/book.png<br>
+    &emsp;&emsp;%gui/container.png<br>
+    &emsp;&emsp;%gui/crafting.png<br>
+    &emsp;&emsp;%gui/crash_logo.png<br>
+    &emsp;&emsp;%gui/demo_bg.png<br>
+    &emsp;&emsp;%gui/enchant.png<br>
+    &emsp;&emsp;%gui/furnace.png<br>
+    &emsp;&emsp;%gui/gui.png<br>
+    &emsp;&emsp;%gui/icons.png<br>
+    &emsp;&emsp;%gui/inventory.png<br>
+    &emsp;&emsp;%gui/items.png<br>
+    &emsp;&emsp;%gui/particles.png<br>
+    &emsp;&emsp;%gui/repair.png<br>
+    &emsp;&emsp;%gui/slot.png<br>
+    &emsp;&emsp;%gui/trading.png<br>
+    &emsp;&emsp;%gui/trap.png<br>
+    &emsp;&emsp;%gui/unknown_pack.png<br>
+    &emsp;&emsp;%gui/creative_inv/list_items.png<br>
+    &emsp;&emsp;%gui/creative_inv/search.png<br>
+    &emsp;&emsp;%gui/creative_inv/survival_inv.png<br>
+    &emsp;&emsp;%item/arrows.png<br>
+    &emsp;&emsp;%item/boat.png<br>
+    &emsp;&emsp;%item/book.png<br>
+    &emsp;&emsp;%item/cart.png<br>
+    &emsp;&emsp;%item/chest.png<br>
+    &emsp;&emsp;%item/enderchest.png<br>
+    &emsp;&emsp;%item/largechest.png<br>
+    &emsp;&emsp;%item/largexmaschest.png<br>
+    &emsp;&emsp;%item/sign.png<br>
+    &emsp;&emsp;%item/xmaschest.png<br>
+    &emsp;&emsp;%item/xporb.png<br>
+    &emsp;&emsp;%misc/beacon.png<br>
+    &emsp;&emsp;%misc/beam.png<br>
+    &emsp;&emsp;%misc/dial.png<br>
+    &emsp;&emsp;%misc/explosion.png<br>
+    &emsp;&emsp;%misc/footprint.png<br>
+    &emsp;&emsp;%misc/glint.png<br>
+    &emsp;&emsp;%misc/mapbg.png<br>
+    &emsp;&emsp;%misc/mapicons.png<br>
+    &emsp;&emsp;%misc/particlefield.png<br>
+    &emsp;&emsp;%misc/pumpkinblur.png<br>
+    &emsp;&emsp;%misc/shadow.png<br>
+    &emsp;&emsp;%misc/tunnel.png<br>
+    &emsp;&emsp;%misc/vignette.png<br>
+    &emsp;&emsp;%misc/water.png<br>
+    &emsp;&emsp;%mob/cavespider.png<br>
+    &emsp;&emsp;%mob/char.png<br>
+    &emsp;&emsp;%mob/cow.png<br>
+    &emsp;&emsp;%mob/creeper.png<br>
+    &emsp;&emsp;%mob/enderman.png<br>
+    &emsp;&emsp;%mob/enderman_eyes.png<br>
+    &emsp;&emsp;%mob/fire.png<br>
+    &emsp;&emsp;%mob/ghast.png<br>
+    &emsp;&emsp;%mob/ghast_fire.png<br>
+    &emsp;&emsp;%mob/lava.png<br>
+    &emsp;&emsp;%mob/pig.png<br>
+    &emsp;&emsp;%mob/pigman.png<br>
+    &emsp;&emsp;%mob/pigzombie.png<br>
+    &emsp;&emsp;%mob/redcow.png<br>
+    &emsp;&emsp;%mob/saddle.png<br>
+    &emsp;&emsp;%mob/sheep.png<br>
+    &emsp;&emsp;%mob/sheep_fur.png<br>
+    &emsp;&emsp;%mob/skeleton.png<br>
+    &emsp;&emsp;%mob/skeleton_wither.png<br>
+    &emsp;&emsp;%mob/slime.png<br>
+    &emsp;&emsp;%mob/snowman.png<br>
+    &emsp;&emsp;%mob/spider.png<br>
+    &emsp;&emsp;%mob/spider_eyes.png<br>
+    &emsp;&emsp;%mob/squid.png<br>
+    &emsp;&emsp;%mob/zombie.png<br>
+    &emsp;&emsp;%mob/zombie_villager.png<br>
+    &emsp;&emsp;%mob/enderdragon/beam.png<br>
+    &emsp;&emsp;%mob/enderdragon/crystal.png<br>
+    &emsp;&emsp;%mob/enderdragon/ender.png<br>
+    &emsp;&emsp;%mob/enderdragon/ender_eyes.png<br>
+    &emsp;&emsp;%mob/enderdragon/shuffle.png<br>
+    &emsp;&emsp;%terrain/moon.png<br>
+    &emsp;&emsp;%terrain/moon_phases.png<br>
+    &emsp;&emsp;%terrain/sun.png<br>
+    &emsp;&emsp;%title/mclogo.png<br>
+    &emsp;&emsp;%title/mojang.png<br>
+    &emsp;&emsp;%title/bg/panorama0.png<br>
+    &emsp;&emsp;%title/bg/panorama1.png<br>
+    &emsp;&emsp;%title/bg/panorama2.png<br>
+    &emsp;&emsp;%title/bg/panorama3.png<br>
+    &emsp;&emsp;%title/bg/panorama4.png<br>
+    &emsp;&emsp;%title/bg/panorama5.png<br>
+    &emsp;&emsp;$models/block/cocoa_stage0.json<br>
+    &emsp;&emsp;$models/block/cocoa_stage1.json<br>
+    &emsp;&emsp;$models/block/cocoa_stage2.json<br>
+    &emsp;&emsp;$models/block/flower_pot.json<br>
+    &emsp;&emsp;$models/block/flower_pot_cross.json<br>
+    &emsp;&emsp;$models/block/lever.json<br>
+    &emsp;&emsp;$models/block/tripwire_hook.json<br>
+    &emsp;&emsp;$models/block/tripwire_hook_attached.json<br>
+    &emsp;&emsp;$models/block/tripwire_hook_attached_on.json<br>
+    &emsp;&emsp;$models/item/clock.json<br>
+    &emsp;&emsp;$optifine/cem/_atlas01.png<br>
+    &emsp;&emsp;$optifine/cem/_atlas02.png<br>
+    &emsp;&emsp;$optifine/cem/_atlas03.png<br>
+    &emsp;&emsp;$optifine/cem/_atlas04.png<br>
+    &emsp;&emsp;$optifine/cem/_atlas05.png<br>
+    &emsp;&emsp;$optifine/cem/allay.jem<br>
+    &emsp;&emsp;$optifine/cem/armadillo.jem<br>
+    &emsp;&emsp;$optifine/cem/armor_stand.jem<br>
+    &emsp;&emsp;$optifine/cem/axolotl.jem<br>
+    &emsp;&emsp;$optifine/cem/banner.jem<br>
+    &emsp;&emsp;$optifine/cem/bat.jem<br>
+    &emsp;&emsp;$optifine/cem/bell.jem<br>
+    &emsp;&emsp;$optifine/cem/book.jem<br>
+    &emsp;&emsp;$optifine/cem/cat.jem<br>
+    &emsp;&emsp;$optifine/cem/cat_collar.jem<br>
+    &emsp;&emsp;$optifine/cem/chest.jem<br>
+    &emsp;&emsp;$optifine/cem/chest_left.jem<br>
+    &emsp;&emsp;$optifine/cem/chest_raft.jem<br>
+    &emsp;&emsp;$optifine/cem/chest_right.jem<br>
+    &emsp;&emsp;$optifine/cem/chicken.jem<br>
+    &emsp;&emsp;$optifine/cem/cod.jem<br>
+    &emsp;&emsp;$optifine/cem/cow.jem<br>
+    &emsp;&emsp;$optifine/cem/dolphin.jem<br>
+    &emsp;&emsp;$optifine/cem/donkey.jem<br>
+    &emsp;&emsp;$optifine/cem/ender_chest.jem<br>
+    &emsp;&emsp;$optifine/cem/evoker_fangs.jem<br>
+    &emsp;&emsp;$optifine/cem/fox.jem<br>
+    &emsp;&emsp;$optifine/cem/goat.jem<br>
+    &emsp;&emsp;$optifine/cem/head_dragon.jem<br>
+    &emsp;&emsp;$optifine/cem/head_piglin.jem<br>
+    &emsp;&emsp;$optifine/cem/hoglin.jem<br>
+    &emsp;&emsp;$optifine/cem/horse.jem<br>
+    &emsp;&emsp;$optifine/cem/horse_armor.jem<br>
+    &emsp;&emsp;$optifine/cem/illusioner.jem<br>
+    &emsp;&emsp;$optifine/cem/magma_cube.jem<br>
+    &emsp;&emsp;$optifine/cem/mule.jem<br>
+    &emsp;&emsp;$optifine/cem/panda.jem<br>
+    &emsp;&emsp;$optifine/cem/parrot.jem<br>
+    &emsp;&emsp;$optifine/cem/phantom.jem<br>
+    &emsp;&emsp;$optifine/cem/pig_saddle.jem<br>
+    &emsp;&emsp;$optifine/cem/piglin.jem<br>
+    &emsp;&emsp;$optifine/cem/piglin_brute.jem<br>
+    &emsp;&emsp;$optifine/cem/puffer_fish_big.jem<br>
+    &emsp;&emsp;$optifine/cem/puffer_fish_medium.jem<br>
+    &emsp;&emsp;$optifine/cem/puffer_fish_small.jem<br>
+    &emsp;&emsp;$optifine/cem/ravager.jem<br>
+    &emsp;&emsp;$optifine/cem/ravager.png<br>
+    &emsp;&emsp;$optifine/cem/salmon.jem<br>
+    &emsp;&emsp;$optifine/cem/sheep.jem<br>
+    &emsp;&emsp;$optifine/cem/sheep_wool.jem<br>
+    &emsp;&emsp;$optifine/cem/silverfish.jem<br>
+    &emsp;&emsp;$optifine/cem/skeleton_horse.jem<br>
+    &emsp;&emsp;$optifine/cem/slime.jem<br>
+    &emsp;&emsp;$optifine/cem/slime_outer.jem<br>
+    &emsp;&emsp;$optifine/cem/sniffer.jem<br>
+    &emsp;&emsp;$optifine/cem/sniffer.png<br>
+    &emsp;&emsp;$optifine/cem/strider.jem<br>
+    &emsp;&emsp;$optifine/cem/tadpole.jem<br>
+    &emsp;&emsp;$optifine/cem/trapped_chest.jem<br>
+    &emsp;&emsp;$optifine/cem/trapped_chest_left.jem<br>
+    &emsp;&emsp;$optifine/cem/trapped_chest_right.jem<br>
+    &emsp;&emsp;$optifine/cem/trident.jem<br>
+    &emsp;&emsp;$optifine/cem/tropical_fish_a.jem<br>
+    &emsp;&emsp;$optifine/cem/tropical_fish_b.jem<br>
+    &emsp;&emsp;$optifine/cem/tropical_fish_pattern_a.jem<br>
+    &emsp;&emsp;$optifine/cem/tropical_fish_pattern_b.jem<br>
+    &emsp;&emsp;$optifine/cem/turtle.jem<br>
+    &emsp;&emsp;$optifine/cem/vex.jem<br>
+    &emsp;&emsp;$optifine/cem/vindicator.jem<br>
+    &emsp;&emsp;$optifine/cem/wandering_trader.jem<br>
+    &emsp;&emsp;$optifine/cem/witch.jem<br>
+    &emsp;&emsp;$optifine/cem/zoglin.jem<br>
+    &emsp;&emsp;$optifine/cem/zombie_horse.jem<br>
+    &emsp;&emsp;$optifine/cem/zombified_piglin.jem<br>
+    &emsp;&emsp;$textures/block/firefly_bush.png<br>
+    &emsp;&emsp;$textures/block/firefly_bush_emissive.png<br>
+    &emsp;&emsp;$textures/block/firefly_bush_emissive.png.mcmeta<br>
+    &emsp;&emsp;$textures/block/leaf_litter.png<br>
+    &emsp;&emsp;$textures/block/lever.png<br>
+    &emsp;&emsp;$textures/block/lever2.png<br>
+    &emsp;&emsp;$textures/block/tripwire_hook.png<br>
+    &emsp;&emsp;$textures/block/wildflowers.png<br>
+    &emsp;&emsp;$textures/block/wildflowers_stem.png<br>
+    &emsp;&emsp;$textures/block/_oaf/cocoa.png<br>
+    &emsp;&emsp;$textures/entity/banner_base.png<br>
+    &emsp;&emsp;$textures/entity/elytra.png<br>
+    &emsp;&emsp;$textures/entity/phantom.png<br>
+    &emsp;&emsp;$textures/entity/phantom_eyes.png<br>
+    &emsp;&emsp;$textures/entity/axolotl/atolotl_blue.png<br>
+    &emsp;&emsp;$textures/entity/axolotl/atolotl_cyan.png<br>
+    &emsp;&emsp;$textures/entity/axolotl/atolotl_gold.png<br>
+    &emsp;&emsp;$textures/entity/axolotl/atolotl_lucy.png<br>
+    &emsp;&emsp;$textures/entity/axolotl/atolotl_wild.png<br>
+    &emsp;&emsp;$textures/entity/banner/base.png<br>
+    &emsp;&emsp;$textures/entity/banner/border.png<br>
+    &emsp;&emsp;$textures/entity/banner/bricks.png<br>
+    &emsp;&emsp;$textures/entity/banner/circle.png<br>
+    &emsp;&emsp;$textures/entity/banner/creeper.png<br>
+    &emsp;&emsp;$textures/entity/banner/cross.png<br>
+    &emsp;&emsp;$textures/entity/banner/curly_border.png<br>
+    &emsp;&emsp;$textures/entity/banner/diagonal_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/diagonal_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/diagonal_up_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/diagonal_up_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/flow.png<br>
+    &emsp;&emsp;$textures/entity/banner/flower.png<br>
+    &emsp;&emsp;$textures/entity/banner/globe.png<br>
+    &emsp;&emsp;$textures/entity/banner/gradient.png<br>
+    &emsp;&emsp;$textures/entity/banner/gradient_up.png<br>
+    &emsp;&emsp;$textures/entity/banner/guster.png<br>
+    &emsp;&emsp;$textures/entity/banner/half_horizontal.png<br>
+    &emsp;&emsp;$textures/entity/banner/half_horizontal_bottom.png<br>
+    &emsp;&emsp;$textures/entity/banner/half_vertical.png<br>
+    &emsp;&emsp;$textures/entity/banner/half_vertical_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/half_vertical_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/mojang.png<br>
+    &emsp;&emsp;$textures/entity/banner/piglin.png<br>
+    &emsp;&emsp;$textures/entity/banner/rhombus.png<br>
+    &emsp;&emsp;$textures/entity/banner/skull.png<br>
+    &emsp;&emsp;$textures/entity/banner/small_stipes.png<br>
+    &emsp;&emsp;$textures/entity/banner/snout.png<br>
+    &emsp;&emsp;$textures/entity/banner/square_bottom_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/square_bottom_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/square_top_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/square_top_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/straight_cross.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_bottom.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_center.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_downleft.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_downright.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_left.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_middle.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_right.png<br>
+    &emsp;&emsp;$textures/entity/banner/stripe_top.png<br>
+    &emsp;&emsp;$textures/entity/banner/triangle_bottom.png<br>
+    &emsp;&emsp;$textures/entity/banner/triangle_top.png<br>
+    &emsp;&emsp;$textures/entity/banner/triangles_bottom.png<br>
+    &emsp;&emsp;$textures/entity/banner/triangles_top.png<br>
+    &emsp;&emsp;$textures/entity/cat/all_black.png<br>
+    &emsp;&emsp;$textures/entity/cat/black.png<br>
+    &emsp;&emsp;$textures/entity/cat/british_shorthair.png<br>
+    &emsp;&emsp;$textures/entity/cat/calico.png<br>
+    &emsp;&emsp;$textures/entity/cat/cat_collar.png<br>
+    &emsp;&emsp;$textures/entity/cat/jellie.png<br>
+    &emsp;&emsp;$textures/entity/cat/ocelot.png<br>
+    &emsp;&emsp;$textures/entity/cat/persian.png<br>
+    &emsp;&emsp;$textures/entity/cat/ragdoll.png<br>
+    &emsp;&emsp;$textures/entity/cat/red.png<br>
+    &emsp;&emsp;$textures/entity/cat/siamese.png<br>
+    &emsp;&emsp;$textures/entity/cat/tabby.png<br>
+    &emsp;&emsp;$textures/entity/cat/white.png<br>
+    &emsp;&emsp;$textures/entity/equipment/horse_body/diamond.png<br>
+    &emsp;&emsp;$textures/entity/equipment/horse_body/gold.png<br>
+    &emsp;&emsp;$textures/entity/equipment/horse_body/iron.png<br>
+    &emsp;&emsp;$textures/entity/equipment/horse_body/leather.png<br>
+    &emsp;&emsp;$textures/entity/equipment/wings/elytra.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_1.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_2.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_3.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_4.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_5.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_a_pattern_6.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_1.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_2.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_3.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_4.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_5.png<br>
+    &emsp;&emsp;$textures/entity/fish/tropical_b_pattern_6.png<br>
+    &emsp;&emsp;$textures/entity/fox/fox.png<br>
+    &emsp;&emsp;$textures/entity/fox/fox_sleep.png<br>
+    &emsp;&emsp;$textures/entity/fox/snow_fox.png<br>
+    &emsp;&emsp;$textures/entity/fox/snow_fox_sleep.png<br>
+    &emsp;&emsp;$textures/entity/frog/cold_frog.png<br>
+    &emsp;&emsp;$textures/entity/frog/temperate_frog.png<br>
+    &emsp;&emsp;$textures/entity/frog/warm_frog.png<br>
+    &emsp;&emsp;$textures/entity/horse/donkey.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_black.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_brown.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_chestnut.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_creamy.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_darkbrown.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_gray.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_markings_blackdots.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_markings_white.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_markings_whitedots.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_markings_whitefield.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_skeleton.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_white.png<br>
+    &emsp;&emsp;$textures/entity/horse/horse_zombie.png<br>
+    &emsp;&emsp;$textures/entity/horse/mule.png<br>
+    &emsp;&emsp;$textures/entity/horse/armor/horse_armor_diamond.png<br>
+    &emsp;&emsp;$textures/entity/horse/armor/horse_armor_gold.png<br>
+    &emsp;&emsp;$textures/entity/horse/armor/horse_armor_iron.png<br>
+    &emsp;&emsp;$textures/entity/horse/armor/horse_armor_leather.png<br>
+    &emsp;&emsp;$textures/entity/illager/vex.png<br>
+    &emsp;&emsp;$textures/entity/illager/vex_charging.png<br>
+    &emsp;&emsp;$textures/entity/panda/aggresive_panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/brown_panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/lazy_panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/playful_panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/weak_panda.png<br>
+    &emsp;&emsp;$textures/entity/panda/worried_panda.png<br>
+    &emsp;&emsp;$textures/entity/parrot/parrot_blue.png<br>
+    &emsp;&emsp;$textures/entity/parrot/parrot_green.png<br>
+    &emsp;&emsp;$textures/entity/parrot/parrot_grey.png<br>
+    &emsp;&emsp;$textures/entity/parrot/parrot_red_blue.png<br>
+    &emsp;&emsp;$textures/entity/parrot/parrot_yellow_blue.png<br>
+    &emsp;&emsp;$textures/entity/projectiles/arrow.png<br>
+    &emsp;&emsp;$textures/entity/projectiles/spectral_arrow.png<br>
+    &emsp;&emsp;$textures/entity/projectiles/tipped_arrow.png<br>
+    &emsp;&emsp;$textures/entity/projectiles/wind_charge.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_black.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_blue.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_brown.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_cyan.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_gray.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_green.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_light_blue.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_light_gray.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_lime.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_magenta.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_orange.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_pink.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_purple.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_red.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_white.png<br>
+    &emsp;&emsp;$textures/entity/shulker/shulker_yellow.png<br>
+    &emsp;&emsp;$textures/entity/strider/strider.png<br>
+    &emsp;&emsp;$textures/entity/strider/strider_cold.png<br>
+    &emsp;&emsp;$textures/entity/strider/strider_saddle.png<br>
+    &emsp;&emsp;$textures/entity/warden/warden.png<br>
+    &emsp;&emsp;$textures/entity/warden/warden_bioluminescent_layer.png<br>
+    &emsp;&emsp;$textures/entity/warden/warden_heart.png<br>
+    &emsp;&emsp;$textures/entity/warden/warden_pulsating_spots_1.png<br>
+    &emsp;&emsp;$textures/entity/warden/warden_pulsating_spots_2.png<br>
+    &emsp;&emsp;$textures/environment/rain.png<br>
+    &emsp;&emsp;$textures/environment/snow.png<br>
+    &emsp;&emsp;$textures/font/ascii_sga.png<br>
+    &emsp;&emsp;$textures/font/asciiillager.png<br>
+    &emsp;&emsp;$textures/gui/container/stats_icons.png<br>
+    &emsp;&emsp;$textures/item/allay_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/armadillo_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/axolotl_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/bat_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/bee_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/blaze_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/bogged_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/breeze_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/camel_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/cat_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/cave_spider_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/chicken_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/cod_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/compass_00.png<br>
+    &emsp;&emsp;$textures/item/compass_01.png<br>
+    &emsp;&emsp;$textures/item/compass_02.png<br>
+    &emsp;&emsp;$textures/item/compass_03.png<br>
+    &emsp;&emsp;$textures/item/compass_04.png<br>
+    &emsp;&emsp;$textures/item/compass_05.png<br>
+    &emsp;&emsp;$textures/item/compass_06.png<br>
+    &emsp;&emsp;$textures/item/compass_07.png<br>
+    &emsp;&emsp;$textures/item/compass_08.png<br>
+    &emsp;&emsp;$textures/item/compass_09.png<br>
+    &emsp;&emsp;$textures/item/compass_10.png<br>
+    &emsp;&emsp;$textures/item/compass_11.png<br>
+    &emsp;&emsp;$textures/item/compass_12.png<br>
+    &emsp;&emsp;$textures/item/compass_13.png<br>
+    &emsp;&emsp;$textures/item/compass_14.png<br>
+    &emsp;&emsp;$textures/item/compass_15.png<br>
+    &emsp;&emsp;$textures/item/compass_16.png<br>
+    &emsp;&emsp;$textures/item/compass_17.png<br>
+    &emsp;&emsp;$textures/item/compass_18.png<br>
+    &emsp;&emsp;$textures/item/compass_19.png<br>
+    &emsp;&emsp;$textures/item/compass_20.png<br>
+    &emsp;&emsp;$textures/item/compass_21.png<br>
+    &emsp;&emsp;$textures/item/compass_22.png<br>
+    &emsp;&emsp;$textures/item/compass_23.png<br>
+    &emsp;&emsp;$textures/item/compass_24.png<br>
+    &emsp;&emsp;$textures/item/compass_25.png<br>
+    &emsp;&emsp;$textures/item/compass_26.png<br>
+    &emsp;&emsp;$textures/item/compass_27.png<br>
+    &emsp;&emsp;$textures/item/compass_28.png<br>
+    &emsp;&emsp;$textures/item/compass_29.png<br>
+    &emsp;&emsp;$textures/item/compass_30.png<br>
+    &emsp;&emsp;$textures/item/compass_31.png<br>
+    &emsp;&emsp;$textures/item/cow_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/creaking_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/creeper_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/dolphin_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/donkey_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/drowned_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/elder_guardian_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/ender_dragon_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/enderman_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/endermite_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/evoker_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/fox_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/ghast_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/glow_squid_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/goat_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/guardian_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/hoglin_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/horse_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/husk_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/iron_golem_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/leaf_litter.png<br>
+    &emsp;&emsp;$textures/item/llama_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/magma_cube_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/mooshroom_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/mule_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/ocelot_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/panda_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/parrot_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/phantom_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/pig_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/piglin_brute_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/piglin_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/pillager_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/polar_bear_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/pufferfish_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/rabbit_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/ravager_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/salmon_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/sheep_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/shulker_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/silverfish_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/skeleton_horse_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/skeleton_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/slime_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/sniffer_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/snow_golem_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/spider_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/squid_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/stray_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/strider_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/tadpole_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/trader_llama_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/tropical_fish_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/turtle_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/vex_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/villager_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/vindicator_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/wandering_trader_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/warden_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/wildflowers.png<br>
+    &emsp;&emsp;$textures/item/witch_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/wither_skeleton_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/wither_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/wolf_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/zoglin_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/zombie_horse_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/zombie_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/zombie_villager_spawn_egg.png<br>
+    &emsp;&emsp;$textures/item/zombified_piglin_spawn_egg.png<br>
+    &emsp;&emsp;$textures/map/map_icons.png<br>
+    &emsp;&emsp;$textures/map/decorations/black_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/blue_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/blue_marker.png<br>
+    &emsp;&emsp;$textures/map/decorations/brown_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/cyan_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/desert_village.png<br>
+    &emsp;&emsp;$textures/map/decorations/frame.png<br>
+    &emsp;&emsp;$textures/map/decorations/gray_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/green_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/jungle_temple.png<br>
+    &emsp;&emsp;$textures/map/decorations/light_blue_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/light_gray_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/lime_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/magenta_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/ocean_monument.png<br>
+    &emsp;&emsp;$textures/map/decorations/orange_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/pink_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/plains_village.png<br>
+    &emsp;&emsp;$textures/map/decorations/player.png<br>
+    &emsp;&emsp;$textures/map/decorations/player_off_limits.png<br>
+    &emsp;&emsp;$textures/map/decorations/player_off_map.png<br>
+    &emsp;&emsp;$textures/map/decorations/purple_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/red_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/red_marker.png<br>
+    &emsp;&emsp;$textures/map/decorations/red_x.png<br>
+    &emsp;&emsp;$textures/map/decorations/savanna_village.png<br>
+    &emsp;&emsp;$textures/map/decorations/snowy_village.png<br>
+    &emsp;&emsp;$textures/map/decorations/swamp_hut.png<br>
+    &emsp;&emsp;$textures/map/decorations/taiga_village.png<br>
+    &emsp;&emsp;$textures/map/decorations/target_point.png<br>
+    &emsp;&emsp;$textures/map/decorations/target_x.png<br>
+    &emsp;&emsp;$textures/map/decorations/trial_chambers.png<br>
+    &emsp;&emsp;$textures/map/decorations/white_banner.png<br>
+    &emsp;&emsp;$textures/map/decorations/woodland_mansion.png<br>
+    &emsp;&emsp;$textures/map/decorations/yellow_banner.png<br>
+    &emsp;&emsp;$textures/misc/enchanted_item_glint.png.mcmeta<br>
+    &emsp;&emsp;$textures/misc/explosion.png<br>
+    &emsp;&emsp;$textures/misc/forcefield.png<br>
+    &emsp;&emsp;$textures/misc/nausea.png.mcmeta<br>
+    &emsp;&emsp;$textures/misc/pumpkinblur.png.mcmeta<br>
+    &emsp;&emsp;$textures/misc/shadow.png<br>
+    &emsp;&emsp;$textures/misc/shadow.png.mcmeta<br>
+    &emsp;&emsp;$textures/misc/vignette.png.mcmeta<br>
+    &emsp;&emsp;$textures/particles/firefly.png<br>
+    &emsp;&emsp;$textures/trims/items/boots_trim.png<br>
+    &emsp;&emsp;$textures/trims/items/chestplate_trim.png<br>
+    &emsp;&emsp;$textures/trims/items/helmet_trim.png<br>
+    &emsp;&emsp;$textures/trims/items/leggings_trim.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/coast.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/coast_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/dune.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/dune_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/eye.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/eye_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/host.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/host_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/raiser.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/raiser_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/rib.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/rib_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/sentry.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/sentry_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/shaper.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/shaper_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/silence.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/silence_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/snout.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/snout_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/spire.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/spire_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/tide.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/tide_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/vex.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/vex_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/ward.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/ward_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/wayfinder.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/wayfinder_leggings.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/wild.png<br>
+    &emsp;&emsp;$textures/trims/models/armor/wild_leggings.png<br>
+
+    <div id="1.0.0"></div>
+    <h2>March 29<sup>th</sup>, 2025, 1.0.0 for 1.21.4</h2>
+    - Updated the following models to be more consistant with the grid:<br>
+    &emsp;&emsp;Cacti<br>
+    &emsp;&emsp;Elder Guardians<br>
+    &emsp;&emsp;Evokers<br>
+    &emsp;&emsp;Guardians<br>
+    &emsp;&emsp;Illusioners<br>
+    &emsp;&emsp;Pigs<br>
+    &emsp;&emsp;Pillagers<br>
+    &emsp;&emsp;Villagers<br>
+    &emsp;&emsp;Vindicators<br>
+    &emsp;&emsp;Wandering Traders<br>
+    &emsp;&emsp;Witches<br>
+    &emsp;&emsp;Walls (Inventory)<br>
+    &emsp;&emsp;End Portal Frame<br>
+    &emsp;&emsp;Candles<br>
+    &emsp;&emsp;Turtle Eggs<br>
+    - Fixed Z-fighting on Turtle fins.<br>
+    - Fixed weird artifacting on Donkeys with chests.<br>
+    - Textured Iron Golem cracks.<br>
+    - Fixed salmon not rendering with a texture.<br>
+    - Fixed clocks not rendering every other model.<br>
+    - Textured:<br>
+    &emsp;&emsp;Eyeblossoms<br>
+    &emsp;&emsp;Resin Clumps<br>
+    &emsp;&emsp;Resin Blocks<br>
+    &emsp;&emsp;Resin Bricks<br>
+    &emsp;&emsp;Recovery Compass<br>
+    &emsp;&emsp;Ari Player<br>
+    &emsp;&emsp;Efe Player<br>
+    &emsp;&emsp;Kai Player<br>
+    &emsp;&emsp;Makena Player<br>
+    &emsp;&emsp;Noor Player<br>
+    &emsp;&emsp;Sunny Player<br>
+    &emsp;&emsp;Zuri Player<br>
+    - Compensated for change in version 1.21.4 by adding inventory chest textures.<br>
+    Removed files:<br>
+    &emsp;&emsp;%dn.bin.bak<br>
+    &emsp;&emsp;%assets/banner.png<br>
+    &emsp;&emsp;%assets/guide.css<br>
+    &emsp;&emsp;%assets/jump.js<br>
+    &emsp;&emsp;%assets/siteicon32x.ico<br>
+    &emsp;&emsp;$textures/entity/pig/pig.png<br>
+    &emsp;&emsp;$textures/item/ruby.png<br>
+    &emsp;&emsp;$textures/item/quiver.png<br>
+    Added/Modified files:<br>
+    &emsp;&emsp;%_guide.html<br>
+    &emsp;&emsp;%webassets/banner.png<br>
+    &emsp;&emsp;%webassets/guide.css<br>
+    &emsp;&emsp;%webassets/jump.js<br>
+    &emsp;&emsp;%webassets/site-icon-32x-usage-guide.png<br>
+    &emsp;&emsp;%webassets/site-icon-32x-changelog.png<br>
+    &emsp;&emsp;%webassets/site-icon-32x-credits.png<br>
+    &emsp;&emsp;$models/block/cactus.json<br>
+    &emsp;&emsp;$models/block/end_portal_frame.json<br>
+    &emsp;&emsp;$models/block/end_portal_frame_filled.json<br>
+    &emsp;&emsp;$models/block/pitcher_crop_bottom_stage_0.json<br>
+    &emsp;&emsp;$models/block/pitcher_crop_bottom_stage_1.json<br>
+    &emsp;&emsp;$models/block/pitcher_crop_bottom_stage_2.json<br>
+    &emsp;&emsp;$models/block/pitcher_crop_bottom_stage_3.json<br>
+    &emsp;&emsp;$models/block/pitcher_crop_bottom_stage_4.json<br>
+    &emsp;&emsp;$models/block/pitcher_plant_bottom.json<br>
+    &emsp;&emsp;$models/block/pitcher_plant_top.json<br>
+    &emsp;&emsp;$models/block/template_candle.json<br>
+    &emsp;&emsp;$models/block/template_turtle_egg.json<br>
+    &emsp;&emsp;$models/block/template_four_candles.json<br>
+    &emsp;&emsp;$models/block/template_four_turtle_eggs.json<br>
+    &emsp;&emsp;$models/block/template_three_candles.json<br>
+    &emsp;&emsp;$models/block/template_three_turtle_eggs.json<br>
+    &emsp;&emsp;$models/block/template_two_candles.json<br>
+    &emsp;&emsp;$models/block/template_two_turtle_eggs.json<br>
+    &emsp;&emsp;$models/block/wall_inventory.json<br>
+    &emsp;&emsp;$models/item/clock_01.json<br>
+    &emsp;&emsp;$models/item/clock_03.json<br>
+    &emsp;&emsp;$models/item/clock_05.json<br>
+    &emsp;&emsp;$models/item/clock_07.json<br>
+    &emsp;&emsp;$models/item/clock_09.json<br>
+    &emsp;&emsp;$models/item/clock_11.json<br>
+    &emsp;&emsp;$models/item/clock_13.json<br>
+    &emsp;&emsp;$models/item/clock_15.json<br>
+    &emsp;&emsp;$models/item/clock_17.json<br>
+    &emsp;&emsp;$models/item/clock_19.json<br>
+    &emsp;&emsp;$models/item/clock_21.json<br>
+    &emsp;&emsp;$models/item/clock_23.json<br>
+    &emsp;&emsp;$models/item/clock_25.json<br>
+    &emsp;&emsp;$models/item/clock_27.json<br>
+    &emsp;&emsp;$models/item/clock_29.json<br>
+    &emsp;&emsp;$models/item/clock_31.json<br>
+    &emsp;&emsp;$models/item/clock_33.json<br>
+    &emsp;&emsp;$models/item/clock_35.json<br>
+    &emsp;&emsp;$models/item/clock_37.json<br>
+    &emsp;&emsp;$models/item/clock_39.json<br>
+    &emsp;&emsp;$models/item/clock_41.json<br>
+    &emsp;&emsp;$models/item/clock_43.json<br>
+    &emsp;&emsp;$models/item/clock_45.json<br>
+    &emsp;&emsp;$models/item/clock_47.json<br>
+    &emsp;&emsp;$models/item/clock_49.json<br>
+    &emsp;&emsp;$models/item/clock_51.json<br>
+    &emsp;&emsp;$models/item/clock_53.json<br>
+    &emsp;&emsp;$models/item/clock_55.json<br>
+    &emsp;&emsp;$models/item/clock_57.json<br>
+    &emsp;&emsp;$models/item/clock_59.json<br>
+    &emsp;&emsp;$models/item/clock_61.json<br>
+    &emsp;&emsp;$models/item/clock_63.json<br>
+    &emsp;&emsp;$optifine/cem/_atlas02.png<br>
+    &emsp;&emsp;$optifine/cem/_atlas03.png<br>
+    &emsp;&emsp;$optifine/cem/donkey.jem<br>
+    &emsp;&emsp;$optifine/cem/elder_guardian.jem<br>
+    &emsp;&emsp;$optifine/cem/elderguardian.png<br>
+    &emsp;&emsp;$optifine/cem/evoker.jem<br>
+    &emsp;&emsp;$optifine/cem/guardian.jem<br>
+    &emsp;&emsp;$optifine/cem/guardian.png<br>
+    &emsp;&emsp;$optifine/cem/illusioner.jem<br>
+    &emsp;&emsp;$optifine/cem/pig.jem<br>
+    &emsp;&emsp;$optifine/cem/pig.png<br>
+    &emsp;&emsp;$optifine/cem/pig_saddle.jem<br>
+    &emsp;&emsp;$optifine/cem/pillager.jem<br>
+    &emsp;&emsp;$optifine/cem/salmon.jem<br>
+    &emsp;&emsp;$optifine/cem/turtle.jem<br>
+    &emsp;&emsp;$optifine/cem/villager.jem<br>
+    &emsp;&emsp;$optifine/cem/vindicator.jem<br>
+    &emsp;&emsp;$optifine/cem/wandering_trader.jem<br>
+    &emsp;&emsp;$optifine/cem/witch.jem<br>
+    &emsp;&emsp;$optifine/cem/zombie_villager.jem<br>
+    &emsp;&emsp;$textures/block/cactus_side.png<br>
+    &emsp;&emsp;$textures/block/chiseled_resin_bricks.png<br>
+    &emsp;&emsp;$textures/block/closed_eyeblossom.png<br>
+    &emsp;&emsp;$textures/block/open_eyeblossom.png<br>
+    &emsp;&emsp;$textures/block/open_eyeblossom_emissive.png<br>
+    &emsp;&emsp;$textures/block/resin_block.png<br>
+    &emsp;&emsp;$textures/block/resin_bricks.png<br>
+    &emsp;&emsp;$textures/block/resin_clump.png<br>
+    &emsp;&emsp;$textures/block/turtle_egg.png<br>
+    &emsp;&emsp;$textures/block/turtle_egg_slightly_cracked.png<br>
+    &emsp;&emsp;$textures/block/turtle_egg_very_cracked.png<br>
+    &emsp;&emsp;$textures/entity/iron_golem/iron_golem_crackiness_high.png<br>
+    &emsp;&emsp;$textures/entity/iron_golem/iron_golem_crackiness_low.png<br>
+    &emsp;&emsp;$textures/entity/iron_golem/iron_golem_crackiness_medium.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/ari.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/efe.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/kai.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/makena.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/noor.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/sunny.png<br>
+    &emsp;&emsp;$textures/entity/player/wide/zuri.png<br>
+    &emsp;&emsp;$textures/entity/villager/villager.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/armorer.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/butcher.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/cartographer.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/cleric.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/farmer.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/fisherman.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/fletcher.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/leatherworker.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/librarian.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/mason.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/nitwit.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/shepherd.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/toolsmith.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession/weaponsmith.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession_level/diamond.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession_level/emerald.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession_level/gold.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession_level/iron.png<br>
+    &emsp;&emsp;$textures/entity/villager/profession_level/stone.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/desert.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/jungle.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/plains.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/savanna.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/snow.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/swamp.png<br>
+    &emsp;&emsp;$textures/entity/villager/type/taiga.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/zombie_villager.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/armorer.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/butcher.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/cartographer.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/cleric.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/farmer.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/fisherman.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/fletcher.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/leatherworker.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/librarian.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/mason.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/nitwit.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/shepherd.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/toolsmith.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession/weaponsmith.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession_level/diamond.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession_level/emerald.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession_level/gold.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession_level/iron.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/profession_level/stone.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/desert.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/jungle.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/plains.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/savanna.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/snow.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/swamp.png<br>
+    &emsp;&emsp;$textures/entity/zombie_villager/type/taiga.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot_highlight_back.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot_highlight_back.png.mcmeta<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot_highlight_front.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot_highlight_front.png.mcmeta<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/amethyst_shard.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/axe.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/banner.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/banner_pattern.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/boots.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/brewing_fuel.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/chestplate.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/diamond.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/dye.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/emerald.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/helmet.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/hoe.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/horse_armor.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/ingot.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/lapis_lazuli.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/leggings.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/llama_armor.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/pickaxe.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/potion.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/quartz.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/redstone_dust.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/saddle.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/shield.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/shovel.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/smithing_template_armor_trim.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/smithing_template_netherite_upgrade.png<br>
+    &emsp;&emsp;$textures/gui/sprites/container/slot/sword.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_00.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_01.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_02.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_03.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_04.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_05.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_06.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_07.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_08.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_09.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_10.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_11.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_12.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_13.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_14.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_15.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_16.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_17.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_18.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_19.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_20.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_21.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_22.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_23.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_24.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_25.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_26.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_27.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_28.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_29.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_30.png<br>
+    &emsp;&emsp;$textures/item/recovery_compass_31.png<br>
+    &emsp;&emsp;$textures/item/resin_brick.png<br>
+    &emsp;&emsp;$textures/item/resin_clump.png<br>
+    Moved files to legacy fork:<br>
+    &emsp;&emsp;%particles.png<br>
+    &emsp;&emsp;%terrain.png<br>
+    &emsp;&emsp;%achievement/bg.png<br>
+    &emsp;&emsp;%armor/chain_1.png<br>
+    &emsp;&emsp;%armor/chain_2.png<br>
+    &emsp;&emsp;%armor/cloth_1.png<br>
+    &emsp;&emsp;%armor/cloth_1_b.png<br>
+    &emsp;&emsp;%armor/cloth_2.png<br>
+    &emsp;&emsp;%armor/cloth_2_b.png<br>
+    &emsp;&emsp;%armor/diamond_1.png<br>
+    &emsp;&emsp;%armor/diamond_2.png<br>
+    &emsp;&emsp;%armor/gold_1.png<br>
+    &emsp;&emsp;%armor/gold_2.png<br>
+    &emsp;&emsp;%armor/iron_1.png<br>
+    &emsp;&emsp;%armor/iron_2.png<br>
+    &emsp;&emsp;%armor/power.png<br>
+    &emsp;&emsp;%armor/witherarmor.png<br>
+    &emsp;&emsp;%art/kz.png<br>
+    &emsp;&emsp;%environment/rain.png<br>
+    &emsp;&emsp;%environment/snow.png<br>
+    &emsp;&emsp;%gui/alchemy.png<br>
+    &emsp;&emsp;%gui/allitems.png<br>
+    &emsp;&emsp;%gui/background.png<br>
+    &emsp;&emsp;%gui/beacon.png<br>
+    &emsp;&emsp;%gui/book.png<br>
+    &emsp;&emsp;%gui/container.png<br>
+    &emsp;&emsp;%gui/crafting.png<br>
+    &emsp;&emsp;%gui/crash_logo.png<br>
+    &emsp;&emsp;%gui/demo_bg.png<br>
+    &emsp;&emsp;%gui/enchant.png<br>
+    &emsp;&emsp;%gui/furnace.png<br>
+    &emsp;&emsp;%gui/gui.png<br>
+    &emsp;&emsp;%gui/icons.png<br>
+    &emsp;&emsp;%gui/inventory.png<br>
+    &emsp;&emsp;%gui/items.png<br>
+    &emsp;&emsp;%gui/particles.png<br>
+    &emsp;&emsp;%gui/repair.png<br>
+    &emsp;&emsp;%gui/slot.png<br>
+    &emsp;&emsp;%gui/trading.png<br>
+    &emsp;&emsp;%gui/trap.png<br>
+    &emsp;&emsp;%gui/unknown_pack.png<br>
+    &emsp;&emsp;%gui/creative_inv/list_items.png<br>
+    &emsp;&emsp;%gui/creative_inv/search.png<br>
+    &emsp;&emsp;%gui/creative_inv/survival_inv.png<br>
+    &emsp;&emsp;%item/arrows.png<br>
+    &emsp;&emsp;%item/boat.png<br>
+    &emsp;&emsp;%item/book.png<br>
+    &emsp;&emsp;%item/cart.png<br>
+    &emsp;&emsp;%item/chest.png<br>
+    &emsp;&emsp;%item/enderchest.png<br>
+    &emsp;&emsp;%item/largechest.png<br>
+    &emsp;&emsp;%item/largexmaschest.png<br>
+    &emsp;&emsp;%item/sign.png<br>
+    &emsp;&emsp;%item/xmaschest.png<br>
+    &emsp;&emsp;%item/xporb.png<br>
+    &emsp;&emsp;%misc/beacon.png<br>
+    &emsp;&emsp;%misc/beam.png<br>
+    &emsp;&emsp;%misc/dial.png<br>
+    &emsp;&emsp;%misc/explosion.png<br>
+    &emsp;&emsp;%misc/footprint.png<br>
+    &emsp;&emsp;%misc/glint.png<br>
+    &emsp;&emsp;%misc/mapbg.png<br>
+    &emsp;&emsp;%misc/mapicons.png<br>
+    &emsp;&emsp;%misc/particlefield.png<br>
+    &emsp;&emsp;%misc/pumpkinblur.png<br>
+    &emsp;&emsp;%misc/shadow.png<br>
+    &emsp;&emsp;%misc/tunnel.png<br>
+    &emsp;&emsp;%misc/vignette.png<br>
+    &emsp;&emsp;%misc/water.png<br>
+    &emsp;&emsp;%mob/cavespider.png<br>
+    &emsp;&emsp;%mob/char.png<br>
+    &emsp;&emsp;%mob/cow.png<br>
+    &emsp;&emsp;%mob/creeper.png<br>
+    &emsp;&emsp;%mob/enderman.png<br>
+    &emsp;&emsp;%mob/enderman_eyes.png<br>
+    &emsp;&emsp;%mob/fire.png<br>
+    &emsp;&emsp;%mob/ghast.png<br>
+    &emsp;&emsp;%mob/ghast_fire.png<br>
+    &emsp;&emsp;%mob/lava.png<br>
+    &emsp;&emsp;%mob/pig.png<br>
+    &emsp;&emsp;%mob/pigman.png<br>
+    &emsp;&emsp;%mob/pigzombie.png<br>
+    &emsp;&emsp;%mob/redcow.png<br>
+    &emsp;&emsp;%mob/saddle.png<br>
+    &emsp;&emsp;%mob/sheep.png<br>
+    &emsp;&emsp;%mob/sheep_fur.png<br>
+    &emsp;&emsp;%mob/skeleton.png<br>
+    &emsp;&emsp;%mob/skeleton_wither.png<br>
+    &emsp;&emsp;%mob/slime.png<br>
+    &emsp;&emsp;%mob/snowman.png<br>
+    &emsp;&emsp;%mob/spider.png<br>
+    &emsp;&emsp;%mob/spider_eyes.png<br>
+    &emsp;&emsp;%mob/squid.png<br>
+    &emsp;&emsp;%mob/zombie.png<br>
+    &emsp;&emsp;%mob/zombie_villager.png<br>
+    &emsp;&emsp;%mob/enderdragon/beam.png<br>
+    &emsp;&emsp;%mob/enderdragon/crystal.png<br>
+    &emsp;&emsp;%mob/enderdragon/ender.png<br>
+    &emsp;&emsp;%mob/enderdragon/ender_eyes.png<br>
+    &emsp;&emsp;%mob/enderdragon/shuffle.png<br>
+    &emsp;&emsp;%terrain/moon.png<br>
+    &emsp;&emsp;%terrain/moon_phases.png<br>
+    &emsp;&emsp;%terrain/sun.png<br>
+    &emsp;&emsp;%title/mclogo.png<br>
+    &emsp;&emsp;%title/mojang.png<br>
+    &emsp;&emsp;%title/bg/panorama0.png<br>
+    &emsp;&emsp;%title/bg/panorama1.png<br>
+    &emsp;&emsp;%title/bg/panorama2.png<br>
+    &emsp;&emsp;%title/bg/panorama3.png<br>
+    &emsp;&emsp;%title/bg/panorama4.png<br>
+    &emsp;&emsp;%title/bg/panorama5.png<br>
+    <div id="1.0.1"></div>
+    <h2>March 29<sup>th</sup>, 2025, 1.0.1 for 1.21.4</h2>
+    - Fixed incorrect pack description<br>
+    Removed files:<br>
+    &emsp;&emsp;%dn.bin<br>
+    Added/Modified files:<br>
+    &emsp;&emsp;%pack.mcmeta<br>
+    <div id="1.0.2"></div>
+    <h2>March 29<sup>th</sup>, 2025, 1.0.2 for 1.21.4</h2>
+    - Simplified some files to reduce complexity<br>
+    Added/Modified files:<br>
+    &emsp;&emsp;%_credits.html<br>
+    &emsp;&emsp;%webassets/guide.css<br>
+    &emsp;&emsp;%webassets/jump.js<br>
+    &emsp;&emsp;%webassets/mc.ttf<br>
+    <div id="1.1.0"></div>
+    <h2>March 29<sup>th</sup>, 2025, 1.1.0 for 1.21.4</h2>
+    - Added a english language file to alter text stings that don't fit due to wider characters.<br>
+    - Updated the following models to be more consistant with the grid:<br>
+    &emsp;&emsp;Hanging Signs<br>
+    &emsp;&emsp;Signs<br>
+    Added/Modified files:<br>
+    &emsp;&emsp;$lang/en_us.json<br>
+    &emsp;&emsp;$optifine/cem/hanging_sign.jem<br>
+    &emsp;&emsp;$optifine/cem/sign.jem<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/acacia.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/bamboo.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/birch.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/cherry.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/crimson.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/dark_oak.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/jungle.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/mangrove.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/oak.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/pale_oak.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/spruce.png<br>
+    &emsp;&emsp;$textures/entity/sign/hanging/warped.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/text_field.png<br>
+    &emsp;&emsp;$textures/gui/sprites/widget/text_field_highlighted.png<br>
+    <div id="1.2.0"></div>
+    <div id="latest"></div><!-- MOVE THIS EVERY UPDATE ________________________________________________________________________________________________-->
+    <h2>April 12<sup>th</sup>, 2025, 1.2.0 for 1.21.4</h2>
+    - Fixed free-standing banner model for 1.21.4, wall mounted banner temporarily broken...<br>
+    - Added support for slim player skins.<br>
+    - Began compatibility for an upcoming resource pack.<br>
+    - Fixed vanilla bell models.<br>
+    Removed files:<br>
+    &emsp;&emsp;$textures/item/_oaf/chest.png<br>
+    &emsp;&emsp;$textures/item/_oaf/enderchest.png<br>
+    &emsp;&emsp;$textures/item/_oaf/trappedchest.png<br>
+    &emsp;&emsp;$textures/item/_oaf/wand.png<br>
+    Added/Modified files:<br>
+    &emsp;&emsp;$models/block/cocoa_stage0.json<br>
+    &emsp;&emsp;$models/block/cocoa_stage1.json<br>
+    &emsp;&emsp;$models/block/cocoa_stage2.json<br>
+    &emsp;&emsp;$models/block/bell_between_walls.json<br>
+    &emsp;&emsp;$models/block/bell_ceiling.json<br>
+    &emsp;&emsp;$models/block/bell_floor.json<br>
+    &emsp;&emsp;$models/block/bell_wall.json<br>
+    &emsp;&emsp;$models/block/_oaf/crop_b.json<br>
+    &emsp;&emsp;$models/block/_oaf/crop_c.json<br>
+    &emsp;&emsp;$models/block/_oaf/sandstonewall_inventory.json<br>
+    &emsp;&emsp;$models/block/_oaf/sandstonewall_side.json<br>
+    &emsp;&emsp;$models/block/_oaf/sandstonewall_side2.json<br>
+    &emsp;&emsp;$models/block/_oaf_item/bv_bellitem.json<br>
+    &emsp;&emsp;$models/block/_oaf_item/bv_brewingstanditem.json<br>
+    &emsp;&emsp;$optifine/cem/banner.jem<br>
+    &emsp;&emsp;$optifine/cem/bell.jem<br>
+    &emsp;&emsp;$textures/block/_oaf/8x8_cocoa.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_bell.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_cutredsandstonedoubleslab.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_cutsandstonedoubleslab.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslatecoalore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslatecopperore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslatediamondore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslateemeraldore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslategoldore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslateironore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslatelapislazuliore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_deepslateredstoneore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m0.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m1.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m2.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m3.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m4.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m5.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m6.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_farmland_m7.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_ladder2.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_pumpkin_bottom.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_randomizedbirchlog.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_randomizedbirchlog_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_redsandstonedoubleslab.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_redsandstonewall.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_sandstonedoubleslab.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_sandstonewall.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_unlitdeepslateredstoneore.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_unlitdeepslateredstoneore_top.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_unlitredstoneore.png<br>
+    &emsp;&emsp;$textures/block/_oaf/bv_wheatplant2.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/alex.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/ari.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/efe.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/kai.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/makena.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/noor.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/steve.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/sunny.png<br>
+    &emsp;&emsp;$textures/entity/player/slim/zuri.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_acaciadoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_bamboodoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_birchdoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_cherrydoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_copperdoor1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_copperdoor2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_copperdoor3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_copperdoor4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_crimsondoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_darkoakdoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedchiseledstonebricks.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedcobblestone.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedcrackedstonebricks.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infesteddeepslate.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infesteddeepslate_top.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedmossystonebricks.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedstone.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_infestedstonebricks.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_irondoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_jungledoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_magicwand.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_mangrovedoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_oakdoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_paleoakdoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_sprucedoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_warpeddoor.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedchiseledcopper1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedchiseledcopper2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedchiseledcopper3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedchiseledcopper4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopper1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopper2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopper3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopper4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperbulb1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperbulb2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperbulb3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperbulb4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperdoor1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperdoor2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperdoor3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcopperdoor4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcoppergrate1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcoppergrate2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcoppergrate3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcoppergrate4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopper1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopper2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopper3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopper4.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopperstairs1.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopperstairs2.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopperstairs3.png<br>
+    &emsp;&emsp;$textures/item/_oaf/bv_waxedcutcopperstairs4.png<br>
+
+    <br><br><br>
+    <span class="smallText">"%" = Pack Root<br>"$" = "%assets/minecraft/"</span>
+    <script src="webassets/jump.js"></script>
+</html>
