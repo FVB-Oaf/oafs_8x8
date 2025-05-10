@@ -1874,10 +1874,12 @@ const changelog_content = `
     </p></details><br><details><summary><h2>v1.0.4.0 (May 10<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Overhauled changelog, guide, and credits.",
+            "Changed the pack icon.",
             "Added/Modified files:",
             ["%_changelog.html"],
             ["%_credits.html"],
             ["%_guide.html"],
+            ["%pack.png"],
             ["%webassets/core.js"],
             "Deleted files:",
             ["%webassets/jump.js"]
