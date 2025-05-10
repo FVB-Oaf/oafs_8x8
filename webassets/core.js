@@ -1,4 +1,4 @@
-const version = `1.0.3.1`;
+const version = `1.0.4.0`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "banner wasn't able to render :&lpar;" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -1834,7 +1834,7 @@ const changelog_content = `
         ])}
     </p></details><br><details><summary><h2>v1.0.3.0 (May 10<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
-            "Textured bush, cactus flower, firefly bush, creaking heart (dormant), short dry grass, tall dry grass, test blocks, happy ghasts, & lig",
+            "Textured bush, cactus flower, firefly bush, creaking heart (dormant), short dry grass, tall dry grass, test blocks, happy ghasts, & lights,",
             "Added/Modified files:",
             ["$textures/block/bush.png"],
             ["$textures/block/cactus_flower.png"],
@@ -1871,6 +1871,9 @@ const changelog_content = `
             ["$textures/item/light_14.png"],
             ["$textures/item/light_15.png"]
         ])}
+    </p></details><br><details><summary><h2>v1.0.4.0 (May 10<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2(["Overhauled changelog, guide, and credits."])}
+    </p></details>
 `;
 const guide_content = `
     ${banner}
