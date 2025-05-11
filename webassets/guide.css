@@ -14,10 +14,12 @@ p{
 h1{
   color: #9988ff;
   font-size: 250%;
+  display: inline-flex;
 }
 h2{
   color: #9988ff;
   font-size: 200%;
+  display: inline-flex;
 }
 a{
   color: #aa9900;
@@ -43,4 +45,18 @@ a:hover{
   max-width: 100%;
   height: auto;
   max-height: 100%;
+}
+details>summary::marker{
+  content: "+ ";
+  font-family: Minecraftia;
+  color: #9988ff;
+  font-size: 250%;
+  display: inline-flex;
+}
+details[open]>summary::marker{
+  content: "- ";
+  font-family: Minecraftia;
+  color: #9988ff;
+  font-size: 250%;
+  display: inline-flex;
 }
