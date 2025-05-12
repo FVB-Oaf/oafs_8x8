@@ -1,4 +1,4 @@
-const version = `1.0.4.1`;
+const version = `1.0.5.0`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -1896,6 +1896,15 @@ const changelog_content = `
     </p></details><br><details><summary><h2>v1.0.4.2 (May 12<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Re-added all UI textures as they were missed during the GitHub upload." // how?
+        ])}
+    </p></details><br><details><summary><h2>v1.0.5.0 (May 12<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Pink Petals & Wildflowers now align to the 8x8 block grid.",
+            "Added/Modified Files:",
+            ["$models/block/flowerbed_1.json"],
+            ["$models/block/flowerbed_2.json"],
+            ["$models/block/pink_petals_1.json"],
+            ["$models/block/pink_petals_2.json"],
         ])}
     </p></details>
 `;
