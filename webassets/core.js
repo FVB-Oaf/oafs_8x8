@@ -1,4 +1,4 @@
-const version = `1.0.4.0`;
+const version = `1.0.4.1`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "banner wasn't able to render :&lpar;" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -18,7 +18,7 @@ function list2(functionInput2){
     return temp.join("");
 };
 const changelog_content = `
-    ${banner}
+    ${banner}<br><br>
     <h1>Local Oaf's 8&times;8 - Version ${version}</h1>
     <details><summary><h2>b1.0.0.0 (January 12<sup>th</sup>, 2025)</h2></summary><p>
         • Beta release.
