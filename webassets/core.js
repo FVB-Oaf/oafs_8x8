@@ -1,4 +1,4 @@
-const version = `1.0.5.0`;
+const version = `1.0.6.0`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -1905,6 +1905,17 @@ const changelog_content = `
             ["$models/block/flowerbed_2.json"],
             ["$models/block/pink_petals_1.json"],
             ["$models/block/pink_petals_2.json"],
+        ])}
+    </p></details><br><details><summary><h2>v1.0.6.0 (May 12<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Textures bottom tabs of advancement window.",
+            "Added/Modified Files:",
+            ["textures/gui/sprites/advancements/tab_below_left.png"],
+            ["textures/gui/sprites/advancements/tab_below_left_selected.png"],
+            ["textures/gui/sprites/advancements/tab_below_middle.png"],
+            ["textures/gui/sprites/advancements/tab_below_middle_selected.png"],
+            ["textures/gui/sprites/advancements/tab_below_right.png"],
+            ["textures/gui/sprites/advancements/tab_below_right_selected.png"]
         ])}
     </p></details>
 `;
