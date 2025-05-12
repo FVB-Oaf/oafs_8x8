@@ -1,4 +1,4 @@
-const version = `1.0.6.0`;
+const version = `1.0.6.1`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -1908,7 +1908,7 @@ const changelog_content = `
         ])}
     </p></details><br><details><summary><h2>v1.0.6.0 (May 12<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
-            "Textures bottom tabs of advancement window.",
+            "Textured bottom tabs of advancement window.",
             "Added/Modified Files:",
             ["textures/gui/sprites/advancements/tab_below_left.png"],
             ["textures/gui/sprites/advancements/tab_below_left_selected.png"],
@@ -1916,6 +1916,17 @@ const changelog_content = `
             ["textures/gui/sprites/advancements/tab_below_middle_selected.png"],
             ["textures/gui/sprites/advancements/tab_below_right.png"],
             ["textures/gui/sprites/advancements/tab_below_right_selected.png"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.6.1 (May 12<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Fixed a typo in the changelog for v1.0.6.0.",
+            "Tweaked cactus textures to better match the custom model.",
+            "Re-added the missing firefly bush item texture",
+            "Added/Modified Files:",
+            ["textures/block/cactus_bottom.png"],
+            ["textures/block/cactus_top.png"],
+            ["textures/item/firefly_bush.png"],
+            ["%webassets/core.js"]
         ])}
     </p></details>
 `;
