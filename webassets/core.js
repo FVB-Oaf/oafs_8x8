@@ -1893,6 +1893,10 @@ const changelog_content = `
             ["%webassets/core.js"],
             ["%pack.mcmeta"]
         ])}
+    </p></details><br><details><summary><h2>v1.0.4.2 (May 12<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Re-added all UI textures as they were missed during the GitHub upload." // how?
+        ])}
     </p></details>
 `;
 const guide_content = `
