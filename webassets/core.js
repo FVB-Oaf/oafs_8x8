@@ -3,7 +3,7 @@ const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If thi
 function list2(functionInput2){
     let temp = [""];
     for(var cur in functionInput2){
-        temp2 = typeof(functionInput2[cur])
+        let temp2 = typeof(functionInput2[cur])
         if (temp2 == "string"){
             temp.push(`• ${functionInput2[cur].toString()}<br>`);
         } else if (temp2 == "object"){
