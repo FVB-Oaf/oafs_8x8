@@ -1,5 +1,5 @@
 const version = `1.0.4.1`;
-const banner = `<img src = "webassets/banner.png" class = "banner" alt = "banner wasn't able to render :&lpar;" /`;
+const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
     for(var cur in functionInput2){
@@ -1882,7 +1882,16 @@ const changelog_content = `
             ["%pack.png"],
             ["%webassets/core.js"],
             "Deleted files:",
-            ["%webassets/jump.js"]
+            ["%webassets/jump.js"] // this is a lie, I just renamed it
+        ])}
+    </p></details><br><details><summary><h2>v1.0.4.1 (May 11<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Fixed a display issue in the changelog that caused the header to render as normal text.",
+            "Made the banner alt text into something more helpful for end users.",
+            "Removed pack version from in-game description as it doesn't matter that much", // haha, they'll never know unless they come in here, but I did this because I can't be f***ing bothered to deal with this sh*t anymore! >:)
+            "Added/Modified files:",
+            ["%webassets/core.js"],
+            ["%pack.mcmeta"]
         ])}
     </p></details>
 `;
