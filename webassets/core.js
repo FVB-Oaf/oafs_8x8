@@ -1917,7 +1917,9 @@ const changelog_content = `
             ["textures/gui/sprites/advancements/tab_below_right.png"],
             ["textures/gui/sprites/advancements/tab_below_right_selected.png"]
         ])}
-    </p></details><br><details><summary><h2>v1.0.6.1 (May 16<sup>th</sup>, 2025)</h2></summary><p>
+    </p></details><br><details><summary><h2>v1.0.6.1</h2></summary><p>
+        The change notes for this update are missing.
+    </p></details><br><details><summary><h2>v1.0.6.2 (May 16<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Fixed wrong resolution of some files.",
             "Fixed a typo in the changelog for v1.0.6.0.",
