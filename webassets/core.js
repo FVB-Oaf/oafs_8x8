@@ -1,4 +1,4 @@
-const version = `1.0.8.0`;
+const version = `1.0.8.1`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -2061,6 +2061,12 @@ const changelog_content = `
             ["%overlay_1_21_6/assets/minecraft/textures/entity/ghast/happy_ghast.png"],
             ["%overlay_1_21_6/assets/minecraft/textures/entity/ghast/happy_ghast_baby.png"],
             ["%overlay_1_21_6/assets/minecraft/textures/entity/ghast/happy_ghast_ropes.png"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.8.0 (May 17<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Fixed the resolution on the top of the mangrove roots block.",
+            "Added/Modified Files:",
+            ["$textures/block/mangrove_roots_top.png"]
         ])}
     </p></details>
 `;
