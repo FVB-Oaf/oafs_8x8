@@ -1,4 +1,4 @@
-const version = `1.0.6.2`;
+const version = `1.0.6.3`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -1937,6 +1937,21 @@ const changelog_content = `
             ["textures/misc/unknown_server.png"],
             ["textures/misc/vignette.png"],
             ["textures/misc/vignette.png.mcmeta"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.6.3 (May 16<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Updated block breaking textures to be more in line with their overlay like effect.",
+            "Added/Modified Files:",
+            ["textures/block/destroy_stage_0.png"],
+            ["textures/block/destroy_stage_1.png"],
+            ["textures/block/destroy_stage_2.png"],
+            ["textures/block/destroy_stage_3.png"],
+            ["textures/block/destroy_stage_4.png"],
+            ["textures/block/destroy_stage_5.png"],
+            ["textures/block/destroy_stage_6.png"],
+            ["textures/block/destroy_stage_7.png"],
+            ["textures/block/destroy_stage_8.png"],
+            ["textures/block/destroy_stage_9.png"]
         ])}
     </p></details>
 `;
