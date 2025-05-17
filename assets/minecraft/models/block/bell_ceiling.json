@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"bar": "block/dark_oak_planks",
+		"particle": "block/bell_bottom"
+	},
+	"elements": [
+		{
+			"from": [6, 12, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 4], "texture": "#bar"},
+				"east": {"uv": [6, 0, 10, 4], "texture": "#bar"},
+				"south": {"uv": [6, 0, 10, 4], "texture": "#bar"},
+				"west": {"uv": [6, 0, 10, 4], "texture": "#bar"},
+				"up": {"uv": [6, 0, 10, 4], "texture": "#bar", "cullface": "up"}
+			}
+		}
+	]
+}
