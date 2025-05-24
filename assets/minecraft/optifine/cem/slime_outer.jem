@@ -1,1 +1,0 @@
-{"credit":"MadewithBlockbench","textureSize":[128,128],"texture":"_atlas05.png","models":[{"part":"body","id":"body","invertAxis":"xy","translate":[0,-24,0],"boxes":[{"coordinates":[-5,-1,-5,10,10,10],"uvNorth":[98,78,108,88],"uvEast":[88,78,98,88],"uvSouth":[118,78,128,88],"uvWest":[108,78,118,88],"uvUp":[78,88,68,78],"uvDown":[88,78,78,88]}]}]}
