@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/potted_azalea_bush",
+  "textures": {
+    "0": "minecraft:block/potted_flowering_azalea_bush_plant"
+  }
+}
