@@ -1,15 +1,15 @@
-const current_version = `1.0.8.4`;
-const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
+const current_version=`1.0.8.4`;
+const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
-    let temp = [""];
+    let temp=[""];
     for(var cur in functionInput2){
-        let temp2 = typeof(functionInput2[cur])
-        if (temp2 == "string"){
+        let temp2=typeof(functionInput2[cur])
+        if(temp2=="string"){
             temp.push(`• ${functionInput2[cur].toString()}<br>`);
-        } else if (temp2 == "object"){
-            if (functionInput2[cur].length==1){
+        }else if(temp2=="object"){
+            if(functionInput2[cur].length==1){
                 temp.push(`&emsp;&emsp;• ${functionInput2[cur][0].toString()}<br>`);
-            } else if (functionInput2[cur].length == 2){
+            }else if(functionInput2[cur].length==2){
                 temp.push(`${"&emsp;".repeat(functionInput2[cur][1])}• ${functionInput2[cur][0].toString()}<br>`);
             };
         };
@@ -17,7 +17,7 @@ function list2(functionInput2){
     temp.slice(1);
     return temp.join("");
 };
-const changelog_content = `
+const changelog_content=`
     ${banner}<br><br>
     <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <details><summary><h2>b1.0.0.0 (January 12<sup>th</sup>, 2025)</h2></summary><p>
@@ -2100,14 +2100,18 @@ const changelog_content = `
         ${list2([
             "Fixed broken Javascript."
         ])}
-    </p></details><br><details><summary><h2>v1.0.9.0 (May 24<sup>th</sup>, 2025)</h2></summary><p>
+    </p></details><br><details><summary><h2>v1.0.8.4 (May 24<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Made some textures into texture atlases.",
+            "Re-added 92 missing item textures (not listed).",
             "Added/Modified files:",
             ["$models/block/cartography_table.json"],
             ["$models/block/crafter.json"],
             ["$models/block/crafter_triggered.json"],
             ["$models/block/crafter_crafting.json"],
+            ["$models/block/flower_pot_cross.json"],
+            ["$models/block/pink_petals_1.json"],
+            ["$models/block/pink_petals_2.json"],
             ["$models/block/pointed_dripstone_down_base.json"],
             ["$models/block/pointed_dripstone_down_frustum.json"],
             ["$models/block/pointed_dripstone_down_middle.json"],
@@ -2118,6 +2122,12 @@ const changelog_content = `
             ["$models/block/pointed_dripstone_up_middle.json"],
             ["$models/block/pointed_dripstone_up_tip.json"],
             ["$models/block/pointed_dripstone_up_tip_merge.json"],
+            ["$models/block/potted_azalea_bush.json"],
+            ["$models/block/potted_flowering_azalea_bush.json"],
+            ["$models/block/tinted_flower_pot_cross.json"],
+            ["$textures/block/pink_petals_stem.png"],
+            ["$textures/block/potted_azalea_bush_plant.png"],
+            ["$textures/block/potted_flowering_azalea_bush_plant.png"],
             ["$textures/block/atlases/cartography_table.png"],
             ["$textures/block/atlases/crafter.png"],
             ["$textures/block/atlases/pointed_dripstone.png"],
