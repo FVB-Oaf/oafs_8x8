@@ -2,8 +2,8 @@
     "parent": "block/block",
     "textures": {
         "down": "minecraft:block/dark_oak_planks",
-        "table": "minecraft:block/cartography_table_side1",
-        "particle": "minecraft:block/cartography_table_side1"
+        "table": "minecraft:block/atlases/cartography_table",
+        "particle": "minecraft:block/atlases/cartography_table"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
