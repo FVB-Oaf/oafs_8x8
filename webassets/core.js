@@ -1,4 +1,4 @@
-const current_version = `1.0.8.3`;
+const current_version = `1.0.8.4`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -2099,6 +2099,28 @@ const changelog_content = `
     </p></details><br><details><summary><h2>v1.0.8.3 (May 23<sup>rd</sup>, 2025)</h2></summary><p>
         ${list2([
             "Fixed broken Javascript."
+        ])}
+    </p></details><br><details><summary><h2>v1.0.9.0 (May 24<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Made some textures into texture atlases.",
+            "Added/Modified files:",
+            ["$models/block/cartography_table.json"],
+            ["$models/block/crafter.json"],
+            ["$models/block/crafter_triggered.json"],
+            ["$models/block/crafter_crafting.json"],
+            ["$models/block/pointed_dripstone_down_base.json"],
+            ["$models/block/pointed_dripstone_down_frustum.json"],
+            ["$models/block/pointed_dripstone_down_middle.json"],
+            ["$models/block/pointed_dripstone_down_tip.json"],
+            ["$models/block/pointed_dripstone_down_tip_merge.json"],
+            ["$models/block/pointed_dripstone_up_base.json"],
+            ["$models/block/pointed_dripstone_up_frustum.json"],
+            ["$models/block/pointed_dripstone_up_middle.json"],
+            ["$models/block/pointed_dripstone_up_tip.json"],
+            ["$models/block/pointed_dripstone_up_tip_merge.json"],
+            ["$textures/block/atlases/cartography_table.png"],
+            ["$textures/block/atlases/crafter.png"],
+            ["$textures/block/atlases/pointed_dripstone.png"],
         ])}
     </p></details>
 `;
