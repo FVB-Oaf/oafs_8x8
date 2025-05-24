@@ -1,4 +1,4 @@
-const version = `1.0.8.1`;
+const version = `1.0.8.2`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -2062,11 +2062,39 @@ const changelog_content = `
             ["%overlay_1_21_6/assets/minecraft/textures/entity/ghast/happy_ghast_baby.png"],
             ["%overlay_1_21_6/assets/minecraft/textures/entity/ghast/happy_ghast_ropes.png"]
         ])}
-    </p></details><br><details><summary><h2>v1.0.8.0 (May 17<sup>th</sup>, 2025)</h2></summary><p>
+    </p></details><br><details><summary><h2>v1.0.8.1 (May 17<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Fixed the resolution on the top of the mangrove roots block.",
             "Added/Modified Files:",
             ["$textures/block/mangrove_roots_top.png"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.8.2 (May 23<sup>rd</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Removed unnessasary files from github.", // this is almost certainly spelled wrong lol
+            "Fixed wrong version name in previous changelog entry.",
+            "Added some missing textures.",
+            "Added/Modified Files:",
+            ["%overlay_1_21_5/assets/minecraft/textures/item/blue_egg.png"]
+            ["%overlay_1_21_5/assets/minecraft/textures/item/brown_egg.png"]
+            ["$textures/item/music_disc_5.png"]
+            ["$textures/item/music_disc_11.png"]
+            ["$textures/item/music_disc_13.png"]
+            ["$textures/item/music_disc_blocks.png"]
+            ["$textures/item/music_disc_cat.png"]
+            ["$textures/item/music_disc_chirp.png"]
+            ["$textures/item/music_disc_creator.png"]
+            ["$textures/item/music_disc_creator_music_box.png"]
+            ["$textures/item/music_disc_far.png"]
+            ["$textures/item/music_disc_mall.png"]
+            ["$textures/item/music_disc_mellohi.png"]
+            ["$textures/item/music_disc_otherside.png"]
+            ["$textures/item/music_disc_pigstep.png"]
+            ["$textures/item/music_disc_precipice.png"]
+            ["$textures/item/music_disc_relic.png"]
+            ["$textures/item/music_disc_stal.png"]
+            ["$textures/item/music_disc_strad.png"]
+            ["$textures/item/music_disc_wait.png"]
+            ["$textures/item/music_disc_ward.png"]
         ])}
     </p></details>
 `;
