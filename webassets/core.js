@@ -1,4 +1,4 @@
-const version = `1.0.8.2`;
+const current_version = `1.0.8.3`;
 const banner = `<img src = "webassets/banner.png" class = "banner" alt = "If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp = [""];
@@ -19,7 +19,7 @@ function list2(functionInput2){
 };
 const changelog_content = `
     ${banner}<br><br>
-    <h1>Local Oaf's 8&times;8 - Version ${version}</h1>
+    <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <details><summary><h2>b1.0.0.0 (January 12<sup>th</sup>, 2025)</h2></summary><p>
         • Beta release.
     </p></details><br><details><summary><h2>b1.0.1.0 (January 13<sup>th</sup>, 2025)</h2></summary><p>
@@ -2074,33 +2074,37 @@ const changelog_content = `
             "Fixed wrong version name in previous changelog entry.",
             "Added some missing textures.",
             "Added/Modified Files:",
-            ["%overlay_1_21_5/assets/minecraft/textures/item/blue_egg.png"]
-            ["%overlay_1_21_5/assets/minecraft/textures/item/brown_egg.png"]
-            ["$textures/item/music_disc_5.png"]
-            ["$textures/item/music_disc_11.png"]
-            ["$textures/item/music_disc_13.png"]
-            ["$textures/item/music_disc_blocks.png"]
-            ["$textures/item/music_disc_cat.png"]
-            ["$textures/item/music_disc_chirp.png"]
-            ["$textures/item/music_disc_creator.png"]
-            ["$textures/item/music_disc_creator_music_box.png"]
-            ["$textures/item/music_disc_far.png"]
-            ["$textures/item/music_disc_mall.png"]
-            ["$textures/item/music_disc_mellohi.png"]
-            ["$textures/item/music_disc_otherside.png"]
-            ["$textures/item/music_disc_pigstep.png"]
-            ["$textures/item/music_disc_precipice.png"]
-            ["$textures/item/music_disc_relic.png"]
-            ["$textures/item/music_disc_stal.png"]
-            ["$textures/item/music_disc_strad.png"]
-            ["$textures/item/music_disc_wait.png"]
+            ["%overlay_1_21_5/assets/minecraft/textures/item/blue_egg.png"],
+            ["%overlay_1_21_5/assets/minecraft/textures/item/brown_egg.png"],
+            ["$textures/item/music_disc_5.png"],
+            ["$textures/item/music_disc_11.png"],
+            ["$textures/item/music_disc_13.png"],
+            ["$textures/item/music_disc_blocks.png"],
+            ["$textures/item/music_disc_cat.png"],
+            ["$textures/item/music_disc_chirp.png"],
+            ["$textures/item/music_disc_creator.png"],
+            ["$textures/item/music_disc_creator_music_box.png"],
+            ["$textures/item/music_disc_far.png"],
+            ["$textures/item/music_disc_mall.png"],
+            ["$textures/item/music_disc_mellohi.png"],
+            ["$textures/item/music_disc_otherside.png"],
+            ["$textures/item/music_disc_pigstep.png"],
+            ["$textures/item/music_disc_precipice.png"],
+            ["$textures/item/music_disc_relic.png"],
+            ["$textures/item/music_disc_stal.png"],
+            ["$textures/item/music_disc_strad.png"],
+            ["$textures/item/music_disc_wait.png"],
             ["$textures/item/music_disc_ward.png"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.8.3 (May 23<sup>rd</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Fixed broken Javascript."
         ])}
     </p></details>
 `;
 const guide_content = `
     ${banner}
-    <h1>Local Oaf's 8&times;8 - Version ${version}</h1>
+    <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <p>
         Please use OptiFine and have its settings set as follows:<br>
         <br>
@@ -2126,7 +2130,7 @@ const guide_content = `
     </p>
 `;
 const credits_content = `
-    <h1>Local Oaf's 8&times;8 - Version ${version}</h1>
+    <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <p>
         Software Used:<br>
         ${list2([
