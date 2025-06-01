@@ -1,4 +1,4 @@
-const current_version=`1.0.8.4`;
+const current_version=`1.0.9.0`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2131,6 +2131,36 @@ const changelog_content=`
             ["$textures/block/atlases/cartography_table.png"],
             ["$textures/block/atlases/crafter.png"],
             ["$textures/block/atlases/pointed_dripstone.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.0.9.0 (June 1<sup>st</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Updated bamboo stalks and chorus plants to align with the grid.",
+            "Added/Modified files:",
+            ["$models/block/bamboo1_age0.json"],
+            ["$models/block/bamboo1_age1.json"],
+            ["$models/block/bamboo2_age0.json"],
+            ["$models/block/bamboo2_age1.json"],
+            ["$models/block/bamboo3_age0.json"],
+            ["$models/block/bamboo3_age1.json"],
+            ["$models/block/bamboo4_age0.json"],
+            ["$models/block/bamboo4_age1.json"],
+            ["$models/block/cartography_table.json"],
+            ["$models/block/chorus_plant_noside1.json"],
+            ["$models/block/chorus_plant_noside2.json"],
+            ["$models/block/chorus_plant_noside3.json"],
+            ["$models/block/cocoa_stage0.json"],
+            ["$models/block/cocoa_stage1.json"],
+            ["$models/block/cocoa_stage2.json"],
+            ["$models/block/crafter.json"],
+            ["$models/block/crafter_crafting.json"],
+            ["$models/block/crafter_triggered.json"],
+            ["$textures/block/bamboo_stalk.png"],
+            ["$textures/block/_oaf/bamboo_stalk_end.png"],
+            ["$textures/block/_oaf/cartography_table.png"],
+            ["$textures/block/_oaf/cocoa.png"],
+            ["$textures/block/_oaf/cartography_table.png"],
+            ["$textures/block/_oaf/invisible.png"],
+            ["$textures/block/_oaf/pointed_dripstone.png"],
         ])}
     </p></details>
 `;
