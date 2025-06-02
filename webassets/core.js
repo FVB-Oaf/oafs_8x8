@@ -1,4 +1,4 @@
-const current_version=`1.0.9.0`;
+const current_version=`1.0.9.1`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2161,6 +2161,15 @@ const changelog_content=`
             ["$textures/block/_oaf/cartography_table.png"],
             ["$textures/block/_oaf/invisible.png"],
             ["$textures/block/_oaf/pointed_dripstone.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.0.9.1 (June 1<sup>st</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Backend changes",
+            "Added/Modified files:",
+            ["%overlay_1_21_5/assets/minecraft/textures/block/bush.png"],
+            "Removed files:",
+            ["%overlay_1_21_6/..."],
+            ["$textures/block/bush.png"]
         ])}
     </p></details>
 `;
