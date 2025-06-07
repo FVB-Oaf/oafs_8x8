@@ -1,4 +1,4 @@
-const current_version=`1.0.9.2`;
+const current_version=`1.0.10.0`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2177,6 +2177,13 @@ const changelog_content=`
             "Fixed 1.21.5 support.",
             "Added/Modified files:",
             ["%pack.mcmets"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.10.0 (June 2<sup>st</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Downscaled textures.",
+            "Added/Modified files:",
+            ["$textures/gui/realms/no_realms.png"],
+            ["$textures/gui/realms/snapshot_realms.png"]
         ])}
     </p></details>
 `;
