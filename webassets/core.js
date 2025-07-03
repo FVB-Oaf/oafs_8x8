@@ -1,4 +1,4 @@
-const current_version=`1.0.11.0-pre01`;
+const current_version=`1.0.11.0-pre02`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2271,6 +2271,102 @@ const changelog_content=`
             ["%overlay_1_21_6/assets/minecraft/optifine/cem/warm_cow.jem"],//custom models for 1.21.5 entities currently do not load
             ["%overlay_1_21_6/assets/minecraft/optifine/cem/warm_pig.bbmodel"],//custom models for 1.21.5 entities currently do not load
             ["%overlay_1_21_6/assets/minecraft/optifine/cem/warm_pig.jem"]//custom models for 1.21.5 entities currently do not load
+        ])}
+    </p></details><br><details><summary><h2>v1.0.11.0-pre02 (July 3<sup>rd</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Began toying with Bedrock support and textures some things.",
+            "Added/Modified files:",
+            ["%manifest.json"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/blue_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/brown_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/cyan_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/gray_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/green_harness.png"],//this texture needs more work (pre01)
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/light_blue_harness.png"],//this texture needs more work (pre01)
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/light_gray_harness.png"],//this texture needs more work (pre01)
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/lime_harness.png"],//this texture needs more work (pre01)
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/magenta_harness.png"],//this texture needs more work (pre01)
+            ["%textures/blocks/azalea_leaves_flowers_opaque.png"],
+            ["%textures/blocks/azalea_leaves_opaque.png"],
+            ["%textures/blocks/bamboo_leaf.png"],
+            ["%textures/blocks/bamboo_small_leaf.png"],
+            ["%textures/blocks/bed_feet_end.png"],
+            ["%textures/blocks/bed_feet_side.png"],
+            ["%textures/blocks/bed_feet_top.png"],
+            ["%textures/blocks/bed_head_end.png"],
+            ["%textures/blocks/bed_head_side.png"],
+            ["%textures/blocks/bed_head_top.png"],
+            ["%textures/blocks/border.png"],
+            ["%textures/blocks/bubble_column_down_top_a.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_down_top_b.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_down_top_c.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_down_top_d.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_a.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_b.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_c.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_d.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_e.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_f.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_g.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_inner_h.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_up_top_a.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_up_top_b.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_up_top_c.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/bubble_column_up_top_d.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/build_allow.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/build_deny.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/camera_back.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/camera_front.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/camera_side.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/camera_top.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/carried_waterlily.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/cauldron_water.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/chain1.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/chain2.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/cherry_leaves_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/chest_front.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/chest_side.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/chest_top.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/command_block.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/double_plant_fern_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/double_plant_grass_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/end_gateway.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/end_portal.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/ender_chest_front.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/ender_chest_side.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/ender_chest_top.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/fern_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/flower_paeonia.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/flower_rose_blue.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/glowing_obsidian.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/grass_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/grass_side.tga"],
+            ["%textures/blocks/grass_side.xcf"],
+            ["%textures/blocks/leaves_acacia_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/leaves_big_oak_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/leaves_birch_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/leaves_jungle_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/leaves_oak_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/leaves_spruce_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/mangrove_leaves_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/missing_tile.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/pale_oak_leaves_opaque.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/reactor_core_stage_0.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/reactor_core_stage_1.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/reactor_core_stage_2.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/redstone_dust_cross.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/redstone_dust_line.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/seagrass_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/stonecutter_bottom.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/stonecutter_other_side.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/stonecutter_side.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/stonecutter_top.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/structure_air.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/structure_void.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/trapped_chest_front.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/vine_carried.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/water_flow.png"],//this texture needs more work (pre02)
+            ["%textures/blocks/water_still.png"]//this texture needs more work (pre02)
         ])}
     </p></details>
 `;
