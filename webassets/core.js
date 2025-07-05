@@ -1,4 +1,4 @@
-const current_version=`1.0.11.0-pre02`;
+const current_version=`1.0.11.0-pre03`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2367,6 +2367,38 @@ const changelog_content=`
             ["%textures/blocks/vine_carried.png"],//this texture needs more work (pre02)
             ["%textures/blocks/water_flow.png"],//this texture needs more work (pre02)
             ["%textures/blocks/water_still.png"]//this texture needs more work (pre02)
+        ])}
+    </p></details><br><details><summary><h2>v1.0.11.0-pre03 (July 5<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%manifest.json"],
+            ["%overlay_1_21_5/assets/minecraft/textures/entity/chicken/temperate_chicken.png"],
+            ["%overlay_1_21_5/assets/minecraft/textures/entity/cow/brown_mooshroom.png"],
+            ["%overlay_1_21_5/assets/minecraft/textures/entity/cow/red_mooshroom.png"],
+            ["%overlay_1_21_5/assets/minecraft/textures/entity/cow/temperate_cow.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/orange_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/pink_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/purple_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/red_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/white_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/entity/equipment/happy_ghast_body/yellow_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/black_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/blue_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/brown_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/cyan_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/gray_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/green_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/happy_ghast_spawn_egg.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/light_blue_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/light_gray_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/lime_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/magenta_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/orange_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/pink_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/purple_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/red_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/white_harness.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/item/yellow_harness.png"],
         ])}
     </p></details>
 `;
