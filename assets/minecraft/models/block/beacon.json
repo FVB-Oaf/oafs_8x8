@@ -1,0 +1,34 @@
+{   
+    "parent":"block/block",
+    "textures":{"particle":"block/glass","gl":"block/glass","ob":"block/obsidian","b1":"block/beacon","b2":"block/_oaf/beacon2"},
+    "elements":[
+        {
+            "from":[0,0,0],"to":[16,16,16],"faces":{
+                "down": {"texture":"#b2","cullface":"down"},
+                "up":   {"texture":"#gl","cullface":"up"},
+                "north":{"texture":"#gl","cullface":"north"},
+                "south":{"texture":"#gl","cullface":"south"},
+                "west": {"texture":"#gl","cullface":"west"},
+                "east": {"texture":"#gl","cullface":"east"}
+            }
+        },
+        {
+            "from":[2,0,2],"to":[14,4,14],"faces":{
+                "up":   {"texture":"#ob"},
+                "north":{"texture":"#ob"},
+                "south":{"texture":"#ob"},
+                "west": {"texture":"#ob"},
+                "east": {"texture":"#ob"}
+            }
+        },
+        {
+            "from":[4,4,4],"to":[12,12,12],"faces":{
+                "up":   {"texture":"#b1"},
+                "north":{"texture":"#b1"},
+                "south":{"texture":"#b1"},
+                "west": {"texture":"#b1"},
+                "east": {"texture":"#b1"}
+            }
+        }
+    ]
+}
