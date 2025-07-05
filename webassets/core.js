@@ -1,4 +1,4 @@
-const current_version=`1.0.11.0-pre06`;
+const current_version=`1.0.11.0-pre07`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2434,6 +2434,40 @@ const changelog_content=`
             ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_3.png"],
             ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_4.png"],
             ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_5.png"]
+        ])}
+    </p></details><br><details><summary><h2>v1.0.11.0-pre07 (July 5<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Better support for old versions and UI fixes",
+            "Added/Modified files:",
+            ["%pack.mcmeta"],
+            ["%assets/minecraft/models/block/beacon.json"],
+            ["%assets/minecraft/textures/block/_oaf/beacon2.png"],
+            ["%assets/minecraft/textures/gui/recipe_book.png"],
+            ["%assets/minecraft/textures/gui/recipe_button.png"],
+            ["%assets/minecraft/textures/gui/container/anvil.png"],
+            ["%assets/minecraft/textures/gui/container/beacon.png"],
+            ["%assets/minecraft/textures/gui/container/blast_furnace.png"],
+            ["%assets/minecraft/textures/gui/container/brewing_stand.png"],
+            ["%assets/minecraft/textures/gui/container/cartography_table.png"],
+            ["%assets/minecraft/textures/gui/container/grindstone.png"],
+            ["%assets/minecraft/textures/gui/container/loom.png"],
+            ["%assets/minecraft/textures/gui/container/shulker_box.png"],
+            ["%assets/minecraft/textures/gui/container/smithing.png"],
+            ["%assets/minecraft/textures/gui/container/stonecutter.png"],
+            ["%assets/minecraft/textures/gui/container/villager.png"],
+            ["%assets/minecraft/textures/gui/container/villager2.png"],
+            ["%assets/minecraft/textures/gui/container/creative_inventory/tabs.png"],
+            ["%assets/minecraft/textures/gui/title/edition.png"],
+            ["%assets/minecraft/textures/gui/title/minecraft.png"],
+            ["%assets/minecraft/textures/gui/title/mojangstudios.png"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/edition.png"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/edition.png.mcmeta"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/minceraft.png"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/minceraft.png.mcmeta"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/minecraft.png"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/minecraft.png.mcmeta"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/realms.png"],
+            ["%overlay_1_20_0/assets/minecraft/textures/gui/title/realms.png.mcmeta"],
         ])}
     </p></details>
 `;
