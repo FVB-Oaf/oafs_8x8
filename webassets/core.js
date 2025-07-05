@@ -1,4 +1,4 @@
-const current_version=`1.0.11.0-pre05`;
+const current_version=`1.0.11.0-pre06`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2415,6 +2415,25 @@ const changelog_content=`
             "Added/Modified files:",
             ["%assets/minecraft/textures/entity/spider/cave_spider.png"],
             ["%assets/minecraft/textures/entity/spider/spider.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.0.11.0-pre06 (July 5<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Versions before 1.21.4 now use the classic panorama.",
+            "Added/Modified files:",
+            ["%pack.mcmeta"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_0.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_1.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_2.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_3.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_4.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_5.png"],
+            ["%assets/minecraft/textures/gui/title/background/panorama_overlay.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_0.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_1.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_2.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_3.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_4.png"],
+            ["%overlay_1_21_4/assets/minecraft/textures/gui/title/background/panorama_5.png"]
         ])}
     </p></details>
 `;
