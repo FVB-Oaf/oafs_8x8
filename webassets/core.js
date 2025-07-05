@@ -1,4 +1,4 @@
-const current_version=`1.0.11.0-pre03`;
+const current_version=`1.0.11.0-pre04`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2399,6 +2399,15 @@ const changelog_content=`
             ["%overlay_1_21_6/assets/minecraft/textures/item/red_harness.png"],
             ["%overlay_1_21_6/assets/minecraft/textures/item/white_harness.png"],
             ["%overlay_1_21_6/assets/minecraft/textures/item/yellow_harness.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.0.11.0-pre04 (July 5<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Corrected dried ghast texture scaling.",
+            "Added/Modified files:",
+            ["%overlay_1_21_6/assets/minecraft/textures/block/dried_ghast_hydration_0_bottom.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/block/dried_ghast_hydration_1_bottom.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/block/dried_ghast_hydration_2_bottom.png"],
+            ["%overlay_1_21_6/assets/minecraft/textures/block/dried_ghast_hydration_3_bottom.png"]
         ])}
     </p></details>
 `;
