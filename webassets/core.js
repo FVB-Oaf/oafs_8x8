@@ -2482,6 +2482,7 @@ const changelog_content=`
     </p></details><br><details><summary><h2>v1.0.11.1 (July 19<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Fixed chests & beds in the GUI.",
+            "Changed the HTML banner.",
             "Added/Modified files:",
             ["%_changelog.html"],
             ["%_credits.html"],
