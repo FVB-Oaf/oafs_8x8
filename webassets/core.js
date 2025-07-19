@@ -1,6 +1,6 @@
-const current_version=`1.0.11.0`;
+const current_version=`1.0.11.1`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
-const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
+const banner=``;
 function list2(functionInput2){
     let temp=[""];
     for(var cur in functionInput2){
@@ -2479,9 +2479,78 @@ const changelog_content=`
             ["%overlay_1_21_7/assets/minecraft/textures/item/music_disc_lava_chicken.png"],
             ["%overlay_1_21_7/assets/minecraft/textures/painting/dennis.png"]
         ])}
+    </p></details><br><details><summary><h2>v1.0.11.1 (July 19<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Fixed chests & beds in the GUI.",
+            "Added/Modified files:",
+            ["%_changelog.html"],
+            ["%_credits.html"],
+            ["%_guide.html"],
+            ["%assets/minecraft/items/black_bed.json"],
+            ["%assets/minecraft/items/blue_bed.json"],
+            ["%assets/minecraft/items/brown_bed.json"],
+            ["%assets/minecraft/items/chest.json"],
+            ["%assets/minecraft/items/cyan_bed.json"],
+            ["%assets/minecraft/items/ender_chest.json"],
+            ["%assets/minecraft/items/gray_bed.json"],
+            ["%assets/minecraft/items/green_bed.json"],
+            ["%assets/minecraft/items/light_blue_bed.json"],
+            ["%assets/minecraft/items/light_gray_bed.json"],
+            ["%assets/minecraft/items/lime_bed.json"],
+            ["%assets/minecraft/items/magenta_bed.json"],
+            ["%assets/minecraft/items/orange_bed.json"],
+            ["%assets/minecraft/items/pink_bed.json"],
+            ["%assets/minecraft/items/purple_bed.json"],
+            ["%assets/minecraft/items/red_bed.json"],
+            ["%assets/minecraft/items/trapped_chest.json"],
+            ["%assets/minecraft/items/white_bed.json"],
+            ["%assets/minecraft/items/yellow_bed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_blackbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_bluebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_brownbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_chest.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_cyanbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_enderchest.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_graybed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_greenbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_lightbluebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_lightgraybed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_limebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_magentabed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_orangebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_pinkbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_purplebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_redbed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_trappedchest.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_whitebed.json"],
+            ["%assets/minecraft/models/item/_oaf/8x8_yellowbed.json"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_blackbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_bluebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_brownbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_chest.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_cyanbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_enderchest.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_graybed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_greenbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_lightbluebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_lightgraybed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_limebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_magentabed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_orangebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_pinkbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_purplebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_redbed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_trappedchest.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_whitebed.png"],
+            ["%assets/minecraft/textures/item/_oaf/8x8_yellowbed.png"],
+            ["%webassets/banner.png"],
+            ["%webassets/banner_old.png"],
+            ["%webassets/core.js"],
+            ["%webassets/guide.css"]
+        ])}
     </p></details>
 `;
-const guide_content = `
+const guide_content=`
     ${banner}<br>
     <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <p>
@@ -2501,16 +2570,16 @@ const guide_content = `
         <br>
         <span class = "smallText">
             This resource pack and its creator are in no way affiliated with 
-            <a href = "https://optifine.net/home/" class = "greyLink">OptiFine</a>,
-            <a href = "https://www.microsoft.com/en-us/" class = "greyLink">Microsoft&reg;</a>, 
-            <a href = "https://www.minecraft.net/en-us/article/meet-mojang-studios/" class = "greyLink">Mojang Studios&trade;</a>, 
-            <a href = "https://www.minecraft.net/en-us/" class = "greyLink">Minecraft&reg;</a>, 
-            <a href = "https://www.curseforge.com/" class = "greyLink">CurseForge&reg;</a>, 
+            <a href="https://optifine.net/home/"class="greyLink">OptiFine</a>,
+            <a href="https://www.microsoft.com/en-us/"class="greyLink">Microsoft&reg;</a>, 
+            <a href="https://www.minecraft.net/en-us/article/meet-mojang-studios/"class="greyLink">Mojang Studios&trade;</a>, 
+            <a href="https://www.minecraft.net/en-us/"class="greyLink">Minecraft&reg;</a>, 
+            <a href="https://www.curseforge.com/"class="greyLink">CurseForge&reg;</a>, 
             or any employees/contractors of these organizations.
         </span>
     </p>
 `;
-const credits_content = `
+const credits_content=`
     <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <p>
         Software Used:<br>
@@ -2553,24 +2622,8 @@ const credits_content = `
         &emsp;&emsp;• Entity models
     </p>
 `;
-window.onload = function(){
-    try {
-        document.getElementById("changelog_content").innerHTML = `${changelog_content}`;
-    } catch {
-        console.log("no element named changelog_content found, skipping...");
-    };
-
-
-    try {
-        document.getElementById("guide_content").innerHTML = `${guide_content}`;
-    } catch {
-        console.log("no element named guide_content found, skipping...");
-    };
-
-
-    try{
-        document.getElementById("credits_content").innerHTML = `${credits_content}`;
-    } catch {
-        console.log("no element named credits_content found, skipping...");
-    };
+window.onload=function(){
+    try{document.getElementById("changelog_content").innerHTML=`${changelog_content}`;}catch{console.log("no element named changelog_content found, skipping...");};
+    try{document.getElementById("guide_content").innerHTML=`${guide_content}`;}catch{console.log("no element named guide_content found, skipping...");};
+    try{document.getElementById("credits_content").innerHTML=`${credits_content}`;}catch{console.log("no element named credits_content found, skipping...");};
 };
