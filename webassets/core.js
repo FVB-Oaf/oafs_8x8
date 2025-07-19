@@ -1,4 +1,5 @@
-const current_version=`1.0.11.0-pre07`;
+const current_version=`1.0.11.0`;
+const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="webassets/banner.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!" /`;
 function list2(functionInput2){
     let temp=[""];
@@ -2469,10 +2470,19 @@ const changelog_content=`
             ["%overlay_1_20_0/assets/minecraft/textures/gui/title/realms.png"],
             ["%overlay_1_20_0/assets/minecraft/textures/gui/title/realms.png.mcmeta"],
         ])}
+    </p></details><br><details><summary><h2>v1.0.11.0 (July 19<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Support for the 1.21.7 update.",
+            "Added/Modified files:",
+            ["%pack.mcmeta"],
+            ["%webassets/core.js"],
+            ["%overlay_1_21_7/assets/minecraft/textures/item/music_disc_lava_chicken.png"],
+            ["%overlay_1_21_7/assets/minecraft/textures/painting/dennis.png"]
+        ])}
     </p></details>
 `;
 const guide_content = `
-    ${banner}
+    ${banner}<br>
     <h1>Local Oaf's 8&times;8 - Version ${current_version}</h1>
     <p>
         Please use OptiFine and have its settings set as follows:<br>
@@ -2485,6 +2495,8 @@ const guide_content = `
         The latest version of OptiFine can be downloaded <a href = "https://optifine.net/downloads">here</a>.<br>
         The changelog can be viewed <a href = "_changelog.html#latest">here</a>.<br>
         The credits can be viewed <a href = "_credits.html#home">here</a>.<br>
+        <br>
+        This version is developed on ${current_ofnvers}<br>
         <br>
         <br>
         <span class = "smallText">
