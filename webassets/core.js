@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre03`;
+const current_version=`1.1.0.0-pre04`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=``;
 function list2(functionInput2){
@@ -4075,11 +4075,11 @@ const changelog_content=`
             ["assets/minecraft/textures/entity/alex.png"],
             ["assets/minecraft/textures/entity/armadillo_potato.png"],
             ["assets/minecraft/textures/entity/batato.png"],
-            ["assets/minecraft/textures/entity/chicken_potato.png"],//needs work
-            ["assets/minecraft/textures/entity/plaguewhale.png"],//needs work
-            ["assets/minecraft/textures/entity/poisonous_elytra.png"],//needs work
+            ["assets/minecraft/textures/entity/chicken_potato.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/entity/plaguewhale.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/entity/poisonous_elytra.png"],//needs work v1.1.0.0-pre03
             ["assets/minecraft/textures/entity/steve.png"],
-            ["assets/minecraft/textures/entity/toxifin.png"],//needs work
+            ["assets/minecraft/textures/entity/toxifin.png"],//needs work v1.1.0.0-pre03
             ["assets/minecraft/textures/entity/toxifin_beam.png"],
             ["assets/minecraft/textures/entity/angry_ghast/ghast.png"],
             ["assets/minecraft/textures/entity/angry_ghast/ghast_shooting.png"],
@@ -4235,7 +4235,7 @@ const changelog_content=`
             ["assets/minecraft/textures/item/enderman_spawn_egg.png"],
             ["assets/minecraft/textures/item/endermite_spawn_egg.png"],
             ["assets/minecraft/textures/item/evoker_spawn_egg.png"],
-            ["assets/minecraft/textures/item/exit_eye.png"],
+            ["assets/minecraft/textures/item/exit_eye.png"],//needs work v1.1.0.0-pre03
             ["assets/minecraft/textures/item/fine_item.png"],
             ["assets/minecraft/textures/item/firefly_bush.png"],
             ["assets/minecraft/textures/item/float_tag.png"],
@@ -4392,15 +4392,15 @@ const changelog_content=`
             ["assets/minecraft/textures/mob_effect/big.png"],
             ["assets/minecraft/textures/mob_effect/small.png"],
             ["assets/minecraft/textures/mob_effect/sticky.png"],
-            ["assets/minecraft/textures/models/armor/beret.png"],//needs work
-            ["assets/minecraft/textures/models/armor/chainmail_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/diamond_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/gold_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/iron_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/leather_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/leather_piglin_helmet_overlay.png"],//needs work
-            ["assets/minecraft/textures/models/armor/netherite_piglin_helmet.png"],//needs work
-            ["assets/minecraft/textures/models/armor/potato_layer_1.png"],//needs work
+            ["assets/minecraft/textures/models/armor/beret.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/chainmail_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/diamond_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/gold_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/iron_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/leather_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/leather_piglin_helmet_overlay.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/netherite_piglin_helmet.png"],//needs work v1.1.0.0-pre03
+            ["assets/minecraft/textures/models/armor/potato_layer_1.png"],//needs work v1.1.0.0-pre03
             ["assets/minecraft/textures/painting/abstracto.png"],
             ["assets/minecraft/textures/painting/burning_potato.png"],
             ["assets/minecraft/textures/painting/ceci.png"],
@@ -4426,36 +4426,1148 @@ const changelog_content=`
             ["assets/nothingtoseeheremovealong/textures/gui/title/background/panorama_4.png"],
             ["assets/nothingtoseeheremovealong/textures/gui/title/background/panorama_5.png"],
             ["assets/realms/textures/gui/realms/accept_icon.png"],
-            ["assets/realms/textures/gui/realms/adventure.png"],//needs work
-            ["assets/realms/textures/gui/realms/cross_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/cross_player_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/darken.png"],//needs work
-            ["assets/realms/textures/gui/realms/empty_frame.png"],//needs work
-            ["assets/realms/textures/gui/realms/experience.png"],//needs work
-            ["assets/realms/textures/gui/realms/expired_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/expires_soon_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/inspiration.png"],//needs work
-            ["assets/realms/textures/gui/realms/invitation_icons.png"],//needs work
-            ["assets/realms/textures/gui/realms/invite_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/link_icons.png"],//needs work
-            ["assets/realms/textures/gui/realms/new_world.png"],//needs work
-            ["assets/realms/textures/gui/realms/news_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/news_notification_mainscreen.png"],//needs work
-            ["assets/realms/textures/gui/realms/off_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/on_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/op_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/plus_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/popup.png"],//needs work
-            ["assets/realms/textures/gui/realms/reject_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/restore_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/slot_frame.png"],//needs work
-            ["assets/realms/textures/gui/realms/survival_spawn.png"],//needs work
-            ["assets/realms/textures/gui/realms/trailer_icons.png"],//needs work
-            ["assets/realms/textures/gui/realms/trial_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/upload.png"],//needs work
-            ["assets/realms/textures/gui/realms/user_icon.png"],//needs work
-            ["assets/realms/textures/gui/realms/world_icon.png"],//needs work
-            ["assets/realms/textures/gui/title/realms.png"],//needs work
+            ["assets/realms/textures/gui/realms/adventure.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/cross_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/cross_player_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/darken.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/empty_frame.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/experience.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/expired_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/expires_soon_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/inspiration.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/invitation_icons.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/invite_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/link_icons.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/new_world.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/news_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/news_notification_mainscreen.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/off_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/on_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/op_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/plus_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/popup.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/reject_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/restore_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/slot_frame.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/survival_spawn.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/trailer_icons.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/trial_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/upload.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/user_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/realms/world_icon.png"],//needs work v1.1.0.0-pre03
+            ["assets/realms/textures/gui/title/realms.png"],//needs work v1.1.0.0-pre03
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre04 (August 10<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%manifest.json"],//say WIP
+            ["%pack_icon.png"],//say WIP
+            ["%assets/minecraft/textures/item/music_disc_tears.png"],
+            ["%assets/realms/textures/gui/realms/adventure.png"],
+            ["%assets/realms/textures/gui/realms/cross_icon.png"],
+            ["%assets/realms/textures/gui/realms/cross_player_icon.png"],
+            ["%assets/realms/textures/gui/realms/darken.png"],
+            ["%assets/realms/textures/gui/realms/empty_frame.png"],
+            ["%assets/realms/textures/gui/realms/experience.png"],
+            ["%assets/realms/textures/gui/realms/expired_icon.png"],
+            ["%assets/realms/textures/gui/realms/expires_soon_icon.png"],
+            ["%assets/realms/textures/gui/realms/inspiration.png"],
+            ["%assets/realms/textures/gui/realms/invitation_icons.png"],
+            ["%assets/realms/textures/gui/realms/invite_icon.png"],
+            ["%assets/realms/textures/gui/realms/link_icons.png"],
+            ["%assets/realms/textures/gui/realms/new_world.png"],
+            ["%assets/realms/textures/gui/realms/news_icon.png"],
+            ["%assets/realms/textures/gui/realms/news_notification_mainscreen.png"],
+            ["%assets/realms/textures/gui/realms/off_icon.png"],
+            ["%assets/realms/textures/gui/realms/on_icon.png"],
+            ["%assets/realms/textures/gui/realms/op_icon.png"],
+            ["%assets/realms/textures/gui/realms/plus_icon.png"],
+            ["%assets/realms/textures/gui/realms/popup.png"],
+            ["%assets/realms/textures/gui/realms/reject_icon.png"],
+            ["%assets/realms/textures/gui/realms/restore_icon.png"],
+            ["%assets/realms/textures/gui/realms/slot_frame.png"],
+            ["%assets/realms/textures/gui/realms/survival_spawn.png"],
+            ["%assets/realms/textures/gui/realms/trailer_icons.png"],
+            ["%assets/realms/textures/gui/realms/trial_icon.png"],
+            ["%assets/realms/textures/gui/realms/upload.png"],
+            ["%assets/realms/textures/gui/realms/user_icon.png"],
+            ["%assets/realms/textures/gui/realms/world_icon.png"],
+            ["%assets/realms/textures/gui/title/realms.png"],
+            ["%textures/flame_atlas.png"],
+            ["%textures/flame_atlas.xcf"],
+            ["%textures/forcefield_atlas.png"],
+            ["%textures/items/acacia_chest_boat.png"],
+            ["%textures/items/acacia_hanging_sign.png"],
+            ["%textures/items/amethyst_shard.png"],
+            ["%textures/items/angler_pottery_sherd.png"],
+            ["%textures/items/apple.png"],
+            ["%textures/items/apple_golden.png"],
+            ["%textures/items/archer_pottery_sherd.png"],
+            ["%textures/items/armadillo_scute.png"],
+            ["%textures/items/armor_stand.png"],
+            ["%textures/items/arms_up_pottery_sherd.png"],
+            ["%textures/items/arrow.png"],
+            ["%textures/items/bamboo.png"],
+            ["%textures/items/bamboo_chest_raft.png"],
+            ["%textures/items/bamboo_door.png"],
+            ["%textures/items/bamboo_hanging_sign.png"],
+            ["%textures/items/bamboo_raft.png"],
+            ["%textures/items/bamboo_sign.png"],
+            ["%textures/items/banner_pattern.png"],
+            ["%textures/items/bed_black.png"],
+            ["%textures/items/bed_blue.png"],
+            ["%textures/items/bed_brown.png"],
+            ["%textures/items/bed_cyan.png"],
+            ["%textures/items/bed_gray.png"],
+            ["%textures/items/bed_green.png"],
+            ["%textures/items/bed_light_blue.png"],
+            ["%textures/items/bed_lime.png"],
+            ["%textures/items/bed_magenta.png"],
+            ["%textures/items/bed_orange.png"],
+            ["%textures/items/bed_pink.png"],
+            ["%textures/items/bed_purple.png"],
+            ["%textures/items/bed_red.png"],
+            ["%textures/items/bed_silver.png"],
+            ["%textures/items/bed_white.png"],
+            ["%textures/items/bed_yellow.png"],
+            ["%textures/items/beef_cooked.png"],
+            ["%textures/items/beef_raw.png"],
+            ["%textures/items/beetroot.png"],
+            ["%textures/items/beetroot_soup.png"],
+            ["%textures/items/birch_chest_boat.png"],
+            ["%textures/items/birch_hanging_sign.png"],
+            ["%textures/items/blade_pottery_sherd.png"],
+            ["%textures/items/blaze_powder.png"],
+            ["%textures/items/blaze_rod.png"],
+            ["%textures/items/blue_egg.png"],
+            ["%textures/items/boat.png"],
+            ["%textures/items/boat_acacia.png"],
+            ["%textures/items/boat_birch.png"],
+            ["%textures/items/boat_dark_oak.png"],
+            ["%textures/items/boat_darkoak.png"],
+            ["%textures/items/boat_jungle.png"],
+            ["%textures/items/boat_oak.png"],
+            ["%textures/items/boat_spruce.png"],
+            ["%textures/items/bolt_armor_trim_smithing_template.png"],
+            ["%textures/items/bone.png"],
+            ["%textures/items/book_enchanted.png"],
+            ["%textures/items/book_nomal.png"],
+            ["%textures/items/book_normal.png"],
+            ["%textures/items/book_portfolio.png"],
+            ["%textures/items/book_writable.png"],
+            ["%textures/items/book_written.png"],
+            ["%textures/items/bordure_indented_banner_pattern.png"],
+            ["%textures/items/bow_pulling_0.png"],
+            ["%textures/items/bow_pulling_1.png"],
+            ["%textures/items/bow_pulling_2.png"],
+            ["%textures/items/bow_standby.png"],
+            ["%textures/items/bowl.png"],
+            ["%textures/items/bread.png"],
+            ["%textures/items/breeze_rod.png"],
+            ["%textures/items/brewer_pottery_sherd.png"],
+            ["%textures/items/brewing_stand.png"],
+            ["%textures/items/brick.png"],
+            ["%textures/items/broken_elytra.png"],
+            ["%textures/items/brown_egg.png"],
+            ["%textures/items/brush.png"],
+            ["%textures/items/bucket_axolotl.png"],
+            ["%textures/items/bucket_cod.png"],
+            ["%textures/items/bucket_empty.png"],
+            ["%textures/items/bucket_lava.png"],
+            ["%textures/items/bucket_milk.png"],
+            ["%textures/items/bucket_powder_snow.png"],
+            ["%textures/items/bucket_pufferfish.png"],
+            ["%textures/items/bucket_salmon.png"],
+            ["%textures/items/bucket_tadpole.png"],
+            ["%textures/items/bucket_tropical.png"],
+            ["%textures/items/bucket_water.png"],
+            ["%textures/items/bundle.png"],
+            ["%textures/items/bundle_black.png"],
+            ["%textures/items/bundle_black_open.png"],
+            ["%textures/items/bundle_black_open_back.png"],
+            ["%textures/items/bundle_black_open_front.png"],
+            ["%textures/items/bundle_blue.png"],
+            ["%textures/items/bundle_blue_open.png"],
+            ["%textures/items/bundle_blue_open_back.png"],
+            ["%textures/items/bundle_blue_open_front.png"],
+            ["%textures/items/bundle_brown.png"],
+            ["%textures/items/bundle_brown_open.png"],
+            ["%textures/items/bundle_brown_open_back.png"],
+            ["%textures/items/bundle_brown_open_front.png"],
+            ["%textures/items/bundle_cyan.png"],
+            ["%textures/items/bundle_cyan_open.png"],
+            ["%textures/items/bundle_cyan_open_back.png"],
+            ["%textures/items/bundle_cyan_open_front.png"],
+            ["%textures/items/bundle_gray.png"],
+            ["%textures/items/bundle_gray_open.png"],
+            ["%textures/items/bundle_gray_open_back.png"],
+            ["%textures/items/bundle_gray_open_front.png"],
+            ["%textures/items/bundle_green.png"],
+            ["%textures/items/bundle_green_open.png"],
+            ["%textures/items/bundle_green_open_back.png"],
+            ["%textures/items/bundle_green_open_front.png"],
+            ["%textures/items/bundle_light_blue.png"],
+            ["%textures/items/bundle_light_blue_open.png"],
+            ["%textures/items/bundle_light_blue_open_back.png"],
+            ["%textures/items/bundle_light_blue_open_front.png"],
+            ["%textures/items/bundle_light_gray.png"],
+            ["%textures/items/bundle_light_gray_open.png"],
+            ["%textures/items/bundle_light_gray_open_back.png"],
+            ["%textures/items/bundle_light_gray_open_front.png"],
+            ["%textures/items/bundle_lime.png"],
+            ["%textures/items/bundle_lime_open.png"],
+            ["%textures/items/bundle_lime_open_back.png"],
+            ["%textures/items/bundle_lime_open_front.png"],
+            ["%textures/items/bundle_magenta.png"],
+            ["%textures/items/bundle_magenta_open.png"],
+            ["%textures/items/bundle_magenta_open_back.png"],
+            ["%textures/items/bundle_magenta_open_front.png"],
+            ["%textures/items/bundle_open.png"],
+            ["%textures/items/bundle_open_back.png"],
+            ["%textures/items/bundle_open_front.png"],
+            ["%textures/items/bundle_orange.png"],
+            ["%textures/items/bundle_orange_open.png"],
+            ["%textures/items/bundle_orange_open_back.png"],
+            ["%textures/items/bundle_orange_open_front.png"],
+            ["%textures/items/bundle_pink.png"],
+            ["%textures/items/bundle_pink_open.png"],
+            ["%textures/items/bundle_pink_open_back.png"],
+            ["%textures/items/bundle_pink_open_front.png"],
+            ["%textures/items/bundle_purple.png"],
+            ["%textures/items/bundle_purple_open.png"],
+            ["%textures/items/bundle_purple_open_back.png"],
+            ["%textures/items/bundle_purple_open_front.png"],
+            ["%textures/items/bundle_red.png"],
+            ["%textures/items/bundle_red_open.png"],
+            ["%textures/items/bundle_red_open_back.png"],
+            ["%textures/items/bundle_red_open_front.png"],
+            ["%textures/items/bundle_white.png"],
+            ["%textures/items/bundle_white_open.png"],
+            ["%textures/items/bundle_white_open_back.png"],
+            ["%textures/items/bundle_white_open_front.png"],
+            ["%textures/items/bundle_yellow.png"],
+            ["%textures/items/bundle_yellow_open.png"],
+            ["%textures/items/bundle_yellow_open_back.png"],
+            ["%textures/items/bundle_yellow_open_front.png"],
+            ["%textures/items/burn_pottery_sherd.png"],
+            ["%textures/items/bush.png"],
+            ["%textures/items/cake.png"],
+            ["%textures/items/campfire.png"],
+            ["%textures/items/carrot.png"],
+            ["%textures/items/carrot_golden.png"],
+            ["%textures/items/carrot_on_a_stick.png"],
+            ["%textures/items/cauldron.png"],
+            ["%textures/items/chain.png"],
+            ["%textures/items/chainmail_boots.png"],
+            ["%textures/items/chainmail_chestplate.png"],
+            ["%textures/items/chainmail_helmet.png"],
+            ["%textures/items/chainmail_leggings.png"],
+            ["%textures/items/chalkboard_large.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/chalkboard_medium.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/chalkboard_small.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/charcoal.png"],
+            ["%textures/items/cherry_boat.png"],
+            ["%textures/items/cherry_chest_boat.png"],
+            ["%textures/items/cherry_door.png"],
+            ["%textures/items/cherry_hanging_sign.png"],
+            ["%textures/items/cherry_sign.png"],
+            ["%textures/items/chicken_cooked.png"],
+            ["%textures/items/chicken_raw.png"],
+            ["%textures/items/chorus_fruit.png"],
+            ["%textures/items/chorus_fruit_popped.png"],
+            ["%textures/items/clay_ball.png"],
+            ["%textures/items/clock_item.png"],
+            ["%textures/items/coal.png"],
+            ["%textures/items/coast_armor_trim_smithing_template.png"],
+            ["%textures/items/comparator.png"],
+            ["%textures/items/compass_atlas.png"],
+            ["%textures/items/compass_atlas.xcf"],
+            ["%textures/items/compass_item.png"],
+            ["%textures/items/cookie.png"],
+            ["%textures/items/copper_door.png"],
+            ["%textures/items/copper_ingot.png"],
+            ["%textures/items/creeper_banner_pattern.png"],
+            ["%textures/items/crimson_door.png"],
+            ["%textures/items/crimson_hanging_sign.png"],
+            ["%textures/items/crossbow_arrow.png"],
+            ["%textures/items/crossbow_firework.png"],
+            ["%textures/items/crossbow_pulling_0.png"],
+            ["%textures/items/crossbow_pulling_1.png"],
+            ["%textures/items/crossbow_pulling_2.png"],
+            ["%textures/items/crossbow_standby.png"],
+            ["%textures/items/danger_pottery_sherd.png"],
+            ["%textures/items/dark_oak_chest_boat.png"],
+            ["%textures/items/dark_oak_hanging_sign.png"],
+            ["%textures/items/diamond.png"],
+            ["%textures/items/diamond_axe.png"],
+            ["%textures/items/diamond_boots.png"],
+            ["%textures/items/diamond_chestplate.png"],
+            ["%textures/items/diamond_helmet.png"],
+            ["%textures/items/diamond_hoe.png"],
+            ["%textures/items/diamond_horse_armor.png"],
+            ["%textures/items/diamond_leggings.png"],
+            ["%textures/items/diamond_pickaxe.png"],
+            ["%textures/items/diamond_shovel.png"],
+            ["%textures/items/diamond_sword.png"],
+            ["%textures/items/disc_fragment_5.png"],
+            ["%textures/items/door_acacia.png"],
+            ["%textures/items/door_birch.png"],
+            ["%textures/items/door_dark_oak.png"],
+            ["%textures/items/door_iron.png"],
+            ["%textures/items/door_jungle.png"],
+            ["%textures/items/door_spruce.png"],
+            ["%textures/items/door_wood.png"],
+            ["%textures/items/dragon_fireball.png"],
+            ["%textures/items/dragons_breath.png"],
+            ["%textures/items/dried_kelp.png"],
+            ["%textures/items/dune_armor_trim_smithing_template.png"],
+            ["%textures/items/dye_powder_black.png"],
+            ["%textures/items/dye_powder_black_new.png"],
+            ["%textures/items/dye_powder_blue.png"],
+            ["%textures/items/dye_powder_blue_new.png"],
+            ["%textures/items/dye_powder_brown.png"],
+            ["%textures/items/dye_powder_brown_new.png"],
+            ["%textures/items/dye_powder_cyan.png"],
+            ["%textures/items/dye_powder_glow.png"],
+            ["%textures/items/dye_powder_gray.png"],
+            ["%textures/items/dye_powder_green.png"],
+            ["%textures/items/dye_powder_light_blue.png"],
+            ["%textures/items/dye_powder_lime.png"],
+            ["%textures/items/dye_powder_magenta.png"],
+            ["%textures/items/dye_powder_orange.png"],
+            ["%textures/items/dye_powder_pink.png"],
+            ["%textures/items/dye_powder_purple.png"],
+            ["%textures/items/dye_powder_red.png"],
+            ["%textures/items/dye_powder_silver.png"],
+            ["%textures/items/dye_powder_white.png"],
+            ["%textures/items/dye_powder_white_new.png"],
+            ["%textures/items/dye_powder_yellow.png"],
+            ["%textures/items/echo_shard.png"],
+            ["%textures/items/egg.png"],
+            ["%textures/items/egg_agent.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_bat.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_bee.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_blaze.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_cat.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_cave_spider.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_chicken.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_clownfish.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_cod.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_cow.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_creeper.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_dolphin.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_donkey.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_drowned.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_elderguardian.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_enderman.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_endermite.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_evoker.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_fish.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_fox.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_ghast.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_glow_squid.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_guardian.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_horse.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_husk.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_lava_slime.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_llama.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_mask.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_mule.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_mushroomcow.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_npc.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_null.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_ocelot.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_panda.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_parrot.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_phantom.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_pig.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_pigzombie.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_pillager.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_polarbear.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_pufferfish.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_rabbit.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_ravager.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_salmon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_sheep.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_shulker.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_silverfish.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_skeleton.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_skeletonhorse.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_slime.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_spider.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_squid.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_stray.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_template.pdn"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_turtle.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_vex.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_villager.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_vindicator.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_wanderingtrader.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_witch.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_wither.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_wolf.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_zombie.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_zombiehorse.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/egg_zombievillager.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/elytra.png"],
+            ["%textures/items/emerald.png"],
+            ["%textures/items/empty_armor_slot_boots.png"],
+            ["%textures/items/empty_armor_slot_chestplate.png"],
+            ["%textures/items/empty_armor_slot_helmet.png"],
+            ["%textures/items/empty_armor_slot_leggings.png"],
+            ["%textures/items/empty_armor_slot_shield.png"],
+            ["%textures/items/end_crystal.png"],
+            ["%textures/items/ender_eye.png"],
+            ["%textures/items/ender_pearl.png"],
+            ["%textures/items/experience_bottle.png"],
+            ["%textures/items/explorer_pottery_sherd.png"],
+            ["%textures/items/exposed_copper_door.png"],
+            ["%textures/items/eye_armor_trim_smithing_template.png"],
+            ["%textures/items/feather.png"],
+            ["%textures/items/field_masoned_banner_pattern.png"],
+            ["%textures/items/fireball.png"],
+            ["%textures/items/firefly_bush.png"],
+            ["%textures/items/fireworks.png"],
+            ["%textures/items/fireworks_charge.tga"],
+            ["%textures/items/fireworks_charge.xcf"],
+            ["%textures/items/fish_clownfish_raw.png"],
+            ["%textures/items/fish_cooked.png"],
+            ["%textures/items/fish_pufferfish_raw.png"],
+            ["%textures/items/fish_raw.png"],
+            ["%textures/items/fish_salmon_cooked.png"],
+            ["%textures/items/fish_salmon_raw.png"],
+            ["%textures/items/fishing_rod_cast.png"],
+            ["%textures/items/fishing_rod_uncast.png"],
+            ["%textures/items/flint.png"],
+            ["%textures/items/flint_and_steel.png"],
+            ["%textures/items/flow_armor_trim_smithing_template.png"],
+            ["%textures/items/flow_banner_pattern.png"],
+            ["%textures/items/flow_pottery_sherd.png"],
+            ["%textures/items/flower_banner_pattern.png"],
+            ["%textures/items/flower_pot.png"],
+            ["%textures/items/friend_pottery_sherd.png"],
+            ["%textures/items/ghast_tear.png"],
+            ["%textures/items/globe_banner_pattern.png"],
+            ["%textures/items/glow_berries.png"],
+            ["%textures/items/glow_item_frame.png"],
+            ["%textures/items/glowstone_dust.png"],
+            ["%textures/items/goat_horn.png"],
+            ["%textures/items/gold_axe.png"],
+            ["%textures/items/gold_boots.png"],
+            ["%textures/items/gold_chestplate.png"],
+            ["%textures/items/gold_helmet.png"],
+            ["%textures/items/gold_hoe.png"],
+            ["%textures/items/gold_horse_armor.png"],
+            ["%textures/items/gold_ingot.png"],
+            ["%textures/items/gold_leggings.png"],
+            ["%textures/items/gold_nugget.png"],
+            ["%textures/items/gold_pickaxe.png"],
+            ["%textures/items/gold_shovel.png"],
+            ["%textures/items/gold_sword.png"],
+            ["%textures/items/gunpowder.png"],
+            ["%textures/items/guster_banner_pattern.png"],
+            ["%textures/items/guster_pottery_sherd.png"],
+            ["%textures/items/hanging_roots.png"],
+            ["%textures/items/heart_pottery_sherd.png"],
+            ["%textures/items/heartbreak_pottery_sherd.png"],
+            ["%textures/items/heartofthesea_closed.png"],
+            ["%textures/items/hoglin_meat_cooked.png"],
+            ["%textures/items/hoglin_meat_raw.png"],
+            ["%textures/items/honey_bottle.png"],
+            ["%textures/items/honeycomb.png"],
+            ["%textures/items/hopper.png"],
+            ["%textures/items/host_armor_trim_smithing_template.png"],
+            ["%textures/items/howl_pottery_sherd.png"],
+            ["%textures/items/iron_axe.png"],
+            ["%textures/items/iron_boots.png"],
+            ["%textures/items/iron_chestplate.png"],
+            ["%textures/items/iron_helmet.png"],
+            ["%textures/items/iron_hoe.png"],
+            ["%textures/items/iron_horse_armor.png"],
+            ["%textures/items/iron_ingot.png"],
+            ["%textures/items/iron_leggings.png"],
+            ["%textures/items/iron_nugget.png"],
+            ["%textures/items/iron_pickaxe.png"],
+            ["%textures/items/iron_shovel.png"],
+            ["%textures/items/iron_sword.png"],
+            ["%textures/items/item_frame.png"],
+            ["%textures/items/jungle_chest_boat.png"],
+            ["%textures/items/jungle_hanging_sign.png"],
+            ["%textures/items/kelp.png"],
+            ["%textures/items/lantern.png"],
+            ["%textures/items/lead.png"],
+            ["%textures/items/leaf_litter.png"],
+            ["%textures/items/leather.png"],
+            ["%textures/items/leather_boots.tga"],
+            ["%textures/items/leather_boots.xcf"],
+            ["%textures/items/leather_chestplate.png"],
+            ["%textures/items/leather_helmet.tga"],
+            ["%textures/items/leather_helmet.xcf"],
+            ["%textures/items/leather_horse_armor.tga"],
+            ["%textures/items/leather_horse_armor.xcf"],
+            ["%textures/items/leather_leggings.tga"],
+            ["%textures/items/leather_leggings.xcf"],
+            ["%textures/items/lever.png"],
+            ["%textures/items/light_block_0.png"],
+            ["%textures/items/light_block_1.png"],
+            ["%textures/items/light_block_2.png"],
+            ["%textures/items/light_block_3.png"],
+            ["%textures/items/light_block_4.png"],
+            ["%textures/items/light_block_5.png"],
+            ["%textures/items/light_block_6.png"],
+            ["%textures/items/light_block_7.png"],
+            ["%textures/items/light_block_8.png"],
+            ["%textures/items/light_block_9.png"],
+            ["%textures/items/light_block_10.png"],
+            ["%textures/items/light_block_11.png"],
+            ["%textures/items/light_block_12.png"],
+            ["%textures/items/light_block_13.png"],
+            ["%textures/items/light_block_14.png"],
+            ["%textures/items/light_block_15.png"],
+            ["%textures/items/lodestone_compass_item.png"],
+            ["%textures/items/lodestonecompass_atlas.png"],
+            ["%textures/items/lodestonecompass_atlas.xcf"],
+            ["%textures/items/mace.png"],
+            ["%textures/items/magma_cream.png"],
+            ["%textures/items/mangrove_boat.png"],
+            ["%textures/items/mangrove_chest_boat.png"],
+            ["%textures/items/mangrove_door.png"],
+            ["%textures/items/mangrove_hanging_sign.png"],
+            ["%textures/items/mangrove_propagule.png"],
+            ["%textures/items/mangrove_sign.png"],
+            ["%textures/items/map_empty.png"],
+            ["%textures/items/map_filled.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/map_locked.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/map_mansion.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/map_monument.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/map_nautilus.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/map_trial_chambers.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/melon.png"],
+            ["%textures/items/melon_speckled.png"],
+            ["%textures/items/minecart_chest.png"],
+            ["%textures/items/minecart_command_block.png"],
+            ["%textures/items/minecart_furnace.png"],
+            ["%textures/items/minecart_hopper.png"],
+            ["%textures/items/minecart_normal.png"],
+            ["%textures/items/minecart_tnt.png"],
+            ["%textures/items/miner_pottery_sherd.png"],
+            ["%textures/items/mojang_banner_pattern.png"],
+            ["%textures/items/mourner_pottery_sherd.png"],
+            ["%textures/items/mushroom_stew.png"],
+            ["%textures/items/music_disc_creator.png"],
+            ["%textures/items/music_disc_creator_music_box.png"],
+            ["%textures/items/music_disc_lava_chicken.png"],
+            ["%textures/items/music_disc_precipice.png"],
+            ["%textures/items/music_disc_relic.png"],
+            ["%textures/items/music_disc_tears.png"],
+            ["%textures/items/mutton_cooked.png"],
+            ["%textures/items/mutton_raw.png"],
+            ["%textures/items/name_tag.png"],
+            ["%textures/items/nautilus.png"],
+            ["%textures/items/nether_sprouts.png"],
+            ["%textures/items/nether_star.png"],
+            ["%textures/items/nether_wart.png"],
+            ["%textures/items/netherbrick.png"],
+            ["%textures/items/netherite_axe.png"],
+            ["%textures/items/netherite_boots.png"],
+            ["%textures/items/netherite_chestplate.png"],
+            ["%textures/items/netherite_helmet.png"],
+            ["%textures/items/netherite_hoe.png"],
+            ["%textures/items/netherite_ingot.png"],
+            ["%textures/items/netherite_leggings.png"],
+            ["%textures/items/netherite_pickaxe.png"],
+            ["%textures/items/netherite_scrap.png"],
+            ["%textures/items/netherite_shovel.png"],
+            ["%textures/items/netherite_sword.png"],
+            ["%textures/items/netherite_upgrade_smithing_template.png"],
+            ["%textures/items/oak_chest_boat.png"],
+            ["%textures/items/oak_hanging_sign.png"],
+            ["%textures/items/ominous_bottle.png"],
+            ["%textures/items/ominous_trial_key.png"],
+            ["%textures/items/oxidized_copper_door.png"],
+            ["%textures/items/painting.png"],
+            ["%textures/items/pale_oak_boat.png"],
+            ["%textures/items/pale_oak_chest_boat.png"],
+            ["%textures/items/pale_oak_door.png"],
+            ["%textures/items/pale_oak_hanging_sign.png"],
+            ["%textures/items/pale_oak_sign.png"],
+            ["%textures/items/paper.png"],
+            ["%textures/items/phantom_membrane.png"],
+            ["%textures/items/piglin_banner_pattern.png"],
+            ["%textures/items/pink_petals.png"],
+            ["%textures/items/pitcher_pod.png"],
+            ["%textures/items/plenty_pottery_sherd.png"],
+            ["%textures/items/porkchop_cooked.png"],
+            ["%textures/items/porkchop_raw.png"],
+            ["%textures/items/potato.png"],
+            ["%textures/items/potato_baked.png"],
+            ["%textures/items/potato_poisonous.png"],
+            ["%textures/items/potion.png"],
+            ["%textures/items/potion_bottle_absorption.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_blindness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_confusion.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_damageBoost.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_digSlowdown.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_digSpeed.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_drinkable.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_empty.png"],
+            ["%textures/items/potion_bottle_fireResistance.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_harm.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_heal.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_healthBoost.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_hunger.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_infested.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_invisibility.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_jump.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_levitation.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_damageBoost.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_empty.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_fireResistance.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_harm.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_heal.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_infested.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_invisibility.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_jump.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_luck.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_moveSlowdown.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_moveSpeed.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_nightVision.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_oozing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_poison.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_regeneration.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_slowFall.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_turtleMaster.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_waterBreathing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_weakness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_weaving.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_windCharged.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_lingering_wither.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_moveSlowdown.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_moveSpeed.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_nightVision.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_oozing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_poison.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_regeneration.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_resistance.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_saturation.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_slowFall.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_absorption.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_blindness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_confusion.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_damageBoost.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_digSlowdown.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_digSpeed.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_fireResistance.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_harm.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_heal.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_healthBoost.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_hunger.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_infested.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_invisibility.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_jump.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_levitation.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_moveSlowdown.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_moveSpeed.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_nightVision.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_oozing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_poison.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_regeneration.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_resistance.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_saturation.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_slowFall.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_turtleMaster.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_waterBreathing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_weakness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_weaving.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_windCharged.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_splash_wither.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_turtleMaster.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_waterBreathing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_weakness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_weaving.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_windCharged.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_bottle_wither.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/potion_overlay.png"],
+            ["%textures/items/prismarine_crystals.png"],
+            ["%textures/items/prismarine_shard.png"],
+            ["%textures/items/prize_pottery_sherd.png"],
+            ["%textures/items/pumpkin_pie.png"],
+            ["%textures/items/quartz.png"],
+            ["%textures/items/quiver.png"],
+            ["%textures/items/rabbit_cooked.png"],
+            ["%textures/items/rabbit_foot.png"],
+            ["%textures/items/rabbit_hide.png"],
+            ["%textures/items/rabbit_raw.png"],
+            ["%textures/items/rabbit_stew.png"],
+            ["%textures/items/raiser_armor_trim_smithing_template.png"],
+            ["%textures/items/raw_copper.png"],
+            ["%textures/items/raw_gold.png"],
+            ["%textures/items/raw_iron.png"],
+            ["%textures/items/record_5.png"],
+            ["%textures/items/record_11.png"],
+            ["%textures/items/record_13.png"],
+            ["%textures/items/record_blocks.png"],
+            ["%textures/items/record_cat.png"],
+            ["%textures/items/record_chirp.png"],
+            ["%textures/items/record_far.png"],
+            ["%textures/items/record_mall.png"],
+            ["%textures/items/record_mellohi.png"],
+            ["%textures/items/record_otherside.png"],
+            ["%textures/items/record_pigstep.png"],
+            ["%textures/items/record_stal.png"],
+            ["%textures/items/record_strad.png"],
+            ["%textures/items/record_wait.png"],
+            ["%textures/items/record_ward.png"],
+            ["%textures/items/recovery_compass_atlas.png"],
+            ["%textures/items/recovery_compass_atlas.xcf"],
+            ["%textures/items/recovery_compass_item.png"],
+            ["%textures/items/redstone_dust.png"],
+            ["%textures/items/reeds.png"],
+            ["%textures/items/repeater.png"],
+            ["%textures/items/resin_brick.png"],
+            ["%textures/items/resin_clump.png"],
+            ["%textures/items/rib_armor_trim_smithing_template.png"],
+            ["%textures/items/rotten_flesh.png"],
+            ["%textures/items/ruby.png"],
+            ["%textures/items/saddle.png"],
+            ["%textures/items/scrape_pottery_sherd.png"],
+            ["%textures/items/sea_pickle.png"],
+            ["%textures/items/seeds_beetroot.png"],
+            ["%textures/items/seeds_melon.png"],
+            ["%textures/items/seeds_pumpkin.png"],
+            ["%textures/items/seeds_wheat.png"],
+            ["%textures/items/sentry_armor_trim_smithing_template.png"],
+            ["%textures/items/shaper_armor_trim_smithing_template.png"],
+            ["%textures/items/sheaf_pottery_sherd.png"],
+            ["%textures/items/shears.png"],
+            ["%textures/items/shelter_pottery_sherd.png"],
+            ["%textures/items/shulker_shell.png"],
+            ["%textures/items/sign.png"],
+            ["%textures/items/sign_acacia.png"],
+            ["%textures/items/sign_birch.png"],
+            ["%textures/items/sign_birchj.png"],
+            ["%textures/items/sign_crimson.png"],
+            ["%textures/items/sign_darkoak.png"],
+            ["%textures/items/sign_jungle.png"],
+            ["%textures/items/sign_spruce.png"],
+            ["%textures/items/sign_warped.png"],
+            ["%textures/items/silence_armor_trim_smithing_template.png"],
+            ["%textures/items/skull_banner_pattern.png"],
+            ["%textures/items/skull_pottery_sherd.png"],
+            ["%textures/items/slimeball.png"],
+            ["%textures/items/sniffer_egg.png"],
+            ["%textures/items/snort_pottery_sherd.png"],
+            ["%textures/items/snout_armor_trim_smithing_template.png"],
+            ["%textures/items/snowball.png"],
+            ["%textures/items/soul_campfire.png"],
+            ["%textures/items/soul_lantern.png"],
+            ["%textures/items/spawn_egg.png"],
+            ["%textures/items/spawn_egg_overlay.png"],
+            ["%textures/items/spider_eye.png"],
+            ["%textures/items/spider_eye_fermented.png"],
+            ["%textures/items/spire_armor_trim_smithing_template.png"],
+            ["%textures/items/spruce_chest_boat.png"],
+            ["%textures/items/spruce_hanging_sign.png"],
+            ["%textures/items/spyglass.png"],
+            ["%textures/items/stick.png"],
+            ["%textures/items/stone_axe.png"],
+            ["%textures/items/stone_hoe.png"],
+            ["%textures/items/stone_pickaxe.png"],
+            ["%textures/items/stone_shovel.png"],
+            ["%textures/items/stone_sword.png"],
+            ["%textures/items/string.png"],
+            ["%textures/items/sugar.png"],
+            ["%textures/items/suspicious_stew.png"],
+            ["%textures/items/sweet_berries.png"],
+            ["%textures/items/tide_armor_trim_smithing_template.png"],
+            ["%textures/items/tipped_arrow.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_base.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_fireres.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_harm.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_head.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_healing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_infested.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_invisibility.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_leaping.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_luck.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_nightvision.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_oozing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_poison.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_regen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_slow.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_slowfalling.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_strength.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_swift.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_turtlemaster.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_waterbreathing.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_weakness.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_weaving.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_windCharged.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/tipped_arrow_wither.png"],//needs work v1.1.0.0-pre04
+            ["%textures/items/torchflower_seeds.png"],
+            ["%textures/items/totem.png"],
+            ["%textures/items/trial_key.png"],
+            ["%textures/items/trident.png"],
+            ["%textures/items/turtle_egg.png"],
+            ["%textures/items/turtle_helmet.png"],
+            ["%textures/items/turtle_shell_piece.png"],
+            ["%textures/items/vex_armor_trim_smithing_template.png"],
+            ["%textures/items/villagebell.png"],
+            ["%textures/items/ward_armor_trim_smithing_template.png"],
+            ["%textures/items/warped_door.png"],
+            ["%textures/items/warped_fungus_on_a_stick.png"],
+            ["%textures/items/warped_hanging_sign.png"],
+            ["%textures/items/watch_atlas.png"],
+            ["%textures/items/watch_atlas.xcf"],
+            ["%textures/items/wayfinder_armor_trim_smithing_template.png"],
+            ["%textures/items/weathered_copper_door.png"],
+            ["%textures/items/wheat.png"],
+            ["%textures/items/wild_armor_trim_smithing_template.png"],
+            ["%textures/items/wildflowers.png"],
+            ["%textures/items/wind_charge.png"],
+            ["%textures/items/wolf_armor.png"],
+            ["%textures/items/wolf_armor_dyed.png"],
+            ["%textures/items/wolf_armor_dyed.xcf"],
+            ["%textures/items/wood_axe.png"],
+            ["%textures/items/wood_hoe.png"],
+            ["%textures/items/wood_pickaxe.png"],
+            ["%textures/items/wood_shovel.png"],
+            ["%textures/items/wood_sword.png"],
+            ["%textures/map/jungle_temple.png"],
+            ["%textures/map/map_background.png"],
+            ["%textures/map/map_icons.png"],
+            ["%textures/map/swamp_hut.png"],
+            ["%textures/map/trial_chambers.png"],
+            ["%textures/map/village_desert.png"],
+            ["%textures/map/village_plains.png"],
+            ["%textures/map/village_savanna.png"],
+            ["%textures/map/village_snowy.png"],
+            ["%textures/map/village_taiga.png"],
+            ["%textures/misc/enchanted_actor_glint.png"],
+            ["%textures/misc/enchanted_item_glint.png"],
+            ["%textures/misc/pumpkinblur.png"],
+            ["%textures/ui/_.png"],
+            ["%textures/ui/5stars_empty.png"],
+            ["%textures/ui/5stars_empty_white.png"],
+            ["%textures/ui/5stars_full.png"],
+            ["%textures/ui/absorption_effect.png"],
+            ["%textures/ui/background.png"],
+            ["%textures/ui/bad_omen_effect.png"],
+            ["%textures/ui/bamboo_sign.png"],
+            ["%textures/ui/blindness_effect.png"],
+            ["%textures/ui/building_a_shelter.png"],
+            ["%textures/ui/cartography_table_copy.png"],
+            ["%textures/ui/cartography_table_empty.png"],
+            ["%textures/ui/cartography_table_glass.png"],
+            ["%textures/ui/cartography_table_map.png"],
+            ["%textures/ui/cartography_table_zoom.png"],
+            ["%textures/ui/cherry_sign.png"],
+            ["%textures/ui/classic_skin_comp.png"],
+            ["%textures/ui/classrooms_icon.png"],
+            ["%textures/ui/conduit_power_effect.png"],
+            ["%textures/ui/copy.png"],
+            ["%textures/ui/crafting_table.png"],
+            ["%textures/ui/CreateNewProject.png"],
+            ["%textures/ui/CreateNewProject-Flat.png"],
+            ["%textures/ui/CreateNewProject-Void.png"],
+            ["%textures/ui/CreateNewWorld.png"],
+            ["%textures/ui/creative_icon.png"],
+            ["%textures/ui/csb_faq_bee.png"],
+            ["%textures/ui/csb_faq_fox.png"],
+            ["%textures/ui/csb_faq_horse.png"],
+            ["%textures/ui/csb_faq_parrot.png"],
+            ["%textures/ui/csb_faq_pig.png"],
+            ["%textures/ui/csb_filter_gradient.png"],
+            ["%textures/ui/csb_filter_particles.png"],
+            ["%textures/ui/csb_particles.png"],
+            ["%textures/ui/darkness_effect.png"],
+            ["%textures/ui/default_world.png"],
+            ["%textures/ui/dialog_background_hollow_1.json"],
+            ["%textures/ui/dialog_background_hollow_1.png"],
+            ["%textures/ui/dialog_background_hollow_2.json"],
+            ["%textures/ui/dialog_background_hollow_2.png"],
+            ["%textures/ui/dialog_background_hollow_3.json"],
+            ["%textures/ui/dialog_background_hollow_3.png"],
+            ["%textures/ui/dialog_background_hollow_4.json"],
+            ["%textures/ui/dialog_background_hollow_4.png"],
+            ["%textures/ui/dialog_background_hollow_4_thin.json"],
+            ["%textures/ui/dialog_background_hollow_4_thin.png"],
+            ["%textures/ui/dialog_background_hollow_5.json"],
+            ["%textures/ui/dialog_background_hollow_5.png"],
+            ["%textures/ui/dialog_background_hollow_6.json"],
+            ["%textures/ui/dialog_background_hollow_6.png"],
+            ["%textures/ui/dialog_background_hollow_7.json"],
+            ["%textures/ui/dialog_background_hollow_7.png"],
+            ["%textures/ui/dialog_background_hollow_8.json"],
+            ["%textures/ui/dialog_background_hollow_8.png"],
+            ["%textures/ui/dialog_background_opaque.json"],
+            ["%textures/ui/dialog_background_opaque.png"],
+            ["%textures/ui/dialog_background_opaque_overlap_bottom.json"],
+            ["%textures/ui/dialog_background_opaque_overlap_bottom.png"],
+            ["%textures/ui/dialog_bubble.json"],
+            ["%textures/ui/dialog_bubble.png"],
+            ["%textures/ui/effect_background.json"],
+            ["%textures/ui/effect_background.png"],
+            ["%textures/ui/Envelope.png"],
+            ["%textures/ui/feed_background.png"],
+            ["%textures/ui/fire_resistance_effect.png"],
+            ["%textures/ui/first_craft_desktop.png"],
+            ["%textures/ui/first_craft_mobile.png"],
+            ["%textures/ui/frozen_effect.png"],
+            ["%textures/ui/gamerpic.png"],
+            ["%textures/ui/gift_featured.png"],
+            ["%textures/ui/gift_square.png"],
+            ["%textures/ui/hanging_sign.png"],
+            ["%textures/ui/hanging_sign_acacia.png"],
+            ["%textures/ui/hanging_sign_bamboo.png"],
+            ["%textures/ui/hanging_sign_birch.png"],
+            ["%textures/ui/hanging_sign_cherry.png"],
+            ["%textures/ui/hanging_sign_crimson.png"],
+            ["%textures/ui/hanging_sign_darkoak.png"],
+            ["%textures/ui/hanging_sign_jungle.png"],
+            ["%textures/ui/hanging_sign_mangrove.png"],
+            ["%textures/ui/hanging_sign_pale_oak.png"],
+            ["%textures/ui/hanging_sign_spruce.png"],
+            ["%textures/ui/hanging_sign_warped.png"],
+            ["%textures/ui/haste_effect.png"],
+            ["%textures/ui/health_boost_effect.png"],
+            ["%textures/ui/hud_mob_effect_background.png"],
+            ["%textures/ui/hunger_effect.png"],
+            ["%textures/ui/ic_send_white_48dp.png"],
+            ["%textures/ui/icon_agent.png"],
+            ["%textures/ui/icon_alex.png"],
+            ["%textures/ui/icon_apple.png"],
+            ["%textures/ui/icon_armor.png"],
+            ["%textures/ui/icon_balloon.png"],
+            ["%textures/ui/icon_bell.png"],
+            ["%textures/ui/icon_best3.png"],
+            ["%textures/ui/icon_blackfriday.png"],
+            ["%textures/ui/icon_book_writable.png"],
+            ["%textures/ui/icon_bookshelf.png"],
+            ["%textures/ui/icon_cake.png"],
+            ["%textures/ui/icon_carrot.png"],
+            ["%textures/ui/icon_cookie.png"],
+            ["%textures/ui/icon_crafting.png"],
+            ["%textures/ui/icon_deals.png"],
+            ["%textures/ui/icon_expand.png"],
+            ["%textures/ui/icon_fall.png"],
+            ["%textures/ui/icon_fish_clownfish_raw.png"],
+            ["%textures/ui/icon_hangar.png"],
+            ["%textures/ui/icon_import.png"],
+            ["%textures/ui/icon_iron_pickaxe.png"],
+            ["%textures/ui/icon_llama.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_lock.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_map.png"],
+            ["%textures/ui/icon_minecoin_9x9.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_multiplayer.png"],
+            ["%textures/ui/icon_new.png"],
+            ["%textures/ui/icon_new_item.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_none.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_panda.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_potion.png"],
+            ["%textures/ui/icon_preview.png"],
+            ["%textures/ui/icon_rail_normal.png"],
+            ["%textures/ui/icon_random.png"],
+            ["%textures/ui/icon_recipe_construction.png"],
+            ["%textures/ui/icon_recipe_equipment.png"],
+            ["%textures/ui/icon_recipe_item.png"],
+            ["%textures/ui/icon_recipe_nature.png"],
+            ["%textures/ui/icon_saleribbon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_setting.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_sign.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_spring.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_staffpicks.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_steve.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_summer.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_timer.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_trailer.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_trash.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_trending.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_unlocked.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_water_bucket.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/icon_winter.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/import.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/ImpulseSquare.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/infested_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/ingot_image.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/InvalidWorldDemoScreen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/inventory_desktop.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/inventory_mobile.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/inventory_warning_xbox.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/invisibility_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/jump_boost_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/lapis_image.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/levitation_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/LoadingWorldDemoScreen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/mangrove_sign.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/mining.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/mining_fatigue_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/missing_pack_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/nausea_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/NetherPortal.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/NetherPortalMirror.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/night_vision_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/oozing_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/pale_oak_sign.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_0.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_1.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_2.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_3.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_4.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/panorama_5.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/particles.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/particles2.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/particles3.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/PlaceholderStore.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/poison_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/portalBg.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/profile_bg.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_axolotl.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_bee.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_chicken.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_corner_left.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_corner_right.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_creeper.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_gift_big.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_gift_small_blue.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_gift_small_green.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_gift_small_pink.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_gift_small_yellow.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_holiday_gift_long.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_holiday_gift_small.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_pig_sheep.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_spider.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/promo_wolf.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/raid_omen_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/rating_screen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/ratings_fullstar.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/ratings_nostar.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realm_icon_small.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/RealmDemoScreen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realmPortalSmall.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_art_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_core_logo.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_faq_bee.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_faq_fox.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_faq_spider.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_gradient_top.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_header_art.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_key_art.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_particles.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_plus_logo.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_poster_art_with_logo.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_purchase_warning.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realms_title.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realmsIcon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/realmsparkle.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/recipe_book_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/regeneration_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/RepeatSquare.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/resistance_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/RTX_Label.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/RTX_Sparkle.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/seeds.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/selecting_items_desktop.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/selecting_items_mobile.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_acacia.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_birch.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_crimson.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_darkoak.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_jungle.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_spruce.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sign_warped.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/slow_falling_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/slowness_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/speed_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/storexblsignin.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/strength_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block_corner.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block_data.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block_export.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block_load.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/structure_block_save.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/subscription_MarketplacePass.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/subscription_Realms.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sunset_keyart.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sunset_pending_keyart.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/teams_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/thumbnail_classic.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/thumbnail_crosshair.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/thumbnail_touch.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_1sunrise.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_2day.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_3noon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_4sunset.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_5night.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/time_6midnight.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/title.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/tnt_animated.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/trial_omen_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/update_world_chunks.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/village_hero_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/warning_alex.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/water_breathing_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/weakness_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/weather_clear.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/weather_rain.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/weather_thunderstorm.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/weaving_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/welcome.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/wind_charged_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/wither_effect.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/world_upgrade.json"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/world_upgrade.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/WorldDemoScreen.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/WorldDemoScreen_Big.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/WorldDemoScreen_Big_Grayscale.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/world-preview-flat-fixed-pixels.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/friendsbutton/navbar-friends-icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/addon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/AdventureTime_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/angrybirds_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Ben10_packicon_0.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/blueheart.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/bookmark.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/capes.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/categories.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/character_creator.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/classic_skins.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/csb_sidebar_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/dr_body.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/dr_style.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/emotes.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/featured.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Frozen_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/genre.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/HTTYD_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/IceAge_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Jurassic_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Lightyear_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/marketplace.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Minions_packicon_0.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/my_characters.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/my_content.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/NightmareBeforeChristmas_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/owned_skins_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/PiratesoftheCaribean_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/promotag.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/realms.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/realms_plus_skins_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/redheart.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/rounddonut.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Sonic_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/SpongeBob_SquarePants_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/squaredonut.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/star.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/Star_Wars_packicon_0.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/ToyStory_packicon.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/unowned_skins_icon.png"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/WDW-Magic-Kingdom-Adventure_packicon_0.jpg"],//needs work v1.1.0.0-pre04
+            ["%textures/ui/sidebar_icon/wish_list.png"],//needs work v1.1.0.0-pre04
         ])}
     </p></details>
 `;
