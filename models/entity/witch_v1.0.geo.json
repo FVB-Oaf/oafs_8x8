@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"geometry.villager.witch:geometry.villager": {
+		"texturewidth": 64,
+		"textureheight": 128,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [2, 24, -6], "size": [2, 2, 2], "uv": [24, 102]}
+				]
+			},
+			{
+				"name": "hat",
+				"pivot": [-5, 32.03125, -5],
+				"cubes": [
+					{"origin": [-6, 32.05, -6], "size": [12, 2, 12], "uv": [0, 114]}
+				]
+			},
+			{
+				"name": "hat2",
+				"parent": "hat",
+				"pivot": [1.75, 32, 2],
+				"rotation": [-3, 0, 1.5],
+				"cubes": [
+					{"origin": [-4, 33.5, -4], "size": [8, 4, 8], "uv": [0, 102], "inflate": 0.05}
+				]
+			},
+			{
+				"name": "hat3",
+				"parent": "hat2",
+				"pivot": [1.75, 35, 2],
+				"rotation": [-6, 0, 3],
+				"cubes": [
+					{"origin": [-2.25, 36.5, -2.25], "size": [4, 4, 4], "uv": [0, 87]}
+				]
+			},
+			{
+				"name": "hat4",
+				"parent": "hat3",
+				"pivot": [1.75, 38, 2],
+				"rotation": [-12, 0, 6],
+				"cubes": [
+					{"origin": [-0.75, 39.75, -1], "size": [2, 2, 2], "uv": [24, 106], "inflate": 0.25}
+				]
+			}
+		]
+	}
+}
