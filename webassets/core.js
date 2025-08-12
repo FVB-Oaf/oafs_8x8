@@ -5917,6 +5917,7 @@ const changelog_content=`
         ])}
     </p></details><br><details><summary><h2>v1.1.0.0-pre05-sc1 (August 12<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
+            //SC stands for small change lol
             "Added a title to the pack icon.",
             "Added/Modified files:",
             ["%pack.png"],
