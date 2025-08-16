@@ -5937,9 +5937,29 @@ const changelog_content=`
             ["%assets/minecraft/textures/entity/iron_golem/iron_golem.png"],
             ["%assets/minecraft/textures/entity/villager/u-v-map.png"],
             ["%assets/minecraft/textures/entity/villager/villager.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/armorer.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/butcher.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/cartographer.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/cleric.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/farmer.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/fisherman.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/fletcher.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/leatherworker.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/librarian.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/mask.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/mason.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/nitwit.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/shepherd.png"],//WORK
+            ["%assets/minecraft/textures/entity/villager/profession/shepherd_potato.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/toolsmith.png"],//WORK
+            ["%assets/minecraft/textures/entity/villager/profession/weaponsmith.png"],//WORK
             ["%assets/minecraft/textures/entity/villager/type/desert.png"],
             ["%assets/minecraft/textures/entity/villager/type/jungle.png"],
             ["%assets/minecraft/textures/entity/villager/type/plains.png"],
+            ["%assets/minecraft/textures/entity/villager/type/savanna.png"],
+            ["%assets/minecraft/textures/entity/villager/type/snow.png"],
+            ["%assets/minecraft/textures/entity/villager/type/swamp.png"],
+            ["%assets/minecraft/textures/entity/villager/type/taiga.png"],
             ["%webassets/core.js"],
         ])}
     </p></details>
