@@ -1,4 +1,5 @@
-const current_version=`1.1.0.0-pre05-sc1`;
+const current_version=`1.1.0.0-pre06`;
+const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="webassets/banners/1.1.0.0-pre05-sc1-chase-the-skies-coming-to-bedrock.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!"/>`;
 function list2(functionInput2){
@@ -5926,6 +5927,21 @@ const changelog_content=`
             ["%dev-assets/bedrock-icon.png"],
             ["%dev-assets/pack-watermark.png"],
         ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre06-i (August 16<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%assets/minecraft/optifine/cem/iron_golem.bbmodel"],
+            ["%assets/minecraft/optifine/cem/iron_golem.jem"],
+            ["%assets/minecraft/optifine/cem/villager.bbmodel"],
+            ["%assets/minecraft/optifine/cem/villager.jem"],
+            ["%assets/minecraft/textures/entity/iron_golem/iron_golem.png"],
+            ["%assets/minecraft/textures/entity/villager/u-v-map.png"],
+            ["%assets/minecraft/textures/entity/villager/villager.png"],
+            ["%assets/minecraft/textures/entity/villager/type/desert.png"],
+            ["%assets/minecraft/textures/entity/villager/type/jungle.png"],
+            ["%assets/minecraft/textures/entity/villager/type/plains.png"],
+            ["%webassets/core.js"],
+        ])}
     </p></details>
 `;
 const guide_content=`
@@ -5939,11 +5955,11 @@ const guide_content=`
             ["Video Settings > Quality > Custom Item Models : ON"]
         ])}
         <br>
-        The latest version of OptiFine can be downloaded <a href = "https://optifine.net/downloads">here</a>.<br>
-        The changelog can be viewed <a href = "_changelog.html#latest">here</a>.<br>
-        The credits can be viewed <a href = "_credits.html#home">here</a>.<br>
+        The latest version of OptiFine can be downloaded <a href="https://optifine.net/downloads">here</a>.<br>
+        The changelog can be viewed <a href="_changelog.html#latest">here</a>.<br>
+        The credits can be viewed <a href="_credits.html#home">here</a>.<br>
         <br>
-        This version is developed on ${current_ofnvers}<br>
+        This version is developed on ${current_ofnvers}, the last full release is ${current_ofnfull}<br>
         <br>
         <br>
         <span class = "smallText">
