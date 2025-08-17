@@ -6000,6 +6000,40 @@ const changelog_content=`
             ["%assets/minecraft/textures/entity/villager/type/swamp.png"],
             ["%assets/minecraft/textures/entity/villager/type/taiga.png"],
         ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre07 (August 17<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Began the process of making it so entities will render better when not using OptiFine by using the vanilla UVs and texture locations, OptiFine will still improve appearances slightly.",
+            "Added/Modified files:",
+            ["%assets/minecraft/optifine/cem/sniffer.bbmodel"],
+            ["%assets/minecraft/optifine/cem/sniffer.jem"],
+            ["%assets/minecraft/optifine/cem/zombie_villager.bbmodel"],
+            ["%assets/minecraft/optifine/cem/zombie_villager.jem"],
+            ["%assets/minecraft/textures/entity/sniffer/sniffer.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/zombie_villager.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/armorer.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/butcher.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/cartographer.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/cleric.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/farmer.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/fisherman.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/fletcher.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/leatherworker.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/librarian.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/mask.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/mason.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/nitwit.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/shepherd.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/shepherd_potato.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/toolsmith.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/profession/weaponsmith.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/desert.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/jungle.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/plains.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/savanna.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/snow.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/swamp.png"],
+            //["%assets/minecraft/textures/entity/zombie_villager/type/taiga.png"],
+        ])}
     </p></details>
 `;
 const guide_content=`
