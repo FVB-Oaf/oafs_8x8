@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre07`;
+const current_version=`1.1.0.0-pre08`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="assets/1.1.0.0-pre06-banner.png"class="banner">`;
@@ -6002,7 +6002,6 @@ const changelog_content=`
         ])}
     </p></details><br><details><summary><h2>v1.1.0.0-pre07 (August 17<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
-            "Began the process of making it so entities will render better when not using OptiFine by using the vanilla UVs and texture locations, OptiFine will still improve appearances slightly.",
             "Added/Modified files:",
             ["%assets/minecraft/optifine/cem/sniffer.bbmodel"],
             ["%assets/minecraft/optifine/cem/sniffer.jem"],
@@ -6033,6 +6032,20 @@ const changelog_content=`
             //["%assets/minecraft/textures/entity/zombie_villager/type/snow.png"],
             //["%assets/minecraft/textures/entity/zombie_villager/type/swamp.png"],
             //["%assets/minecraft/textures/entity/zombie_villager/type/taiga.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre08 (August 17<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%assets/minecraft/optifine/cem/bat.bbmodel"],
+            ["%assets/minecraft/optifine/cem/bat.jem"],
+            ["%assets/minecraft/textures/entity/bat.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/desert.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/jungle.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/plains.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/savanna.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/snow.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/swamp.png"],
+            ["%assets/minecraft/textures/entity/zombie_villager/type/taiga.png"],
         ])}
     </p></details>
 `;
