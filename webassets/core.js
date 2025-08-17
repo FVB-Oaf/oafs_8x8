@@ -1,7 +1,7 @@
 const current_version=`1.1.0.0-pre06`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
-const banner=`<img src="webassets/banners/1.1.0.0-pre05-sc1-chase-the-skies-coming-to-bedrock.png"class="banner"alt="If this banner doesn't render, your installation of the pack may be corrupted...<br>Try re-downloading the pack... If the problem persists it's likely a developer issue!"/>`;
+const banner=`<img src="webassets/banners/1.1.0.0-pre06.png"class="banner">`;
 function list2(functionInput2){
     let temp=[""];
     for(var cur in functionInput2){
@@ -5927,13 +5927,35 @@ const changelog_content=`
             ["%dev-assets/bedrock-icon.png"],
             ["%dev-assets/pack-watermark.png"],
         ])}
-    </p></details><br><details><summary><h2>v1.1.0.0-pre06-i (August 16<sup>th</sup>, 2025)</h2></summary><p>
+    </p></details><br><details><summary><h2>v1.1.0.0-pre06 (August 16<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
+            "Began the process of making it so entities will render better when not using OptiFine by using the vanilla UVs and texture locations, OptiFine will still improve appearances slightly.",
             "Added/Modified files:",
+            ["%_changelog.html"],
+            ["%_credits.html"],
+            ["%_guide.html"],
+            ["%assets/minecraft/optifine/cem/evoker.bbmodel"],
+            ["%assets/minecraft/optifine/cem/evoker.jem"],
+            ["%assets/minecraft/optifine/cem/illusioner.bbmodel"],
+            ["%assets/minecraft/optifine/cem/illusioner.jem"],
             ["%assets/minecraft/optifine/cem/iron_golem.bbmodel"],
             ["%assets/minecraft/optifine/cem/iron_golem.jem"],
+            ["%assets/minecraft/optifine/cem/pillager.bbmodel"],
+            ["%assets/minecraft/optifine/cem/pillager.jem"],
             ["%assets/minecraft/optifine/cem/villager.bbmodel"],
             ["%assets/minecraft/optifine/cem/villager.jem"],
+            ["%assets/minecraft/optifine/cem/vindicator.bbmodel"],
+            ["%assets/minecraft/optifine/cem/vindicator.jem"],
+            ["%assets/minecraft/optifine/cem/wandering_trader.bbmodel"],
+            ["%assets/minecraft/optifine/cem/wandering_trader.jem"],
+            ["%assets/minecraft/optifine/cem/witch.bbmodel"],
+            ["%assets/minecraft/optifine/cem/witch.jem"],
+            ["%assets/minecraft/textures/entity/wandering_trader.png"],
+            ["%assets/minecraft/textures/entity/witch.png"],
+            ["%assets/minecraft/textures/entity/illager/evoker.png"],
+            ["%assets/minecraft/textures/entity/illager/illusioner.png"],
+            ["%assets/minecraft/textures/entity/illager/pillager.png"],
+            ["%assets/minecraft/textures/entity/illager/vindicator.png"],
             ["%assets/minecraft/textures/entity/iron_golem/iron_golem.png"],
             ["%assets/minecraft/textures/entity/villager/u-v-map.png"],
             ["%assets/minecraft/textures/entity/villager/villager.png"],
@@ -5949,10 +5971,10 @@ const changelog_content=`
             ["%assets/minecraft/textures/entity/villager/profession/mask.png"],
             ["%assets/minecraft/textures/entity/villager/profession/mason.png"],
             ["%assets/minecraft/textures/entity/villager/profession/nitwit.png"],
-            ["%assets/minecraft/textures/entity/villager/profession/shepherd.png"],//WORK
+            ["%assets/minecraft/textures/entity/villager/profession/shepherd.png"],
             ["%assets/minecraft/textures/entity/villager/profession/shepherd_potato.png"],
-            ["%assets/minecraft/textures/entity/villager/profession/toolsmith.png"],//WORK
-            ["%assets/minecraft/textures/entity/villager/profession/weaponsmith.png"],//WORK
+            ["%assets/minecraft/textures/entity/villager/profession/toolsmith.png"],
+            ["%assets/minecraft/textures/entity/villager/profession/weaponsmith.png"],
             ["%assets/minecraft/textures/entity/villager/type/desert.png"],
             ["%assets/minecraft/textures/entity/villager/type/jungle.png"],
             ["%assets/minecraft/textures/entity/villager/type/plains.png"],
@@ -5960,7 +5982,12 @@ const changelog_content=`
             ["%assets/minecraft/textures/entity/villager/type/snow.png"],
             ["%assets/minecraft/textures/entity/villager/type/swamp.png"],
             ["%assets/minecraft/textures/entity/villager/type/taiga.png"],
+            ["%dev-assets/98-x-98-bedrock-icon.png"],
+            ["%dev-assets/98-x-98-of-icon.png"],
+            ["%dev-assets/1503-x-304-banner-overlay.png"],
+            ["%dev-assets/list.bin"],
             ["%webassets/core.js"],
+            ["%webassets/banners/1.1.0.0-pre06.png"],
         ])}
     </p></details>
 `;
