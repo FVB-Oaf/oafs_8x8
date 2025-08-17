@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre06`;
+const current_version=`1.1.0.0-pre07`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="assets/1.1.0.0-pre06-banner.png"class="banner">`;
