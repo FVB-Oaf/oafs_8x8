@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"textureSize": [128, 128],
-	"texture": "_atlas05.png",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/illager/evoker_fangs.png",
 	"models": [
 		{
 			"part": "base",
@@ -9,7 +9,15 @@
 			"invertAxis": "xy",
 			"translate": [-5, -12, 5],
 			"boxes": [
-				{"coordinates": [-4, 0, -4, 8, 12, 8], "textureOffset": [0, 0]}
+				{
+					"coordinates": [-3.5, 0, -4, 8, 12, 8],
+					"uvNorth": [10, 10, 18, 22],
+					"uvEast": [0, 10, 8, 22],
+					"uvSouth": [30, 10, 38, 22],
+					"uvWest": [20, 10, 28, 22],
+					"uvUp": [18, 8, 10, 0],
+					"uvDown": [28, 0, 20, 8]
+				}
 			]
 		},
 		{
@@ -19,7 +27,7 @@
 			"translate": [-0.5, -12, 4],
 			"rotate": [-180, -180, 0],
 			"boxes": [
-				{"coordinates": [-3, -2, -4, 4, 14, 8], "textureOffset": [40, 0]}
+				{"coordinates": [-3.5, -2, -4, 4, 14, 8], "textureOffset": [40, 0]}
 			],
 			"animations": [
 				{
@@ -35,7 +43,7 @@
 			"translate": [-1.5, -12, -4],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [-4, -2, 4, 4, 14, 8], "textureOffset": [40, 0]}
+				{"coordinates": [-3.5, -2, 4, 4, 14, 8], "textureOffset": [40, 0]}
 			],
 			"animations": [
 				{
