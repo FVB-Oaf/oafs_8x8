@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre10`;
+const current_version=`1.1.0.0-pre11`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="assets/1.1.0.0-pre06-banner.png"class="banner">`;
@@ -6626,6 +6626,140 @@ const changelog_content=`
             ["%texures/ui/hardcore/wither_heart_flash_half.xcf"],
             ["%texures/ui/hardcore/wither_heart_half.png"],
             ["%texures/ui/hardcore/wither_heart_half.xcf"],
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre11 (September 12<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%texures/persona_thumbnails/basic_clap_thumbnail_0.png"],
+            ["%texures/persona_thumbnails/communication_follow_me_thumbnail_0.png"],
+            ["%texures/persona_thumbnails/communication_point_thumbnail_0.png"],
+            ["%texures/persona_thumbnails/overhead_wave_thumbnail_0.png"],
+            ["%texures/ui/auto_save.json"],
+            ["%texures/ui/auto_save.png"],
+            ["%texures/ui/book_addpicture_default.png"],
+            ["%texures/ui/book_addpicture_hover.png"],
+            ["%texures/ui/book_addpicture_pressed.png"],
+            ["%texures/ui/book_addtextpage_default.png"],
+            ["%texures/ui/book_addtextpage_hover.png"],
+            ["%texures/ui/book_addtextpage_pressed.png"],
+            ["%texures/ui/book_arrowleft_default.png"],
+            ["%texures/ui/book_arrowleft_hover.png"],
+            ["%texures/ui/book_arrowleft_pressed.png"],
+            ["%texures/ui/book_arrowright_default.png"],
+            ["%texures/ui/book_arrowright_hover.png"],
+            ["%texures/ui/book_arrowright_pressed.png"],
+            ["%texures/ui/book_back.json"],
+            ["%texures/ui/book_back.png"],
+            ["%texures/ui/book_binding.json"],
+            ["%texures/ui/book_binding.png"],
+            ["%texures/ui/book_cover.json"],
+            ["%texures/ui/book_cover.png"],
+            ["%texures/ui/book_edit_default.png"],
+            ["%texures/ui/book_edit_hover.png"],
+            ["%texures/ui/book_edit_pressed.png"],
+            ["%texures/ui/book_frame.json"],
+            ["%texures/ui/book_frame.png"],
+            ["%texures/ui/book_metatag_default.png"],
+            ["%texures/ui/book_metatag_hover.png"],
+            ["%texures/ui/book_metatag_pressed.png"],
+            ["%texures/ui/book_pagecrease_left.json"],
+            ["%texures/ui/book_pagecrease_left.png"],
+            ["%texures/ui/book_pagecrease_right.json"],
+            ["%texures/ui/book_pagecrease_right.png"],
+            ["%texures/ui/book_pageedge_left.json"],
+            ["%texures/ui/book_pageedge_left.png"],
+            ["%texures/ui/book_pageedge_right.json"],
+            ["%texures/ui/book_pageedge_right.png"],
+            ["%texures/ui/book_pageleft_default.png"],
+            ["%texures/ui/book_pageleft_hover.png"],
+            ["%texures/ui/book_pageleft_pressed.png"],
+            ["%texures/ui/book_pageright_default.png"],
+            ["%texures/ui/book_pageright_hover.png"],
+            ["%texures/ui/book_pageright_pressed.png"],
+            ["%texures/ui/book_shiftleft_default.png"],
+            ["%texures/ui/book_shiftleft_hover.png"],
+            ["%texures/ui/book_shiftleft_pressed.png"],
+            ["%texures/ui/book_shiftright_default.png"],
+            ["%texures/ui/book_shiftright_hover.png"],
+            ["%texures/ui/book_shiftright_pressed.png"],
+            ["%texures/ui/book_spine.json"],
+            ["%texures/ui/book_spine.png"],
+            ["%texures/ui/book_texteditbox_hover.json"],
+            ["%texures/ui/book_texteditbox_hover.png"],
+            ["%texures/ui/book_trash_default.png"],
+            ["%texures/ui/box_exit.png"],
+            ["%texures/ui/box_exit_pressed.png"],
+            ["%texures/ui/box_ride.png"],
+            ["%texures/ui/box_ride_pressed.png"],
+            ["%texures/ui/chat_send.png"],
+            ["%texures/ui/dismount.png"],
+            ["%texures/ui/dismount_pressed.png"],
+            ["%texures/ui/dressing_room_animation.png"],
+            ["%texures/ui/dressing_room_capes.png"],
+            ["%texures/ui/dressing_room_customization.png"],
+            ["%texures/ui/dressing_room_skins.png"],
+            ["%texures/ui/elipses.png"],
+            ["%texures/ui/empty_armor_slot_boots.png"],
+            ["%texures/ui/empty_armor_slot_chestplate.png"],
+            ["%texures/ui/empty_armor_slot_helmet.png"],
+            ["%texures/ui/empty_armor_slot_leggings.png"],
+            ["%texures/ui/empty_armor_slot_shield.png"],
+            ["%texures/ui/empty_horse_slot_armor.png"],
+            ["%texures/ui/empty_horse_slot_saddle.png"],
+            ["%texures/ui/empty_llama_slot_carpet.png"],
+            ["%texures/ui/first_craft_desktop.png"],
+            ["%texures/ui/first_craft_mobile.png"],
+            ["%texures/ui/flyingascend.png"],
+            ["%texures/ui/flyingascend_pressed.png"],
+            ["%texures/ui/flyingdescend.png"],
+            ["%texures/ui/flyingdescend_pressed.png"],
+            ["%texures/ui/gear.png"],
+            ["%texures/ui/horse_exit.png"],
+            ["%texures/ui/horse_exit_pressed.png"],
+            ["%texures/ui/horse_jump_empty.png"],
+            ["%texures/ui/horse_jump_full.png"],
+            ["%texures/ui/horse_ride.png"],
+            ["%texures/ui/horse_ride_pressed.png"],//needs work
+            ["%texures/ui/infobulb.png"],//needs work
+            ["%texures/ui/infobulb_darkborder_small.png"],//needs work
+            ["%texures/ui/interact.png"],//needs work
+            ["%texures/ui/interact_pressed.png"],//needs work
+            ["%texures/ui/inventory_icon.png"],//needs work
+            ["%texures/ui/joystick_frame.png"],//needs work
+            ["%texures/ui/joystick_knob.png"],//needs work
+            ["%texures/ui/jump.png"],//needs work
+            ["%texures/ui/jump_pressed.png"],//needs work
+            ["%texures/ui/keyboard_tooltip_background.json"],//needs work
+            ["%texures/ui/keyboard_tooltip_background.png"],//needs work
+            ["%texures/ui/keyboard_tooltip_icon.json"],//needs work
+            ["%texures/ui/keyboard_tooltip_icon.png"],//needs work
+            ["%texures/ui/mount.png"],//needs work
+            ["%texures/ui/mount_pressed.png"],//needs work
+            ["%texures/ui/perspective.png"],//needs work
+            ["%texures/ui/photo_corner_bl.png"],//needs work
+            ["%texures/ui/photo_corner_br.png"],//needs work
+            ["%texures/ui/photo_corner_tl.png"],//needs work
+            ["%texures/ui/photo_corner_tr.png"],//needs work
+            ["%texures/ui/pick_block.png"],//needs work
+            ["%texures/ui/pick_block_pressed.png"],//needs work
+            ["%texures/ui/profile_bg.png"],//needs work
+            ["%texures/ui/profile_new_look.png"],//needs work
+            ["%texures/ui/profile_new_look_small.png"],//needs work
+            ["%texures/ui/recipe_book_icon.png"],//needs work
+            ["%texures/ui/Rotate.png"],//needs work
+            ["%texures/ui/RTX_Label.png"],//needs work
+            ["%texures/ui/smithing_material_slot_overlay.png"],//needs work
+            ["%texures/ui/sneak.png"],//needs work
+            ["%texures/ui/sneak_pressed.png"],//needs work
+            ["%texures/ui/sprint.png"],//needs work
+            ["%texures/ui/sprint_disable.png"],//needs work
+            ["%texures/ui/sprint_pressed.png"],//needs work
+            ["%texures/ui/templates_slot_overlay.png"],//needs work
+            ["%texures/ui/warning_alex.png"],//needs work
+            ["%texures/ui/waterascend.png"],//needs work
+            ["%texures/ui/waterascend_pressed.png"],//needs work
+            ["%texures/ui/waterdescend.png"],//needs work
+            ["%texures/ui/waterdescend_pressed.png"],//needs work
         ])}
     </p></details>
 `;
