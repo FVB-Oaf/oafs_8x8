@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre12`;
+const current_version=`1.1.0.0-pre13`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="assets/1.1.0.0-pre06-banner.png"class="banner">`;
@@ -6980,6 +6980,61 @@ const changelog_content=`
             ["%texures/ui/waterdescend_pressed.png"],
             ["%texures/ui/XTab.json"],
             ["%texures/ui/XTab.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre13 (September 14<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%texures/entity/lead_knot.png"],
+            ["%texures/entity/lead_knot.texture_set.json"],
+            ["%texures/entity/lead_knot_mers.png"],
+            ["%texures/entity/lead_rope.texture_set.json"],
+            ["%texures/entity/lead_rope_mers.tga"],
+            ["%texures/entity/loyalty_rope.texture_set.json"],
+            ["%texures/entity/loyalty_rope_mers.tga"],
+            ["%texures/entity/minecart.png"],
+            ["%texures/entity/minecart.texture_set.json"],
+            ["%texures/entity/minecart_mers.tga"],
+            ["%texures/entity/happy_ghast/ghastling.png"],
+            ["%texures/entity/happy_ghast/ghastling.texture_set.json"],
+            ["%texures/entity/happy_ghast/ghastling_mers.png"],
+            ["%texures/entity/happy_ghast/happy_ghast.png"],
+            ["%texures/entity/happy_ghast/happy_ghast.texture_set.json"],
+            ["%texures/entity/happy_ghast/happy_ghast_mers.png"],
+            ["%texures/entity/happy_ghast/happy_ghast_ropes.png"],
+            ["%texures/ui/deop.png"],
+            ["%texures/ui/emote_wheel_updated_base.png"],
+            ["%texures/ui/emote_wheel_updated_select_0.png"],
+            ["%texures/ui/emote_wheel_updated_select_1.png"],
+            ["%texures/ui/emote_wheel_updated_select_2.png"],
+            ["%texures/ui/emote_wheel_updated_select_3.png"],
+            ["%texures/ui/equipped_item_border.png"],
+            ["%texures/ui/gameTipBorder.json"],
+            ["%texures/ui/gameTipBorder.png"],
+            ["%texures/ui/ic_send_white_48dp.png"],
+            ["%texures/ui/immersive_reader.png"],
+            ["%texures/ui/immersive_reader.xcf"],
+            ["%texures/ui/magnifying_glass.png"],
+            ["%texures/ui/magnifying_glass.xcf"],
+            ["%texures/ui/mail_icon.png"],
+            ["%texures/ui/mashup_hangar.png"],
+            ["%texures/ui/mashup_PaintBrush.png"],
+            ["%texures/ui/mashup_world.png"],
+            ["%texures/ui/MashupIcon.png"],
+            ["%texures/ui/MCoin.png"],
+            ["%texures/ui/MCoin.xcf"],
+            ["%texures/ui/message.png"],
+            ["%texures/ui/mobile_data_icon_android.png"],
+            ["%texures/ui/mobile_data_icon_ios.png"],
+            ["%texures/ui/op.png"],
+            ["%texures/ui/spyglass_flat.png"],
+            ["%texures/ui/store_filter_icon.png"],
+            ["%texures/ui/store_filter_icon.xcf"],
+            ["%texures/ui/store_home_icon.png"],
+            ["%texures/ui/store_home_icon.xcf"],
+            ["%texures/ui/store_sort_icon.png"],
+            ["%texures/ui/store_sort_icon.xcf"],
+            ["%texures/ui/text_color_paintbrush.png"],
+            ["%texures/ui/text_color_paintbrush_overlay.png"],
         ])}
     </p></details>
 `;
