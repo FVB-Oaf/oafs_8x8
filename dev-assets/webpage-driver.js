@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre15`;
+const current_version=`1.1.0.0-pre16`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="dev-assets/1503-x-304/1.1.0.0-pre06.png""class="banner">`;
@@ -7660,6 +7660,43 @@ const changelog_content=`
             ["%textures/entity/ghast/ghast_shooting.png"],
             ["%textures/entity/ghast/ghast_shooting.texture_set.json"],
             ["%textures/entity/ghast/ghast_shooting_mers.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre16 (September 20<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%textures/entity/bell/bell.png"],
+            ["%textures/entity/bell/bell.texture_set.json"],
+            ["%textures/entity/bell/bell_mers.tga"],
+            ["%textures/entity/boat/bamboo_raft.png"],
+            ["%textures/entity/boat/bamboo_raft.texture_set.json"],
+            ["%textures/entity/boat/bamboo_raft_mers.tga"],
+            ["%textures/entity/boat/boat_acacia.png"],
+            ["%textures/entity/boat/boat_acacia.texture_set.json"],
+            ["%textures/entity/boat/boat_acacia_mers.tga"],
+            ["%textures/entity/chest/double_normal.png"],
+            ["%textures/entity/chest/double_normal.texture_set.json"],
+            ["%textures/entity/chest/double_normal_mers.tga"],
+            ["%textures/entity/chest/ender.png"],
+            ["%textures/entity/chest/ender.texture_set.json"],
+            ["%textures/entity/chest/ender_mers.tga"],
+            ["%textures/entity/chest/normal.png"],
+            ["%textures/entity/chest/normal.texture_set.json"],
+            ["%textures/entity/chest/normal_mers.tga"],
+            ["%textures/entity/chest/trapped.png"],
+            ["%textures/entity/chest/trapped.texture_set.json"],
+            ["%textures/entity/chest/trapped_double.png"],
+            ["%textures/entity/chest/trapped_double.texture_set.json"],
+            ["%textures/entity/chest/trapped_double_mers.tga"],
+            ["%textures/entity/chest/trapped_mers.tga"],
+            ["%textures/entity/skeleton/bogged.png"],
+            ["%textures/entity/skeleton/bogged.texture_set.json"],
+            ["%textures/entity/skeleton/bogged_clothes.png"],
+            ["%textures/entity/skeleton/bogged_clothes.texture_set.json"],
+            ["%textures/entity/skeleton/bogged_clothes_mers.tga"],
+            ["%textures/entity/skeleton/bogged_mers.tga"],
+            ["%textures/entity/skeleton/skeleton.png"],
+            ["%textures/entity/skeleton/skeleton.texture_set.json"],
+            ["%textures/entity/skeleton/skeleton_mers.tga"],
         ])}
     </p></details>
 `;
