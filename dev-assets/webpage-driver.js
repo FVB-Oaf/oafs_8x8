@@ -1,4 +1,4 @@
-const current_version=`1.1.0.0-pre17`;
+const current_version=`1.1.0.0-pre18`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
 const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
 const banner=`<img src="dev-assets/1503-x-304/1.1.0.0-pre06.png""class="banner">`;
@@ -7765,6 +7765,14 @@ const changelog_content=`
             ["%textures/gui/controls/up.xcf"],
             ["%textures/gui/controls/up_pressed.png"],
             ["%textures/gui/controls/up_pressed.xcf"],
+        ])}
+    </p></details><br><details><summary><h2>v1.1.0.0-pre18 (September 27<sup>th</sup>, 2025)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%font/default8.bin"],
+            ["%font/default8.bin.bak"],
+            ["%font/default8.png"],
+            ["%font/default8.url"],
         ])}
     </p></details>
 `;
