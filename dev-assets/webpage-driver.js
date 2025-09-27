@@ -7840,6 +7840,7 @@ const changelog_content=`
     </p></details><br><details><summary><h2>v1.1.0.0-pre20 (September 27<sup>th</sup>, 2025)</h2></summary><p>
         ${list2([
             "Added/Modified files:",
+            ["%dev-assets/8x8_v1.1.0.0-pre19.bak"],
             ["%textures/entity/skulls/creeper.texture_set.json"],
             ["%textures/entity/skulls/creeper_mers.tga"],
             ["%textures/entity/skulls/skeleton.texture_set.json"],
