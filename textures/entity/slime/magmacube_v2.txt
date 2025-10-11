@@ -1,2 +1,0 @@
-main: 50% opacity
-lava: 11% opacity
