@@ -1,17 +1,20 @@
 {
   "pack":{
     "pack_format":15,
-    "supported_formats":{"min_inclusive":15,"max_inclusive":64},
+    "min_format":15,
+    "max_format":75.0,
+    "supported_formats":{"min_inclusive":15,"max_inclusive":75.0},
     "description":"Oaf's 8x8\nUse Optifine!"
   },
   "overlays":{
 		"entries":[
-			{"formats":{"min_inclusive":15,"max_inclusive":64},"directory":"overlay_1_20_0"},
-			{"formats":{"min_inclusive":46,"max_inclusive":64},"directory":"overlay_1_21_4"},
-			{"formats":{"min_inclusive":53,"max_inclusive":64},"directory":"overlay_1_21_5"},
-      {"formats":{"min_inclusive":63,"max_inclusive":64},"directory":"overlay_1_21_6"},
-      {"formats":{"min_inclusive":63,"max_inclusive":64},"directory":"overlay_1_21_6"},
-      {"formats":{"min_inclusive":64,"max_inclusive":64},"directory":"overlay_1_21_7"}
+			{"formats":{"min_inclusive":15,"max_inclusive":75.0},"min_format":15,"max_format":75.0,"directory":"overlay_1_20_0"},
+			{"formats":{"min_inclusive":46,"max_inclusive":75.0},"min_format":46,"max_format":75.0,"directory":"overlay_1_21_4"},
+			{"formats":{"min_inclusive":53,"max_inclusive":75.0},"min_format":53,"max_format":75.0,"directory":"overlay_1_21_5"},
+      {"formats":{"min_inclusive":63,"max_inclusive":75.0},"min_format":63,"max_format":75.0,"directory":"overlay_1_21_6"},
+      {"formats":{"min_inclusive":64,"max_inclusive":75.0},"min_format":64,"max_format":75.0,"directory":"overlay_1_21_7"},
+      {"formats":{"min_inclusive":69.0,"max_inclusive":75.0},"min_format":69.0,"max_format":75.0,"directory":"jeu_1_21_9_copper_age"},
+      {"formats":{"min_inclusive":75.0,"max_inclusive":75.0},"min_format":75.0,"max_format":75.0,"directory":"jeu_1_21_11_mounts_of_mayhem"}
     ]
   }
 }
