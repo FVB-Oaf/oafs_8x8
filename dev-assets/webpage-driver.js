@@ -1,6 +1,6 @@
-const current_version=`1.1.0.0-pre22`;
+const current_version=`1.2.0.0-pre01-wip01`;
 const current_ofnfull=`OptiFine 1.21.4 HD U J3`;
-const current_ofnvers=`OptiFine 1.21.7 HD U J6 pre6`;
+const current_ofnvers=`OptiFine 1.21.11 HD U J8 pre2`;
 const banner=`<img src="dev-assets/1503-x-304/1.1.0.0-pre06.png""class="banner">`;
 function list2(functionInput2){
     let temp=[""];
@@ -8315,6 +8315,289 @@ const changelog_content=`
             ["%textures/items/map_monument.png"],
             ["%textures/items/map_nautilus.png"],
             ["%textures/items/map_trial_chambers.png"],
+        ])}
+    </p></details><br><details><summary><h2>v1.2.0.0-pre01-wip01 (January 10<sup>th</sup>, 2026)</h2></summary><p>
+        ${list2([
+            "Added/Modified files:",
+            ["%pack.mcmeta"],
+            ["%assets/minecraft/models/a1.bbmodel"],
+            ["%assets/minecraft/models/a2.bbmodel"],
+            ["%assets/minecraft/models/a3.bbmodel"],
+            ["%assets/minecraft/models/a4.bbmodel"],
+            ["%assets/minecraft/models/a5.bbmodel"],
+            ["%assets/minecraft/models/a6.bbmodel"],
+            ["%assets/minecraft/models/a7.bbmodel"],
+            ["%assets/minecraft/models/a8.bbmodel"],
+            ["%assets/minecraft/models/a9.bbmodel"],
+            ["%assets/minecraft/models/a10.bbmodel"],
+            ["%assets/minecraft/models/a11.bbmodel"],
+            ["%assets/minecraft/models/a12.bbmodel"],
+            ["%assets/minecraft/models/a13.bbmodel"],
+            ["%assets/minecraft/models/a14.bbmodel"],
+            ["%assets/minecraft/models/a15.bbmodel"],
+            ["%assets/minecraft/models/a16.bbmodel"],
+            ["%assets/minecraft/models/item/a1.json"],
+            ["%assets/minecraft/models/item/a2.json"],
+            ["%assets/minecraft/models/item/a3.json"],
+            ["%assets/minecraft/models/item/a4.json"],
+            ["%assets/minecraft/models/item/a5.json"],
+            ["%assets/minecraft/models/item/a6.json"],
+            ["%assets/minecraft/models/item/a7.json"],
+            ["%assets/minecraft/models/item/a8.json"],
+            ["%assets/minecraft/models/item/a9.json"],
+            ["%assets/minecraft/models/item/a10.json"],
+            ["%assets/minecraft/models/item/a11.json"],
+            ["%assets/minecraft/models/item/a12.json"],
+            ["%assets/minecraft/models/item/a13.json"],
+            ["%assets/minecraft/models/item/a14.json"],
+            ["%assets/minecraft/models/item/a15.json"],
+            ["%assets/minecraft/models/item/a16.json"],
+            ["%assets/minecraft/models/item/acacia_sapling.json"],
+            ["%assets/minecraft/models/item/activator_rail.json"],
+            ["%assets/minecraft/models/item/allium.json"],
+            ["%assets/minecraft/models/item/amethyst_cluster.json"],
+            ["%assets/minecraft/models/item/azure_bluet.json"],
+            ["%assets/minecraft/models/item/birch_sapling.json"],
+            ["%assets/minecraft/models/item/black_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/blue_orchid.json"],
+            ["%assets/minecraft/models/item/blue_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/brain_coral.json"],
+            ["%assets/minecraft/models/item/brain_coral_fan.json"],
+            ["%assets/minecraft/models/item/brown_mushroom.json"],
+            ["%assets/minecraft/models/item/brown_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/bubble_coral.json"],
+            ["%assets/minecraft/models/item/bubble_coral_fan.json"],
+            ["%assets/minecraft/models/item/bush.json"],
+            ["%assets/minecraft/models/item/cactus_flower.json"],
+            ["%assets/minecraft/models/item/cherry_sapling.json"],
+            ["%assets/minecraft/models/item/closed_eyeblossom.json"],
+            ["%assets/minecraft/models/item/cobweb.json"],
+            ["%assets/minecraft/models/item/cornflower.json"],
+            ["%assets/minecraft/models/item/crimson_fungus.json"],
+            ["%assets/minecraft/models/item/crimson_roots.json"],
+            ["%assets/minecraft/models/item/cyan_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/dandelion.json"],
+            ["%assets/minecraft/models/item/dark_oak_sapling.json"],
+            ["%assets/minecraft/models/item/dead_brain_coral.json"],
+            ["%assets/minecraft/models/item/dead_brain_coral_fan.json"],
+            ["%assets/minecraft/models/item/dead_bubble_coral.json"],
+            ["%assets/minecraft/models/item/dead_bubble_coral_fan.json"],
+            ["%assets/minecraft/models/item/dead_bush.json"],
+            ["%assets/minecraft/models/item/dead_fire_coral.json"],
+            ["%assets/minecraft/models/item/dead_fire_coral_fan.json"],
+            ["%assets/minecraft/models/item/dead_horn_coral.json"],
+            ["%assets/minecraft/models/item/dead_horn_coral_fan.json"],
+            ["%assets/minecraft/models/item/dead_tube_coral.json"],
+            ["%assets/minecraft/models/item/dead_tube_coral_fan.json"],
+            ["%assets/minecraft/models/item/detector_rail.json"],
+            ["%assets/minecraft/models/item/fern.json"],
+            ["%assets/minecraft/models/item/fire_coral.json"],
+            ["%assets/minecraft/models/item/fire_coral_fan.json"],
+            ["%assets/minecraft/models/item/frogspawn.json"],
+            ["%assets/minecraft/models/item/glass_pane.json"],
+            ["%assets/minecraft/models/item/glow_lichen.json"],
+            ["%assets/minecraft/models/item/gray_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/green_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/hanging_roots.json"],
+            ["%assets/minecraft/models/item/horn_coral.json"],
+            ["%assets/minecraft/models/item/horn_coral_fan.json"],
+            ["%assets/minecraft/models/item/iron_bars.json"],
+            ["%assets/minecraft/models/item/jungle_sapling.json"],
+            ["%assets/minecraft/models/item/ladder.json"],
+            ["%assets/minecraft/models/item/large_amethyst_bud.json"],
+            ["%assets/minecraft/models/item/large_fern.json"],
+            ["%assets/minecraft/models/item/light_blue_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/light_gray_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/lilac.json"],
+            ["%assets/minecraft/models/item/lily_of_the_valley.json"],
+            ["%assets/minecraft/models/item/lily_pad.json"],
+            ["%assets/minecraft/models/item/lime_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/magenta_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/medium_amethyst_bud.json"],
+            ["%assets/minecraft/models/item/oak_sapling.json"],
+            ["%assets/minecraft/models/item/orange_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/orange_tulip.json"],
+            ["%assets/minecraft/models/item/oxeye_daisy.json"],
+            ["%assets/minecraft/models/item/pale_hanging_moss.json"],
+            ["%assets/minecraft/models/item/pale_oak_sapling.json"],
+            ["%assets/minecraft/models/item/peony.json"],
+            ["%assets/minecraft/models/item/pink_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/pink_tulip.json"],
+            ["%assets/minecraft/models/item/poppy.json"],
+            ["%assets/minecraft/models/item/powered_rail.json"],
+            ["%assets/minecraft/models/item/purple_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/red_tulip.json"],
+            ["%assets/minecraft/models/item/rose_bush.json"],
+            ["%assets/minecraft/models/item/sculk_vein.json"],
+            ["%assets/minecraft/models/item/short_dry_grass.json"],
+            ["%assets/minecraft/models/item/short_grass.json"],
+            ["%assets/minecraft/models/item/small_amethyst_bud.json"],
+            ["%assets/minecraft/models/item/spruce_sapling.json"],
+            ["%assets/minecraft/models/item/sunflower.json"],
+            ["%assets/minecraft/models/item/tall_dry_grass.json"],
+            ["%assets/minecraft/models/item/tall_grass.json"],
+            ["%assets/minecraft/models/item/torchflower.json"],
+            ["%assets/minecraft/models/item/tube_coral.json"],
+            ["%assets/minecraft/models/item/tube_coral_fan.json"],
+            ["%assets/minecraft/models/item/twisting_vines.json"],
+            ["%assets/minecraft/models/item/vine.json"],
+            ["%assets/minecraft/models/item/warped_fungus.json"],
+            ["%assets/minecraft/models/item/warped_roots.json"],
+            ["%assets/minecraft/models/item/weeping_vines.json"],
+            ["%assets/minecraft/models/item/white_stained_glass_pane.json"],
+            ["%assets/minecraft/models/item/white_tulip.json"],
+            ["%assets/minecraft/models/item/wither_rose.json"],
+            ["%assets/minecraft/models/item/yellow_stained_glass_pane.json"],
+            ["%assets/minecraft/textures/environment/celestial/end_flash.png"],
+            ["%assets/minecraft/textures/environment/celestial/sun.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/first_quarter.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/full_moon.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/new_moon.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/third_quarter.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/waning_crescent.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/waning_gibbous.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/waxing_crescent.png"],
+            ["%assets/minecraft/textures/environment/celestial/moon/waxing_gibbous.png"],
+            ["%assets/minecraft/textures/item/_oaf/null.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/1.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/2.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/3.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/4.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/5.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/6.png"],
+            ["%assets/minecraft/textures/item/8x8fix12111/panes.png"],
+            ["%dev-assets/mom.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/copper_chain.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/exposed_copper_chain.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/exposed_lightning_rod.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/iron_chain.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/oxidized_copper_chain.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/oxidized_lightning_rod.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_body.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_center.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_inventory.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_left.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_right.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_unconnected.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/template_shelf_unpowered.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/weathered_copper_chain.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/block/weathered_lightning_rod.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/item/copper_bars.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/item/copper_torch.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/item/exposed_copper_bars.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/item/oxidized_copper_bars.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/models/item/weathered_copper_bars.json"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/acacia_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/bamboo_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/birch_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/cherry_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/copper_bars.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/copper_lantern.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/copper_torch.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/crimson_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/dark_oak_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/exposed_copper_bars.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/exposed_copper_lantern.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/exposed_lightning_rod.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/jungle_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/mangrove_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/oak_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/oxidized_copper_bars.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/oxidized_copper_lantern.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/oxidized_lightning_rod.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/pale_oak_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/spruce_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/warped_shelf.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/weathered_copper_bars.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/weathered_copper_lantern.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/weathered_lightning_rod.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/8x8/copperchain.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/8x8/exposedcopperchain.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/8x8/oxidizedcopperchain.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/block/8x8/weatheredcopperchain.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_exposed.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_exposed_left.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_exposed_right.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_left.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_oxidized.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_oxidized_left.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_oxidized_right.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_right.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_weathered.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_weathered_left.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/chest/copper_weathered_right.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/copper_golem.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/copper_golem_eyes.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/exposed_copper_golem.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/exposed_copper_golem_eyes.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/oxidized_copper_golem.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/oxidized_copper_golem_eyes.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/weathered_copper_golem.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/copper_golem/weathered_copper_golem_eyes.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/equipment/horse_body/copper.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/equipment/humanoid/copper.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/equipment/humanoid_leggings/copper.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_axe.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_boots.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_chain.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_chestplate.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_golem_spawn_egg.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_helmet.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_hoe.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_horse_armor.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_lantern.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_leggings.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_nugget.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_pickaxe.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_shovel.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/copper_sword.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/exposed_copper_chain.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/exposed_copper_lantern.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/oxidized_copper_chain.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/oxidized_copper_lantern.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/weathered_copper_chain.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/weathered_copper_lantern.png"],//needs work
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/item/8x8/coppertorch.png"],
+            ["%jeu_1_21_9_copper_age/assets/minecraft/textures/particle/copper_fire_flame.png"],
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/camel/camel_husk.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/camel_husk_saddle/saddle.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/horse_body/netherite.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_body/copper.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_body/diamond.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_body/gold.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_body/iron.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_body/netherite.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/equipment/nautilus_saddle/saddle.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/nautilus/nautilus.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/nautilus/nautilus_baby.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/nautilus/zombie_nautilus.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/nautilus/zombie_nautilus_coral.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/entity/skeleton/parched.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/camel_husk_spawn_egg.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/copper_nautilus_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/copper_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/copper_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/diamond_nautilus_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/diamond_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/diamond_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/golden_nautilus_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/golden_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/golden_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/iron_nautilus_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/iron_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/iron_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/nautilus_spawn_egg.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/netherite_horse_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/netherite_nautilus_armor.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/netherite_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/netherite_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/parched_spawn_egg.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/stone_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/stone_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/wooden_spear.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/wooden_spear_in_hand.png"],//needs work
+            ["%jeu_1_21_11_mounts_of_mayhem/assets/minecraft/textures/item/zombie_nautilus_spawn_egg.png"],//needs work
         ])}
     </p></details>
 `;
