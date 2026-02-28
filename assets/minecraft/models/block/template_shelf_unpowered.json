@@ -1,0 +1,16 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#all"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 12.05],
+			"to": [16, 12, 12.05],
+			"rotation": {"x": 0, "y": 0, "z": 0, "origin": [0, 0, -1]},
+			"faces": {
+				"north": {"uv": [0, 2, 8, 6], "texture": "#all"}
+			}
+		}
+	]
+}
