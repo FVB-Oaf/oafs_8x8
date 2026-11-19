@@ -1,0 +1,144 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"all": "block/bed/straw",
+		"particle": "block/straw_bed_particle"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"east": {"uv": [8, 0.5, 12, 1.5], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [5, 2.5, 9, 3.5], "texture": "#all", "cullface": "south"},
+				"west": {"uv": [4, 0.5, 8, 1.5], "texture": "#all", "cullface": "west"},
+				"up": {"uv": [9, 11, 5, 7], "texture": "#all"},
+				"down": {"uv": [15, 7, 11, 11], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"name": "pillow_frills_02",
+			"from": [-4, 5.96, 8],
+			"to": [0, 5.96, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"up": {"uv": [10, 7, 9, 5], "texture": "#all", "cullface": "west"},
+				"down": {"uv": [16, 5, 15, 7], "texture": "#all", "cullface": "west"}
+			}
+		},
+		{
+			"name": "pillow_frills_03",
+			"from": [-4, 0.065, 8.025],
+			"to": [0, 5.95, 8.025],
+			"faces": {
+				"north": {"uv": [9, 3.5, 10, 4.97125], "texture": "#all", "cullface": "west"},
+				"south": {"uv": [16, 3.5, 15, 4.97125], "texture": "#all", "cullface": "west"}
+			}
+		},
+		{
+			"name": "pillow_frills_04",
+			"from": [-4, 0.065, 15.985],
+			"to": [0, 5.95, 15.985],
+			"faces": {
+				"north": {"uv": [10, 2, 11, 3.47125], "texture": "#all", "cullface": "west"},
+				"south": {"uv": [4, 2, 5, 3.47125], "texture": "#all", "cullface": "west"}
+			}
+		},
+		{
+			"name": "pillow_frills_06",
+			"from": [16, 5.975, 8],
+			"to": [20, 5.975, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"up": {"uv": [5, 7, 4, 5], "texture": "#all", "cullface": "east"},
+				"down": {"uv": [11, 5, 10, 7], "texture": "#all", "cullface": "east"}
+			}
+		},
+		{
+			"name": "pillow_frills_07",
+			"from": [16, 0.05, 8],
+			"to": [20, 5.975, 8],
+			"faces": {
+				"north": {"uv": [4, 3.5, 5, 4.98125], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [11, 3.5, 10, 4.98125], "texture": "#all", "cullface": "east"}
+			}
+		},
+		{
+			"name": "pillow_frills_08",
+			"from": [16, 0.05, 15.975],
+			"to": [20, 5.975, 15.975],
+			"faces": {
+				"north": {"uv": [16, 2, 15, 3.48125], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [9, 2, 10, 3.48125], "texture": "#all", "cullface": "east"}
+			}
+		},
+		{
+			"name": "pillow",
+			"from": [0, 4, 8],
+			"to": [16, 6, 16],
+			"faces": {
+				"north": {"uv": [5, 3.5, 9, 4], "texture": "#all"},
+				"east": {"uv": [8, 0, 10, 0.5], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [5, 2, 9, 2.5], "texture": "#all", "cullface": "south"},
+				"west": {"uv": [6, 0, 8, 0.5], "texture": "#all", "cullface": "west"},
+				"up": {"uv": [9, 7, 5, 5], "texture": "#all"}
+			}
+		},
+		{
+			"name": "frills_02",
+			"from": [16, 0.05, 0],
+			"to": [20, 0.05, 16],
+			"faces": {
+				"up": {"uv": [5, 11, 4, 7], "texture": "#all", "cullface": "east"},
+				"down": {"uv": [11, 7, 10, 11], "texture": "#all", "cullface": "east"}
+			}
+		},
+		{
+			"name": "frills_03",
+			"from": [-4, 0.065, 0],
+			"to": [0, 0.065, 16],
+			"faces": {
+				"up": {"uv": [10, 11, 9, 7], "texture": "#all", "cullface": "west"},
+				"down": {"uv": [16, 7, 15, 11], "texture": "#all", "cullface": "west"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [30, -20, 0],
+			"translation": [0, 3, -2],
+			"scale": [0.23, 0.23, 0.23]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -20, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 1, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -20, 0],
+			"translation": [2, 3, 0],
+			"scale": [0.5325, 0.5325, 0.5325]
+		},
+		"head": {
+			"translation": [0, 10, -8]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 4, -3],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 14.5, 2.5],
+			"scale": [0.9375, 0.9375, 0.9375]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"ambientocclusion":false,"textures":{"particle":"#texture"},"elements":[{"from":[2,7.99,2],"to":[14,8,14],"faces":{"up":{"texture":"#texture","tintindex":0,"cullface":"up"},"down":{"texture":"#texture","tintindex":0}}}]}
