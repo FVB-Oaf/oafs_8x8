@@ -1,0 +1,18 @@
+{
+  "model":{
+    "type":"select",
+    "cases":[
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_quartz_trim"},"when":"quartz"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_iron_trim"},"when":"iron"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_netherite_trim"},"when":"netherite"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_redstone_trim"},"when":"redstone"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_copper_trim"},"when":"copper"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_gold_trim"},"when":"gold"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_emerald_trim"},"when":"emerald"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_diamond_trim"},"when":"diamond"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_lapis_trim"},"when":"lapis"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_amethyst_trim"},"when":"amethyst"},
+      {"model":{"type":"model","model":"item/trimmed_armor/copper_leggings_resin_trim"},"when":"resin"}
+    ],            "fallback":{"type":"model","model":"item/copper_leggings"},"property":"trim_material"
+  }
+}

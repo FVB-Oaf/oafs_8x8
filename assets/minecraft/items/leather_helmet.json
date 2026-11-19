@@ -1,0 +1,18 @@
+{
+  "model":{
+    "type":"select",
+    "cases":[
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_quartz_trim","tints":[{"type":"dye","default":-6265536}]},"when":"quartz"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_iron_trim","tints":[{"type":"dye","default":-6265536}]},"when":"iron"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_netherite_trim","tints":[{"type":"dye","default":-6265536}]},"when":"netherite"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_redstone_trim","tints":[{"type":"dye","default":-6265536}]},"when":"redstone"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_copper_trim","tints":[{"type":"dye","default":-6265536}]},"when":"copper"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_gold_trim","tints":[{"type":"dye","default":-6265536}]},"when":"gold"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_emerald_trim","tints":[{"type":"dye","default":-6265536}]},"when":"emerald"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_diamond_trim","tints":[{"type":"dye","default":-6265536}]},"when":"diamond"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_lapis_trim","tints":[{"type":"dye","default":-6265536}]},"when":"lapis"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_amethyst_trim","tints":[{"type":"dye","default":-6265536}]},"when":"amethyst"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_helmet_resin_trim","tints":[{"type":"dye","default":-6265536}]},"when":"resin"}
+    ],            "fallback":{"type":"model","model":"item/leather_helmet","tints":[{"type":"dye","default":-6265536}]},"property":"trim_material"
+  }
+}

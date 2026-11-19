@@ -1,0 +1,18 @@
+{
+  "model":{
+    "type":"select",
+    "cases":[
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_quartz_trim","tints":[{"type":"dye","default":-6265536}]},"when":"quartz"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_iron_trim","tints":[{"type":"dye","default":-6265536}]},"when":"iron"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_netherite_trim","tints":[{"type":"dye","default":-6265536}]},"when":"netherite"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_redstone_trim","tints":[{"type":"dye","default":-6265536}]},"when":"redstone"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_copper_trim","tints":[{"type":"dye","default":-6265536}]},"when":"copper"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_gold_trim","tints":[{"type":"dye","default":-6265536}]},"when":"gold"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_emerald_trim","tints":[{"type":"dye","default":-6265536}]},"when":"emerald"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_diamond_trim","tints":[{"type":"dye","default":-6265536}]},"when":"diamond"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_lapis_trim","tints":[{"type":"dye","default":-6265536}]},"when":"lapis"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_amethyst_trim","tints":[{"type":"dye","default":-6265536}]},"when":"amethyst"},
+      {"model":{"type":"model","model":"item/trimmed_armor/leather_leggings_resin_trim","tints":[{"type":"dye","default":-6265536}]},"when":"resin"}
+    ],            "fallback":{"type":"model","model":"item/leather_leggings","tints":[{"type":"dye","default":-6265536}]},"property":"trim_material"
+  }
+}
