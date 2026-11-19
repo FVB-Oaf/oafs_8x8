@@ -1,0 +1,3 @@
+o8x8     | Oaf's 8x8
+o8x8font | Oaf's 8x8 Font
+o8x8tfnt | Oaf's 8x8 Transparency Font
