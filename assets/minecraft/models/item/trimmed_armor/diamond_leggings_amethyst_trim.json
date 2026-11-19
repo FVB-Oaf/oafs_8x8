@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated_3_layers",
+  "textures": {
+    "layer0": "item/diamond_leggings",
+    "layer1": "trims/items/leggings_trim_amethyst"
+  }
+}

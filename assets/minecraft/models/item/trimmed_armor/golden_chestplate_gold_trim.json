@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated_3_layers",
+  "textures": {
+    "layer0": "item/golden_chestplate",
+    "layer1": "trims/items/chestplate_trim_gold_darker"
+  }
+}

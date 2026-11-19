@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated_3_layers",
+  "textures": {
+    "layer0": "item/golden_helmet",
+    "layer1": "trims/items/helmet_trim_amethyst"
+  }
+}
