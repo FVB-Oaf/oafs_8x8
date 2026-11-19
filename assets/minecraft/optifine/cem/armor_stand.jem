@@ -1,0 +1,98 @@
+{
+	"textureSize": [64, 32],
+	"texture": "_armorstand.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -23, 0],
+			"boxes": [
+				{"coordinates": [-1, 24, -1, 2, 6, 2], "textureOffset": [34, 8]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-7, 22, -1, 14, 2, 2], "textureOffset": [0, 12]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-7, 12, -1, 2, 12, 2], "textureOffset": [8, 16]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [5, 12, -1, 2, 12, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.85, -12, 0],
+			"boxes": [
+				{"coordinates": [-2.9, 2, -1, 2, 10, 2], "textureOffset": [52, 18]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.85, -12, 0],
+			"boxes": [
+				{"coordinates": [1.05, 2, -1, 2, 10, 2], "textureOffset": [44, 18]}
+			]
+		},
+		{
+			"part": "right",
+			"id": "right",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3, 14, -1, 2, 8, 2], "textureOffset": [52, 4]}
+			]
+		},
+		{
+			"part": "left",
+			"id": "left",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [1, 14, -1, 2, 8, 2], "textureOffset": [44, 4]}
+			]
+		},
+		{
+			"part": "waist",
+			"id": "waist",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-3, 12, -1, 6, 2, 2], "textureOffset": [44, 14]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"boxes": [
+				{"coordinates": [-7, 0, -7, 14, 2, 14], "textureOffset": [2, 16]}
+			]
+		}
+	]
+}
