@@ -1,6 +1,1 @@
-{
-  "multipart":[
-    {"apply":{"model":"minecraft:block/cauldron"}},
-    {"apply":{"model":"minecraft:block/_oaf/lava3"}}
-  ]
-}
+{"multipart":[{"apply":{"model":"block/cauldron"}},{"apply":{"model":"block/o8x8/cauldron/lava/3"}}]}

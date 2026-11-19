@@ -1,8 +1,8 @@
 {
   "multipart":[
-    {"apply":{"model":"minecraft:block/cauldron"}},
-    {"apply":{"model":"minecraft:block/_oaf/water1"},"when":{"level":"1"}},
-    {"apply":{"model":"minecraft:block/_oaf/water2"},"when":{"level":"2"}},
-    {"apply":{"model":"minecraft:block/_oaf/water3"},"when":{"level":"3"}}
+    {"apply":{"model":"block/cauldron"}},
+    {"apply":{"model":"block/o8x8/cauldron/water/1"},"when":{"level":"1"}},
+    {"apply":{"model":"block/o8x8/cauldron/water/2"},"when":{"level":"2"}},
+    {"apply":{"model":"block/o8x8/cauldron/water/3"},"when":{"level":"3"}}
   ]
 }
