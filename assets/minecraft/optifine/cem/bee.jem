@@ -1,0 +1,92 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{"coordinates": [-3, 2.5, -5, 6, 6, 10], "textureOffset": [0, 48]}
+			]
+		},
+		{
+			"part": "left_antenna",
+			"id": "left_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [-2, 6.5, -8, 1, 2, 3], "textureOffset": [2, 0]}
+			]
+		},
+		{
+			"part": "right_antenna",
+			"id": "right_antenna",
+			"invertAxis": "xy",
+			"translate": [0, -7, 5],
+			"boxes": [
+				{"coordinates": [1, 6.5, -8, 1, 2, 3], "textureOffset": [2, 3]}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.5, -9, 3],
+			"boxes": [
+				{"coordinates": [-10, 8.5, -3, 9, 0, 6], "textureOffset": [0, 18]}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-1.5, -9, 3],
+			"boxes": [
+				{"coordinates": [1, 8.5, -3, 9, 0, 6], "textureOffset": [0, 18]}
+			]
+		},
+		{
+			"part": "front_legs",
+			"id": "front_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 2],
+			"boxes": [
+				{"coordinates": [-3, 0.5, -1, 6, 4, 0], "textureOffset": [22, 54], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "middle_legs",
+			"id": "middle_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, 0],
+			"boxes": [
+				{"coordinates": [-3, 0.5, 1, 6, 4, 0], "textureOffset": [22, 54], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "back_legs",
+			"id": "back_legs",
+			"invertAxis": "xy",
+			"translate": [1.5, -2, -2],
+			"boxes": [
+				{"coordinates": [-3, 0.5, 3, 6, 4, 0], "textureOffset": [22, 54], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "stinger",
+			"id": "stinger",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 4.5, 5, 0, 2, 2],
+					"uvEast": [24, 9, 26, 10],
+					"uvWest": [26, 9, 28, 10]
+				}
+			]
+		}
+	]
+}

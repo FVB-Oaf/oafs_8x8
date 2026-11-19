@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "_polarbear.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -14, 16],
+			"boxes": [
+				{"coordinates": [-4, 10, -18.5, 8, 8, 6], "textureOffset": [16, 50]},
+				{"coordinates": [-2, 10, -22.5, 4, 4, 4], "textureOffset": [6, 48]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [-2, -15, -12],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 13.5, 5, 16, 14, 12], "textureOffset": [8, 22]},
+				{"coordinates": [-6, 27.5, 5, 12, 12, 10], "textureOffset": [20, 0]}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [4.5, -10, -6],
+			"boxes": [
+				{
+					"coordinates": [-4.99, 0, 3.5, 4, 10, 8],
+					"uvNorth": [14, 0, 18, 10],
+					"uvEast": [6, 0, 14, 10],
+					"uvSouth": [26, 0, 30, 10],
+					"uvWest": [18, 0, 26, 10],
+					"uvDown": [62, 0, 58, 8]
+				},
+				{
+					"coordinates": [-4.99, 10, 3.5, 4, 4, 8],
+					"uvNorth": [14, 0, 18, 2],
+					"uvEast": [6, 0, 14, 2],
+					"uvSouth": [26, 0, 30, 2],
+					"uvWest": [18, 0, 26, 2],
+					"uvUp": [58, 8, 54, 0]
+				}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [-4.5, -10, -6],
+			"boxes": [
+				{
+					"coordinates": [0.99, 0, 3.5, 4, 10, 8],
+					"uvNorth": [14, 0, 18, 10],
+					"uvEast": [6, 0, 14, 10],
+					"uvSouth": [26, 0, 30, 10],
+					"uvWest": [18, 0, 26, 10],
+					"uvDown": [62, 0, 58, 8]
+				},
+				{
+					"coordinates": [0.99, 10, 3.5, 4, 4, 8],
+					"uvNorth": [14, 0, 18, 2],
+					"uvEast": [6, 0, 14, 2],
+					"uvSouth": [26, 0, 30, 2],
+					"uvWest": [18, 0, 26, 2],
+					"uvUp": [58, 8, 54, 0]
+				}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [3.5, -10, 8],
+			"boxes": [
+				{"coordinates": [-5.99, 0, -10.5, 4, 10, 6], "textureOffset": [44, 48]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [-3.5, -10, 8],
+			"boxes": [
+				{"coordinates": [1.99, 0, -10.5, 4, 10, 6], "textureOffset": [44, 48]}
+			]
+		}
+	]
+}

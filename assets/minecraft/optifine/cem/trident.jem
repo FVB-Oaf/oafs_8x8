@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{"coordinates": [-1, 0, -1, 2, 24, 2], "textureOffset": [24, 6]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{"coordinates": [-3, 24, -1, 6, 2, 2], "textureOffset": [16, 0]}
+			]
+		},
+		{
+			"part": "left_spike",
+			"id": "left_spike",
+			"invertAxis": "xy",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{"coordinates": [3, 26, -1, 2, 4, 2], "textureOffset": [16, 4]}
+			]
+		},
+		{
+			"part": "middle_spike",
+			"id": "middle_spike",
+			"invertAxis": "xy",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{"coordinates": [-1, 26, -1, 2, 6, 2], "textureOffset": [16, 10]}
+			]
+		},
+		{
+			"part": "right_spike",
+			"id": "right_spike",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{"coordinates": [-5, 26, -1, 2, 4, 2], "textureOffset": [16, 4]}
+			]
+		}
+	]
+}

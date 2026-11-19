@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "plate",
+			"id": "plate",
+			"invertAxis": "xy",
+			"translate": [0, -11, 1],
+			"boxes": [
+				{
+					"coordinates": [-6, 0, -4, 12, 22, 2],
+					"uvNorth": [1, 1, 13, 23],
+					"uvEast": [0, 1, 1, 23],
+					"uvSouth": [14, 1, 26, 23],
+					"uvWest": [13, 1, 14, 23],
+					"uvUp": [13, 1, 1, 0],
+					"uvDown": [25, 0, 13, 1]
+				}
+			]
+		},
+		{
+			"part": "handle",
+			"id": "handle",
+			"invertAxis": "xy",
+			"translate": [0, -11, 1],
+			"boxes": [
+				{
+					"coordinates": [-2, 8, -2, 4, 6, 6],
+					"uvNorth": [32, 6, 34, 12],
+					"uvEast": [26, 6, 32, 12],
+					"uvSouth": [40, 6, 42, 12],
+					"uvWest": [34, 6, 40, 12],
+					"uvUp": [34, 6, 32, 0],
+					"uvDown": [36, 0, 34, 6]
+				}
+			]
+		}
+	]
+}

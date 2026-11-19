@@ -1,0 +1,98 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "_bogged.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "mushrooms",
+			"id": "mushrooms",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "mushrooms_top",
+					"invertAxis": "xy",
+					"translate": [-3, 32, 3],
+					"rotate": [0, -45, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, 0, 6, 4, 0], "textureOffset": [32, 0]},
+						{"coordinates": [0, 0, -4, 0, 4, 6], "textureOffset": [32, -6]},
+						{"coordinates": [-2.5, 0, -9, 6, 4, 0], "textureOffset": [32, 4]},
+						{"coordinates": [-0.5, 0, -11, 0, 4, 6], "textureOffset": [32, -2]}
+					]
+				},
+				{
+					"id": "mushrooms_back",
+					"invertAxis": "xy",
+					"translate": [2, 25, 5],
+					"rotate": [90, 0, 135],
+					"boxes": [
+						{"coordinates": [-0.25, -1, -1.25, 2, 4, 2], "textureOffset": [24, 2]}
+					]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-6.01, 12, -2, 2, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4.01, 12, -2, 2, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [2, -12, -0.1],
+			"boxes": [
+				{"coordinates": [-4, -0.01, -2, 2, 12, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, -0.1],
+			"boxes": [
+				{"coordinates": [2, -0.01, -2, 2, 12, 4], "textureOffset": [0, 16]}
+			]
+		}
+	]
+}

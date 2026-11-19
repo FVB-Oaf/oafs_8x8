@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"texture": "_babynautilus.png",
+	"models": [
+		{
+			"part": "shell",
+			"id": "shell",
+			"invertAxis": "xy",
+			"translate": [2.5, -4, 2.5],
+			"boxes": [
+				{"coordinates": [-4, 4, -3.5, 8, 4, 8], "textureOffset": [0, 2]},
+				{
+					"coordinates": [-4, 0, -3.5, 8, 4, 10],
+					"uvNorth": [10, 14, 18, 18],
+					"uvEast": [0, 14, 10, 18],
+					"uvWest": [18, 14, 28, 18],
+					"uvDown": [8, 0, 0, 10]
+				},
+				{"coordinates": [-4, 0, 2.5, 8, 4, 0], "textureOffset": [16, 6]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -1, -2.5],
+			"boxes": [
+				{"coordinates": [-2, 0.01, 0.5, 4, 4, 6], "textureOffset": [0, 18]}
+			]
+		},
+		{
+			"part": "lower_mouth",
+			"id": "lower_mouth",
+			"invertAxis": "xy",
+			"translate": [0, -1.01, -6.4],
+			"boxes": [
+				{"coordinates": [-2, 0.01, 6.5, 4, 2, 2], "textureOffset": [20, 22], "sizeAdd": -0.001}
+			]
+		},
+		{
+			"part": "inner_mouth",
+			"id": "inner_mouth",
+			"invertAxis": "xy",
+			"translate": [0, -2.01, -7.4]
+		},
+		{
+			"part": "upper_mouth",
+			"id": "upper_mouth",
+			"invertAxis": "xy",
+			"translate": [0, -3.01, -6.4],
+			"boxes": [
+				{"coordinates": [-2, 2.01, 6.5, 4, 2, 2], "textureOffset": [20, 18], "sizeAdd": -0.001}
+			]
+		}
+	]
+}

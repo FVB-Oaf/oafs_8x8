@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"texture": "_breeze_eyes.png",
+	"models": [
+		{
+			"part": "eyes",
+			"id": "eyes",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [0, 2]},
+				{"coordinates": [-6, 20, -4.2, 12, 8, 4], "textureOffset": [0, 20]}
+			]
+		}
+	]
+}
