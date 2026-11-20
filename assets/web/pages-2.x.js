@@ -1,4 +1,4 @@
-const current_version=`2.0.0/p01`;
+const current_version=`2.0.0/pre01`;
 const mc_version=`Java Edition 26.3`;
 const of_version=`OptiFine HD U J9 for Java Edition 1.21.11`;
 const banner=`<img src="assets/web/2.0.0.0-banner.png"class="banner">`;
@@ -30,7 +30,7 @@ function list2(functionInput2){
 const changelog_content=`
     <details><summary><h2>Beta/Release 1.x (January 12<sup>th</sup>&nbsp;- October 7<sup>th</sup>, 2025)</h2></summary><p>
         <a href="assets/web/pre-2.x-changelog.html">Click me to see the old changelog.</a>
-    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/p01 (November 20<sup>th</sup>, 2026)</h2></summary><p>
+    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/pre01 (November 20<sup>th</sup>, 2026)</h2></summary><p>
         Complete reorganization of file structure, bedrock files removed, will be re-released at a later date.<br>
         Only new files added are listed below.
         Added/Modified Files:<br>
