@@ -1,6 +1,6 @@
-const current_version=`2.0.0/p02`;
-const current_ofnfull=`OptiFine HD U J9 for Java Edition 1.21.11`;
-const current_ofnvers=`OptiFine HD U J9 for Java Edition 1.21.11`;
+const current_version=`2.0.0/p01`;
+const mc_version=`Java Edition 26.3`;
+const of_version=`OptiFine HD U J9 for Java Edition 1.21.11`;
 const banner=`<img src="assets/web/2.0.0.0-banner.png"class="banner">`;
 const header=`${banner}<br><h1>Local Oaf's 8×8 - Version ${current_version}</h1>`;
 function list2(functionInput2){
@@ -30,11 +30,7 @@ function list2(functionInput2){
 const changelog_content=`
     <details><summary><h2>Beta/Release 1.x (January 12<sup>th</sup>&nbsp;- October 7<sup>th</sup>, 2025)</h2></summary><p>
         <a href="assets/web/pre-2.x-changelog.html">Click me to see the old changelog.</a>
-    </p></details><br><details><summary><h2>Pre-release 2.0.0-pre01 (March 7<sup>th</sup>, 2026)</h2></summary><p>
-        Complete reorganization of file structure
-        ${list2([
-        ])}
-    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/p02 (November 16<sup>th</sup>, 2026)</h2></summary><p>
+    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/p01 (November 20<sup>th</sup>, 2026)</h2></summary><p>
         Complete reorganization of file structure, bedrock files removed, will be re-released at a later date.<br>
         Only new files added are listed below.
         Added/Modified Files:<br>
@@ -421,6 +417,12 @@ const changelog_content=`
             ["%assets/minecraft/textures/gui/sprites/widget/realms_button_disabled.png.mcmeta"],
             ["%assets/minecraft/textures/gui/sprites/widget/realms_button_highlighted.png"],
             ["%assets/minecraft/textures/gui/sprites/widget/realms_button_highlighted.png.mcmeta"],
+            ["%assets/minecraft/textures/gui/title/edition.bak"],
+            ["%assets/minecraft/textures/gui/title/edition.png"],
+            ["%assets/minecraft/textures/gui/title/minceraft.png"],
+            ["%assets/minecraft/textures/gui/title/minecraft.bak"],
+            ["%assets/minecraft/textures/gui/title/minecraft.png"],
+            ["%assets/minecraft/textures/gui/title/realms.png"],
             ["%assets/minecraft/textures/item/abandoned_camp_map.png"],
             ["%assets/minecraft/textures/item/black_cushion.png"],
             ["%assets/minecraft/textures/item/blue_cushion.png"],
@@ -553,7 +555,7 @@ const guide_content=`
         The latest version of OptiFine can be downloaded <a href="https://optifine.net/downloads">here</a>.<br>
         The 2.x+ changelog can be viewed <a href="_changelog.html#latest">here</a>.<br>
         The credits can be viewed <a href="_credits.html#home">here</a>.<br><br>
-        This version is developed on ${current_ofnvers}, the last full release is ${current_ofnfull}<br><br><br>
+        This version is developed on ${mc_version} and ${of_version}<br><br><br>
         <span class="smallText">
             This resource pack and its creator are in no way affiliated with 
             <a href="https://optifine.net/home/"class="greyLink">OptiFine</a>, 
