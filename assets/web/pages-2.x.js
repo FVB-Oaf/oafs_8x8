@@ -545,7 +545,7 @@ const changelog_content=`
             ["%assets/minecraft/textures/particle/yellow_poplar_3.png"],
             ["%assets/minecraft/textures/particle/yellow_poplar_4.png"]
         ])}
-    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/pre02 (November 20<sup>th</sup>, 2026)</h2></summary><p>
+    </p></details><br><div id="latest"><details><summary><h2>Pre-release 2.0.0/pre02 (November 21<sup>st</sup>, 2026)</h2></summary><p>
         ${list2([
             ["Added splash text \"𒉌𒍝𒂊𒂼𒁀𒉌𒀝!\""],
             ["Added splash text \"Finish the fight!\""],
@@ -554,6 +554,7 @@ const changelog_content=`
             ["Fixed inventory textures"],
             ["Textured piglins and their babies"],
             ["Textured polar bear babies"],
+            ["Textured sheep adults"],
             ["Fixed adult cows"],
             ["Updated menu panorama"],
             ["Fixed Cartography Table"]
@@ -591,6 +592,7 @@ const changelog_content=`
             ["%assets/minecraft/optifine/cem/warm_cow.bbmodel"],
             ["%assets/minecraft/optifine/cem/warm_cow.jem"],
             ["%assets/minecraft/optifine/cem/zombified_piglin.jem"],
+            ["%assets/minecraft/optifine/cem/zombified_piglin_baby.jem"],
             ["%assets/minecraft/texts/splashes.txt"],
             ["%assets/minecraft/textures/block/copper_ore.png"],
             ["%assets/minecraft/textures/entity/bear/polarbear_baby.png"],
