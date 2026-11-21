@@ -563,6 +563,8 @@ const changelog_content=`
         ${list2([
             ["%pack.mcmeta"],
             ["%assets/minecraft/lang/en_us.json"],
+            ["%assets/minecraft/models/block/template_bed_foot.json"],
+            ["%assets/minecraft/models/block/template_bed_head.json"],
             ["%assets/minecraft/models/block/white_bed_foot.json"],
             ["%assets/minecraft/models/block/white_bed_head.json"],
             ["%assets/minecraft/models/block/yellow_bed_foot.json"],
