@@ -1,0 +1,56 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/template_bed",
+	"texture_size": [32, 32],
+	"textures": {
+		"common": "block/bed/common",
+		"particle": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"east": {"uv": [11, 8, 13, 16], "rotation": 90, "texture": "#unique", "cullface": "east"},
+				"south": {"uv": [14, 0, 16, 8], "rotation": 90, "texture": "#unique", "cullface": "south"},
+				"west": {"uv": [1, 8, 3, 16], "rotation": 270, "texture": "#unique", "cullface": "west"},
+				"up": {"uv": [3, 8, 11, 16], "texture": "#unique"}
+			}
+		},
+		{
+			"from": [0, 2, 0],
+			"to": [16, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -3, 0]},
+			"faces": {
+				"east": {"uv": [13, 8, 14, 16], "rotation": 90, "texture": "#unique", "cullface": "east"},
+				"south": {"uv": [0, 15, 8, 16], "texture":"#common", "cullface": "south"},
+				"west": {"uv": [0, 8, 1, 16], "rotation": 270, "texture": "#unique", "cullface": "west"},
+				"down": {"uv": [0, 0, 8, 8], "texture":"#common"}
+			}
+		},
+		{
+			"from": [0, 0, 12],
+			"to": [4, 2, 16],
+			"faces": {
+				"north": {"uv": [14, 8, 16, 9], "texture":"#common"},
+				"east": {"uv": [12, 8, 14, 9], "texture":"#common"},
+				"south": {"uv": [10, 8, 12, 9], "texture":"#common", "cullface": "south"},
+				"west": {"uv": [8, 8, 10, 9], "texture":"#common", "cullface": "west"},
+				"down": {"uv": [12, 6, 14, 8], "texture":"#common", "cullface": "down"}
+			}
+		},
+		{
+			"from": [12, 0, 12],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [12, 11, 14, 12], "texture":"#common"},
+				"east": {"uv": [10, 11, 12, 12], "texture":"#common", "cullface": "east"},
+				"south": {"uv": [8, 11, 10, 12], "texture":"#common", "cullface": "south"},
+				"west": {"uv": [14, 11, 16, 12], "texture":"#common"},
+				"down": {"uv": [12, 9, 14, 11], "texture":"#common", "cullface": "down"}
+			}
+		}
+	]
+}
