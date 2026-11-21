@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "textures/entity/bear/polarbear_baby.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -5.375, 5.75],
+			"boxes": [
+				{"coordinates": [-3, 2, -10, 6, 6, 4], "textureOffset": [0, 54]},
+				{"coordinates": [-2, 2, -12, 4, 2, 2], "textureOffset": [24, 52]},
+				{"coordinates": [3, 8, -10, 2, 2, 2], "textureOffset": [10, 50]},
+				{"coordinates": [-5, 8, -10, 2, 2, 2], "textureOffset": [18, 50]}
+			]
+		},
+		{
+			"part": "left_hind_leg",
+			"id": "left_hind_leg",
+			"invertAxis": "xy",
+			"translate": [2.5, -2.5, -4.5],
+			"boxes": [
+				{"coordinates": [-4, 0, 2, 4, 4, 4], "textureOffset": [48, 36], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "right_hind_leg",
+			"id": "right_hind_leg",
+			"invertAxis": "xy",
+			"translate": [-2.5, -2.5, -4.5],
+			"boxes": [
+				{"coordinates": [0, 0, 2, 4, 4, 4], "textureOffset": [32, 36], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "left_front_leg",
+			"id": "left_front_leg",
+			"invertAxis": "xy",
+			"translate": [2.5, -2.5, 4.5],
+			"boxes": [
+				{"coordinates": [-4, 0, -6, 4, 4, 4], "textureOffset": [48, 28], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "right_front_leg",
+			"id": "right_front_leg",
+			"invertAxis": "xy",
+			"translate": [-2.5, -2.5, 4.5],
+			"boxes": [
+				{"coordinates": [0, 0, -6, 4, 4, 4], "textureOffset": [32, 28], "sizeAdd": -0.01}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -6.5, 0],
+			"boxes": [
+				{"coordinates": [-4, 2, -6, 8, 8, 12], "textureOffset": [24, 44]}
+			]
+		}
+	]
+}

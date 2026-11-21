@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"textureSize": [128, 128],
+	"textureSize": [64, 64],
 	"models": [
 		{
 			"part": "base",
@@ -9,7 +9,14 @@
 			"translate": [-8, 0, -8],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [-8, -10, 10, 14, 10, 12], "textureOffset": [0, 106]}
+				{
+					"coordinates": [-8, -10, 10, 14, 10, 12],
+					"uvNorth": [36, 50, 50, 60],
+					"uvEast": [24, 50, 36, 60],
+					"uvSouth": [50, 50, 64, 60],
+					"uvUp": [14, 31, 0, 19],
+					"uvDown": [58, 19, 44, 31]
+				}
 			],
 			"animations": [
 				{
@@ -24,7 +31,14 @@
 			"translate": [-8, -9, -7],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [-8, 4, 8, 14, 4, 12], "textureOffset": [0, 90]}
+				{
+					"coordinates": [-8, 4, 8, 14, 4, 12],
+					"uvNorth": [36, 60, 50, 64],
+					"uvEast": [24, 60, 36, 64],
+					"uvSouth": [50, 60, 64, 64],
+					"uvUp": [14, 64, 0, 52],
+					"uvDown": [58, 0, 44, 12]
+				}
 			],
 			"animations": [
 				{
@@ -39,7 +53,14 @@
 			"translate": [-8, -9, -7],
 			"rotate": [-180, 0, 0],
 			"boxes": [
-				{"coordinates": [-8, 6, 20, 2, 4, 2], "textureOffset": [0, 90]}
+				{
+					"coordinates": [-8, 6, 20, 2, 4, 2],
+					"uvNorth": [2, 10, 4, 14],
+					"uvEast": [0, 10, 2, 14],
+					"uvSouth": [10, 10, 12, 14],
+					"uvUp": [4, 10, 2, 8],
+					"uvDown": [8, 8, 6, 10]
+				}
 			],
 			"animations": [
 				{
